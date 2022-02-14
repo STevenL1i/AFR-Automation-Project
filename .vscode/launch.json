@@ -10,8 +10,8 @@
             "request": "launch",
             //"program": "${workspaceFolder}/v4.1/dbmanager/dbmanager.py",
             //"cwd": "${workspaceFolder}/v4.1/dbmanager",
-            "program": "${workspaceFolder}/v4.1/src/afr.py",
-            "cwd": "${workspaceFolder}/v4.1/src/",
+            //"program": "${workspaceFolder}/v4.1/src/afr.py",
+            //"cwd": "${workspaceFolder}/v4.1/src/",
 
             //"program": "${workspaceFolder}/v4.1/afec/dbmanager/dbmanager.py",
             //"cwd": "${workspaceFolder}/v4.1/afec/dbmanager",
