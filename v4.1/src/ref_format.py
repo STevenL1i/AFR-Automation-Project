@@ -14,6 +14,7 @@ class format:
     groupformat = {}
     lanusernameformat = {}
     raceresultformat = {}
+    racedirector = {}
 
     def __init__(this, workbook):
         this.workbook = workbook
@@ -578,3 +579,21 @@ class format:
         deniedheaderf.set_bg_color("#000000")
         deniedheaderf.set_font_color("#FFFFFF")
         this.raceresultformat["deniedheader"] = deniedheaderf
+
+
+        # race director panel format
+        rdheader = workbook.add_format({"font_size":11})
+        rdheader.set_font_name("Dengxian")
+        rdheader.set_align("vcenter")
+        rdheader.set_text_wrap()
+        this.racedirector["header"] = rdheader
+        rdformat = workbook.add_format({"font_size":11})
+        rdformat.set_font_name("Dengxian")
+        rdformat.set_align("vcenter")
+        rdformat.set_text_wrap()
+        this.racedirector["default"] = rdformat
+        rdformat2 = workbook.add_format({"num_format": "yyyy/m/dd"})
+        rdformat2.set_font_size("11")
+        rdformat2.set_font_name("Dengxian")
+        rdformat2.set_align("vcenter")
+        this.racedirector["date"] = rdformat2
