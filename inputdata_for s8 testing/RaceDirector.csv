@@ -1,0 +1,28 @@
+case#,casedate,driverName,driverGroup,GP,penalty,penaltyLP,penaltyWarning,qualiBan,raceBan,PenaltyDescription
+C001,2021/11/2,Syhb,A2,Bahrain,Warning,0,0,,,Causing a collision
+C002,2021/11/3,ALLLLLLL,A2,Bahrain,Warning,0,1,,,Failed to complete laptime in qualifying
+C003,2021/11/4,SBSDAVET,A2,Bahrain,Warning,0,1,,,Failed to complete laptime in qualifying
+C004,2021/11/5,littleredhat,A1,Bahrain,"Warning, LP penalty",-1,0,,,Failed to attend the event
+C005,2021/11/6,Livistar,A1,Bahrain,"Warning, LP penalty",-1,1,,,Failed to attend the event
+C006,2021/11/7,WUHUSPIN,A1,Bahrain,"Warning, LP penalty",-1,1,,,Failed to attend the event
+C007,2021/11/8,SBSDAVET,A2,Azerbaijan,"Warning, LP penalty",-1,0.5,,,Using Reset to track
+C008,2021/11/9,Tor.p.e.d.o,A2,Azerbaijan,Warning,0,0.5,,,Failed to attend the event
+C009,2021/11/10,h0,A1,Azerbaijan,"Warning, LP penalty",-1,1,,,Failed to attend the event
+C010,2021/11/11,Sky_naiping,A1,Azerbaijan,"Warning, LP penalty",-2,1,1,,Failed to attend the event
+C011,2021/11/12,Dragon,A2,Canada,Warning,0,0.5,0,0,Unable to meet pole 105% laptime
+C012,2021/11/13,SBSDAVET,A2,Canada,Disqualified,0,0,0,0,Unable to set a laptime in qualiying
+C001,2021/11/14,Sky_naiping,A1,Canada,"Warning, LP penalty",-1,1,1,0,Not registered and not notified to racedirector
+C002,2021/11/15,Sky_naiping,A1,Canada,"DSQ, LP penalty",-1,0,0,1,Complete qualiying under qualifying ban condition
+C013,2021/11/16,EricWang,A1,France,Warning,0,0.5,0,0,Late Registration of the event
+C014,2021/11/17,Sky_naiping,A1,France,None,0,0,0,-1,Exexution of raceban
+C001,2021/11/18,BBLLAY,A2,Austria,Warning,0,1,0,0,Failed to complete laptime in qualifying
+C002,2021/11/19,Mazespin,A2,Austria,Warning,0,1,0,0,Failed to complete laptime in qualifying
+C003,2021/11/20,Meat_GC,A2,Austria,Warning,0,1,0,0,Failed to complete laptime in qualifying
+C004,2021/11/21,Lugobox,A2,Austria,"Time, penalty, Warning��LP penalty",-5,2,0,0,"Causing a collision, Crossing the white line of pit entry"
+C005,2021/11/22,Meat_GC,A2,Austria,Warning,0,1,0,0,Flashback used
+C006,2021/11/23,BBLLAY,A2,Austria,"Time penalty, LP penalty",-2,0,0,0,Crossing the white line of pit entry
+C015,2021/11/24,Maldonado,A1,Austria,"Time penalty, LP penalty, warning",-5,2,0,0,Causing severe severe collisions
+C016,2021/11/25,mushi,A1,Austria,Time penalty,0,0,0,0,Causing a collisions
+C017,2021/11/26,whiteGX5,A1,Austria,"Time penalty, LP penalty",-2,0,0,0,Crossing the white line of pit entry
+C018,2021/11/27,Head brother,A1,Austria,"Time penalty, LP penalty",-2,0,0,0,Crossing the white line of pit entry
+C019,2021/11/28,Sky_naiping,A1,Austria,LP penalty,-2,0,0,0,Unable to attend the event

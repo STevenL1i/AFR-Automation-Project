@@ -1,0 +1,3 @@
+case#,driverName,driverGroup,GP,penalty,penaltyLP,penaltyWarning,qualiBan,raceBan,PenaltyDescription
+C001,Sky_naiping,A1,Canada,"Warning, LP penalty",-1,1,1,0,Not registered and not notified to racedirector
+C002,Sky_naiping,A1,Canada,"DSQ, LP penalty",-1,0,0,1,Complete qualiying under qualifying ban condition

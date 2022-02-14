@@ -1,0 +1,4 @@
+case#,driverName,driverGroup,GP,penalty,penaltyLP,penaltyWarning,qualiBan,raceBan,PenaltyDescription
+C001,Syhb,A2,Bahrain,Warning,0,0,,,Causing a collision
+C002,ALLLLLLL,A2,Bahrain,Warning,0,1,,,Failed to complete laptime in qualifying
+C003,SBSDAVET,A2,Bahrain,Warning,0,1,,,Failed to complete laptime in qualifying

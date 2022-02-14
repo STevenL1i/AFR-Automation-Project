@@ -1,0 +1,4 @@
+case#,driverName,driverGroup,GP,penalty,penaltyLP,penaltyWarning,qualiBan,raceBan,PenaltyDescription
+C004,littleredhat,A1,Bahrain,"Warning, LP penalty",-1,0,,,Failed to attend the event
+C005,Livistar,A1,Bahrain,"Warning, LP penalty",-1,1,,,Failed to attend the event
+C006,WUHUSPIN,A1,Bahrain,"Warning, LP penalty",-1,1,,,Failed to attend the event
