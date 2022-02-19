@@ -45,7 +45,7 @@ def resettable():
         race = list(race)
         gpkey = ref.get_key(ref.gp_dict, race[2])
         query += f'{gpkey} = null, '
-    query += "totalLicensePoint = 12, qualiBan = 0, raceBan = 0;"
+    query += "warning = 0.0, totalLicensePoint = 12, qualiBan = 0, raceBan = 0;"
     cursor.execute(query)
     db.commit()
 
