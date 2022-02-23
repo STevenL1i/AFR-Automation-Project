@@ -68,7 +68,10 @@ def get_driverlist():
 
 
     # teamed driver
-    query = "SELECT * FROM teamList ORDER BY teamName;"
+    query = 'SELECT * FROM teamList \
+                WHERE driver_1 is not NULL OR driver_2 is not NULL \
+                    OR driver_3 is not NULL OR driver_4 is not NULL \
+                ORDER BY teamName ASC;'
     cursor.execute(query)
     result = cursor.fetchall()
 

@@ -50,24 +50,47 @@ def transferdriver():
                         WHERE driverName = "{drivername}";'
                 cursor.execute(query)
 
-
-                if status == "1st driver":
-                    driverPos = "driver_1"
-                elif status == "2ed driver":
-                    driverPos = "driver_2"
-                elif status == "3rd driver":
-                    driverPos = "driver_3"
-                elif status == "4th driver":
-                    driverPos = "driver_4"
-
-                query = f'UPDATE teamList \
-                        SET {driverPos} = "{drivername}", \
-                        transferToken = transferToken - {teamtokenused} \
-                        WHERE teamName = "{team2}";'
-                cursor.execute(query)
-
-
             db.commit()
+
+        # update driver in teamlist
+        query = "UPDATE teamList \
+                SET driver_1 = null, driver_2 = null, \
+                    driver_3 = null, driver_4 = null;"
+        cursor.execute(query)
+        db.commit()
+
+        query = 'SELECT driverName, team, driverStatus, teamColor, teamNameAbbr \
+                FROM driverList JOIN teamList ON team = teamName \
+                ORDER BY teamName ASC, \
+                        case driverStatus \
+                            WHEN "1st driver" THEN 1 \
+                            WHEN "2ed driver" THEN 2 \
+                            WHEN "3rd driver" THEN 3 \
+                            WHEN "4th driver" THEN 4 \
+                            ELSE 5 \
+                            END, driverStatus;'
+        cursor.execute(query)
+        result = cursor.fetchall()
+
+        for driver in result:
+            driverPos = ""
+            if driver[2] == "1st driver":
+                driverPos = "driver_1"
+            elif driver[2] == "2ed driver":
+                driverPos = "driver_2"
+            elif driver[2] == "3rd driver":
+                driverPos = "driver_3"
+            elif driver[2] == "4th driver":
+                driverPos = "driver_4"
+            
+            query = f'UPDATE teamList \
+                    SET {driverPos} = "{driver[0]}" \
+                    WHERE teamName = "{driver[1]}";'
+            cursor.execute(query)
+        
+        db.commit()
+
+        
         
         print()
         print("车手转会记录上传成功，稍后请记得将文件上传到赛会群备份")
