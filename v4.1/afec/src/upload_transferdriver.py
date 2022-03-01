@@ -50,6 +50,11 @@ def transferdriver():
                         WHERE driverName = "{drivername}";'
                 cursor.execute(query)
 
+                query = f'UPDATE teamList \
+                        SET transferToken = transferToken - {teamtokenused} \
+                        WHERE teamName = "{team2}";'
+                cursor.execute(query)
+
             db.commit()
 
         # update driver in teamlist
