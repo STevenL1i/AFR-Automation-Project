@@ -48,6 +48,7 @@ leaderboard_full = workbook.add_worksheet("总积分榜")
 licensepoint = workbook.add_worksheet("车手安全分")
 lanusernamelist = workbook.add_worksheet("LAN name")
 seasonstats = workbook.add_worksheet("数据统计")
+racedirector = workbook.add_worksheet("判罚详细")
 
 formatter = ref_format.format(workbook)
 
@@ -955,7 +956,62 @@ def get_seasonstats():
         seasonstats.write(row, col, penaltywarning, formatter.pointsformat["header"])
         col += 1
 
+        row += 1
 
+
+# Race Director details
+def get_racedirector():
+    query = "SELECT * FROM raceDirector \
+        WHERE CaseNumber != 'C000' \
+        ORDER BY CaseNumber ASC;"
+    cursor.execute(query)
+    result = cursor.fetchall()
+
+    # set row height
+    for i in range(0, len(result)+1):
+        racedirector.set_row(i, 16)
+
+    # set column width
+    racedirector.set_column(0,0, 9)
+    racedirector.set_column(1,1, 14)
+    racedirector.set_column(2,2, 20)
+    racedirector.set_column(3,3, 5)
+    racedirector.set_column(4,4, 12)
+    racedirector.set_column(5,5, 40)
+    racedirector.set_column(6,6, 7)
+    racedirector.set_column(7,7, 5)
+    racedirector.set_column(8,8, 7)
+    racedirector.set_column(9,9, 5)
+    racedirector.set_column(10,10, 70)
+
+    # write the header
+    racedirector.write(0,0, "案件编号", formatter.racedirector["header"])
+    racedirector.write(0,1, "日期", formatter.racedirector["header"])
+    racedirector.write(0,2, "车手", formatter.racedirector["header"])
+    racedirector.write(0,3, "组别", formatter.racedirector["header"])
+    racedirector.write(0,4, "比赛", formatter.racedirector["header"])
+    racedirector.write(0,5, "处罚", formatter.racedirector["header"])
+    racedirector.write(0,6, "驾照分", formatter.racedirector["header"])
+    racedirector.write(0,7, "警告", formatter.racedirector["header"])
+    racedirector.write(0,8, "禁排位", formatter.racedirector["header"])
+    racedirector.write(0,9, "禁赛", formatter.racedirector["header"])
+    racedirector.write(0,10, "大致描述", formatter.racedirector["header"])
+
+
+    
+    row = 1
+    for incidents in result:
+        racedirector.write(row, 0, incidents[0], formatter.racedirector["default"])
+        racedirector.write(row, 1, incidents[1], formatter.racedirector["date"])
+        racedirector.write(row, 2, incidents[2], formatter.racedirector["default"])
+        racedirector.write(row, 3, incidents[3], formatter.racedirector["default"])
+        racedirector.write(row, 4, incidents[4], formatter.racedirector["default"])
+        racedirector.write(row, 5, incidents[5], formatter.racedirector["default"])
+        racedirector.write(row, 6, incidents[6], formatter.racedirector["default"])
+        racedirector.write(row, 7, incidents[7], formatter.racedirector["default"])
+        racedirector.write(row, 8, incidents[8], formatter.racedirector["default"])
+        racedirector.write(row, 9, incidents[9], formatter.racedirector["default"])
+        racedirector.write(row, 10, incidents[10], formatter.racedirector["default"])
         row += 1
 
 
@@ -967,6 +1023,7 @@ def main():
     get_leaderboard_full()
     get_licensepoint()
     # get_seasonstats()
+    get_racedirector()
     workbook.close()
 
 main()
