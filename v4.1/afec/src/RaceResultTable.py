@@ -84,7 +84,7 @@ def get_raceresulttable():
                 elif p[7] == "RETIRED":
                     raceresult.write(row, 0, "RET", formatter.raceresultformat[p[7]])
                 else:
-                    raceresult.write(row, 0, p[-2], formatter.raceresultformat[p[7]])
+                    raceresult.write(row, 0, p[7], formatter.raceresultformat[p[7]])
 
                 raceresult.write(row, 1, f'{p[-1]}.{p[3]}', formatter.driverformat[p[-2]])
                 raceresult.write(row, 2, p[6], formatter.raceresultformat["positionhold"])

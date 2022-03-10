@@ -180,4 +180,5 @@ create table driverTransfer
     primary key (driverName, team1, driverGroup1, team2, driverGroup2, transferTime),
     constraint driverTransfer_FK
         foreign key (driverName) references driverList (driverName)
+            on update cascade on delete cascade
 );
