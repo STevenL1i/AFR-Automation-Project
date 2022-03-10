@@ -167,6 +167,14 @@ class format:
         purplef.set_align("vcenter")
         this.driverformat["Purple"] = purplef
 
+        ooffff = workbook.add_format({"font_size":11})
+        ooffff.set_bg_color("#00FFFF")
+        ooffff.set_font_name("Dengxian")
+        ooffff.set_align("vcenter")
+        this.driverformat["#00FFFF"] = ooffff
+
+
+
         reservef = workbook.add_format({"font_size":11})
         reservef.set_font_name("Dengxian")
         reservef.set_align("vcenter")
@@ -247,6 +255,12 @@ class format:
         purplef.set_align("vcenter")
         purplef.set_bold(True)
         this.teamformat["Purple"] = purplef
+
+        ooffff = workbook.add_format({"font_size":11})
+        ooffff.set_bg_color("#00FFFF")
+        ooffff.set_font_name("Dengxian")
+        ooffff.set_align("vcenter")
+        this.teamformat["#00FFFF"] = ooffff
         
 
         reservef = workbook.add_format({"font_size":11})
