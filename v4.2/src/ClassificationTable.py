@@ -1228,14 +1228,14 @@ def get_racedirector():
 
 def main():
     get_driverlist()
-    #get_racecalendar()
+    get_racecalendar()
     get_leaderboard_short()
     get_leaderboard_constructors()
-    #get_leaderboard_full()
-    #get_licensepoint()
-    #get_lanusername()
-    #get_seasonstats()
-    #get_racedirector()
+    get_leaderboard_full()
+    get_licensepoint()
+    get_lanusername()
+    get_seasonstats()
+    get_racedirector()
     workbook.close()
 
 main()
