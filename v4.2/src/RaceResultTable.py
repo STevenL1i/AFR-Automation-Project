@@ -75,7 +75,9 @@ def get_raceresulttable():
         # retirve order : by (qualiying, race) - (A1, A2, A3)
 
         # qualiying result
-        raceresult.merge_range("A1:Q1", "Qualifying", formatter.raceresultformat["headerf"])      # the big header
+        raceresult.merge_range("A1:F1", "Qualifying", formatter.raceresultformat["headerf"])      # the big header
+        raceresult.merge_range("G1:L1", "Qualifying", formatter.raceresultformat["headerf"])
+        raceresult.merge_range("M1:Q1", "Qualifying", formatter.raceresultformat["headerf"])
         maxdrivercount = 0
 
         # A1 group
@@ -238,7 +240,8 @@ def get_raceresulttable():
         # group header = maxdrivercount + 5
         # small header = maxdrivercount + 6
         # data = maxdrivercount + 7
-        raceresult.merge_range(maxdrivercount+4, 0, maxdrivercount+4, 11, "Race", formatter.raceresultformat["headerf"])
+        raceresult.merge_range(maxdrivercount+4, 0, maxdrivercount+4, 5, "Race", formatter.raceresultformat["headerf"])
+        raceresult.merge_range(maxdrivercount+4, 6, maxdrivercount+4, 11, "Race", formatter.raceresultformat["headerf"])
 
         # A1 group
         a1row = maxdrivercount +5
