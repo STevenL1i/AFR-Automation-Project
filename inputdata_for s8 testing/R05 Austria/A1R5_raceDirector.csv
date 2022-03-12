@@ -1,6 +1,0 @@
-case#,driverName,driverGroup,GP,penalty,penaltyLP,penaltyWarning,qualiBan,raceBan,PenaltyDescription
-C015,Maldonado,A1,Austria,"Time penalty, LP penalty, warning",-5,2,0,0,Causing severe severe collisions
-C016,mushi,A1,Austria,Time penalty,0,0,0,0,Causing a collisions
-C017,whiteGX5,A1,Austria,"Time penalty, LP penalty",-2,0,0,0,Crossing the white line of pit entry
-C018,Head brother,A1,Austria,"Time penalty, LP penalty",-2,0,0,0,Crossing the white line of pit entry
-C019,Sky_naiping,A1,Austria,LP penalty,-2,0,0,0,Unable to attend the event

@@ -8,15 +8,15 @@
             "name": "Python: 当前文件",
             "type": "python",
             "request": "launch",
-            //"program": "${workspaceFolder}/v4.1/dbmanager/dbmanager.py",
-            //"cwd": "${workspaceFolder}/v4.1/dbmanager",
-            //"program": "${workspaceFolder}/v4.1/src/afr.py",
-            //"cwd": "${workspaceFolder}/v4.1/src/",
+            //"program": "${workspaceFolder}/v4.2/dbmanager/dbmanager.py",
+            //"cwd": "${workspaceFolder}/v4.2/dbmanager",
+            "program": "${workspaceFolder}/v4.2/src/afr.py",
+            "cwd": "${workspaceFolder}/v4.2/src/",
 
-            //"program": "${workspaceFolder}/v4.1/afec/dbmanager/dbmanager.py",
-            //"cwd": "${workspaceFolder}/v4.1/afec/dbmanager",
-            "program": "${workspaceFolder}/v4.1/afec/src/afec.py",
-            "cwd": "${workspaceFolder}/v4.1/afec/src/",
+            //"program": "${workspaceFolder}/v4.2/afec/dbmanager/dbmanager.py",
+            //"cwd": "${workspaceFolder}/v4.2/afec/dbmanager",
+            //"program": "${workspaceFolder}/v4.2/afec/src/afec.py",
+            //"cwd": "${workspaceFolder}/v4.2/afec/src/",
             "console": "integratedTerminal"
         }
     ]

@@ -1,7 +1,0 @@
-case#,driverName,driverGroup,GP,penalty,penaltyLP,penaltyWarning,qualiBan,raceBan,PenaltyDescription
-C001,BBLLAY,A2,Austria,Warning,0,1,0,0,Failed to complete laptime in qualifying
-C002,Mazespin,A2,Austria,Warning,0,1,0,0,Failed to complete laptime in qualifying
-C003,Meat_GC,A2,Austria,Warning,0,1,0,0,Failed to complete laptime in qualifying
-C004,Lugobox,A2,Austria,"Time, penalty, Warning£¬LP penalty",-5,2,0,0,"Causing a collision, Crossing the white line of pit entry"
-C005,Meat_GC,A2,Austria,Warning,0,1,0,0,Flashback used
-C006,BBLLAY,A2,Austria,"Time penalty, LP penalty",-2,0,0,0,Crossing the white line of pit entry
