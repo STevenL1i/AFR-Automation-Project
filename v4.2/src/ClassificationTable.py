@@ -77,7 +77,7 @@ def get_driverlist():
     driverlist.merge_range("G1:H1", "A2", formatter.default["groupf"])
     driverlist.write("D1", "Reserve", formatter.default["Reserve"])
     driverlist.write("J1", "Reserve", formatter.default["Reserve"])
-    driverlist.write("M1", "A3", formatter.default["Reserve"])
+    driverlist.write("M1", "Team AFR3", formatter.default["Reserve"])
     driverlist.write("N1", "Testing", formatter.default["Reserve"])
 
     # write pre-built table
@@ -162,14 +162,7 @@ def get_driverlist():
     tempcursor = a1row
     for driver in result:
         driver = list(driver)
-        if driver[1] == "Reserve":
-            driverlist.write(tempcursor, a1col, driver[0], formatter.default["Reserve"])
-        elif driver[1] == "Testing":
-            driverlist.write(tempcursor, a1col, driver[0], formatter.default["Testing"])
-        elif driver[1] == "Failed":
-            driverlist.write(tempcursor, a1col, driver[0], formatter.default["Failed"])
-        elif driver[1] == "Retired":
-            driverlist.write(tempcursor, a1col, driver[0], formatter.default["Retired"])
+        driverlist.write(tempcursor, a1col, driver[0], formatter.default[driver[1]])
         tempcursor += 1
 
     # A2
@@ -190,33 +183,22 @@ def get_driverlist():
     tempcursor = a2row
     for driver in result:
         driver = list(driver)
-        if driver[1] == "Reserve":
-            driverlist.write(tempcursor, a2col, driver[0], formatter.default["Reserve"])
-        elif driver[1] == "Testing":
-            driverlist.write(tempcursor, a2col, driver[0], formatter.default["Testing"])
-        elif driver[1] == "Failed":
-            driverlist.write(tempcursor, a2col, driver[0], formatter.default["Failed"])
-        elif driver[1] == "Retired":
-            driverlist.write(tempcursor, a2col, driver[0], formatter.default["Retired"])
+        driverlist.write(tempcursor, a2col, driver[0], formatter.default[driver[1]])
         tempcursor += 1
 
     # A3
     a3row = 1
     a3col = 12
     query = f'SELECT driverName, team, driverGroup FROM driverList \
-            WHERE driverGroup = "A3" and team = "Reserve" and driverName != "Race Director" \
-            ORDER BY CASE team \
-                WHEN "Reserve" THEN 1 \
-                WHEN "Testing" THEN 2 \
-                WHEN "Failed" THEN 3 \
-                WHEN "Retired" THEN 4 \
-            END, team, joinTime ASC;'
+            WHERE driverGroup = "A3" and team = "Team AFR3" and driverName != "Race Director" \
+            ORDER BY joinTime ASC;'
     cursor.execute(query)
     result = cursor.fetchall()
     tempcursor = a3row
     for driver in result:
         driver = list(driver)
         driverlist.write(tempcursor, a3col, driver[0], formatter.default["Reserve"])
+        tempcursor += 1
 
 
     # A3 testing
@@ -236,12 +218,7 @@ def get_driverlist():
     tempcursor = a3row
     for driver in result:
         driver = list(driver)
-        if driver[1] == "Testing":
-            driverlist.write(tempcursor, a3col, driver[0], formatter.default["Testing"])
-        elif driver[1] == "Failed":
-            driverlist.write(tempcursor, a3col, driver[0], formatter.default["Failed"])
-        elif driver[1] == "Retired":
-            driverlist.write(tempcursor, a3col, driver[0], formatter.default["Retired"])
+        driverlist.write(tempcursor, a3col, driver[0], formatter.default[driver[1]])
         tempcursor += 1
 
 

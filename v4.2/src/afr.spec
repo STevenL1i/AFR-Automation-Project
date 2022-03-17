@@ -5,7 +5,7 @@ block_cipher = None
 
 
 a = Analysis(['afr.py'],
-             pathex=['F:\\Document\\Programming\\AFR Automation Project\\v4.2\\src'],
+             pathex=['E:\\Documents\\Programming\\AFR Automation Project\\v4.2\\src'],
              binaries=[],
              datas=[],
              hiddenimports=[],

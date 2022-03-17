@@ -52,22 +52,27 @@ def get_raceresulttable():
         raceresult.set_column(0,0, 3)
         raceresult.set_column(6,6, 3)
         raceresult.set_column(12,12, 3)
+        raceresult.set_column(18,18, 3)
 
         raceresult.set_column(1,1, 20)
         raceresult.set_column(7,7, 20)
         raceresult.set_column(13,13, 20)
+        raceresult.set_column(19,19, 20)
 
         raceresult.set_column(2,2, 15)
         raceresult.set_column(8,8, 15)
         raceresult.set_column(14,14, 15)
+        raceresult.set_column(20,20, 15)
 
         raceresult.set_column(3,4, 5)
         raceresult.set_column(9,10, 5)
         raceresult.set_column(15,16, 5)
+        raceresult.set_column(21,22, 5)
 
         raceresult.set_column(5,5, 7)
         raceresult.set_column(11,11, 7)
         raceresult.set_column(17,17, 7)
+        raceresult.set_column(23,23, 7)
 
 
         # retirve event result from database and write into the table
@@ -77,7 +82,8 @@ def get_raceresulttable():
         # qualiying result
         raceresult.merge_range("A1:F1", "Qualifying", formatter.raceresultformat["headerf"])      # the big header
         raceresult.merge_range("G1:L1", "Qualifying", formatter.raceresultformat["headerf"])
-        raceresult.merge_range("M1:Q1", "Qualifying", formatter.raceresultformat["headerf"])
+        raceresult.merge_range("M1:R1", "Qualifying", formatter.raceresultformat["headerf"])
+        #raceresult.merge_range("S1:W1", "Qualifying", formatter.raceresultformat["headerf"])
         maxdrivercount = 0
 
         # A1 group
@@ -184,10 +190,10 @@ def get_raceresulttable():
 
         """
         # A3 group
-        raceresult.merge_range("K2:O2", "A3", formatter.raceresultformat["a3headerf"])
-        raceresult.write(2, 11, "车手", formatter.raceresultformat["headerf"])
-        raceresult.write(2, 12, "圈速", formatter.raceresultformat["headerf"])
-        raceresult.write(2, 13, "轮胎", formatter.raceresultformat["headerf"])
+        raceresult.merge_range("M2:R2", "A3", formatter.raceresultformat["a3headerf"])
+        raceresult.write(2, 13, "车手", formatter.raceresultformat["headerf"])
+        raceresult.write(2, 14, "圈速", formatter.raceresultformat["headerf"])
+        raceresult.write(2, 15, "轮胎", formatter.raceresultformat["headerf"])
 
         query = f'SELECT qualiResult.position, qualiResult.driverName, qualiResult.team, qualiResult.fastestLap, \
                 qualiResult.tyre, qualiResult.driverStatus, driverList.driverGroup \
@@ -198,7 +204,7 @@ def get_raceresulttable():
         result = cursor.fetchall()
 
         a3row = 3
-        a3col = 10
+        a3col = 12
         tempcursor = a3row
         for lap in result:
             try:
@@ -234,7 +240,6 @@ def get_raceresulttable():
 
 
 
-
         # race result
         # big header = maxdrivercount + 4
         # group header = maxdrivercount + 5
@@ -242,6 +247,7 @@ def get_raceresulttable():
         # data = maxdrivercount + 7
         raceresult.merge_range(maxdrivercount+4, 0, maxdrivercount+4, 5, "Race", formatter.raceresultformat["headerf"])
         raceresult.merge_range(maxdrivercount+4, 6, maxdrivercount+4, 11, "Race", formatter.raceresultformat["headerf"])
+        #raceresult.merge_range(maxdrivercount+4, 12, maxdrivercount+4, 17, "Race", formatter.raceresultformat["headerf"])
 
         # A1 group
         a1row = maxdrivercount +5
@@ -399,7 +405,7 @@ def get_raceresulttable():
         # A3 group
         a3row = maxdrivercount + 5
         a3col = 12
-        raceresult.merge_range(a3row, a3col, a3row, a3col+4, "A3", formatter.raceresultformat["a3headerf"])
+        raceresult.merge_range(a3row, a3col, a3row, a3col+5, "A3", formatter.raceresultformat["a3headerf"])
         a3row += 1
         raceresult.write(a3row, a3col+1, "车手", formatter.raceresultformat["headerf"])
         raceresult.write(a3row, a3col+2, "起跑", formatter.raceresultformat["headerf"])
@@ -417,27 +423,27 @@ def get_raceresulttable():
             tempcursor = a3row
             for position in result:
                 p = list(position)
-                if p[7] == "FINISHED":
+                if p[-1] == "FINISHED":
                     raceresult.write(tempcursor, a3col, p[2], formatter.raceresultformat["headerf"])
-                elif p[7] == "RETIRED":
+                elif p[-1] == "RETIRED":
                     raceresult.write(tempcursor, a3col, "RET", formatter.raceresultformat[p[7]])
-                elif p[7] == "DNF":
+                elif p[-1] == "DNF":
                     raceresult.write(tempcursor, a3col, p[7], formatter.raceresultformat[p[7]])
 
                 raceresult.write(tempcursor, a3col+1, p[3], formatter.driverformat[p[4]])
-
-                raceresult.write(tempcursor, a3col+2, p[5], formatter.raceresultformat["headerf"])
+                raceresult.write(tempcursor, a3col+2, p[7], formatter.raceresultformat["positionhold"])
+                raceresult.write(tempcursor, a3col+3, p[5], formatter.raceresultformat["headerf"])
 
                 positionchange = p[5] - p[2]
                 if positionchange > 0:
                     positionchange = '+' + str(positionchange)
-                    raceresult.write(tempcursor, a3col+3, positionchange, formatter.raceresultformat["positionup"])
+                    raceresult.write(tempcursor, a3col+4, positionchange, formatter.raceresultformat["positionup"])
                 elif positionchange < 0:
                     positionchange = str(positionchange)
-                    raceresult.write(tempcursor, a3col+3, positionchange, formatter.raceresultformat["positiondown"])
+                    raceresult.write(tempcursor, a3col+4, positionchange, formatter.raceresultformat["positiondown"])
                 else:
                     positionchange = str(positionchange)
-                    raceresult.write(tempcursor, a3col+3, positionchange, formatter.raceresultformat["positionhold"])
+                    raceresult.write(tempcursor, a3col+4, positionchange, formatter.raceresultformat["positionhold"])
                 
                 tempcursor += 1
 
@@ -460,7 +466,7 @@ def get_raceresulttable():
                 fl = result[3]
                 raceresult.write(tempcursor, a3col+1, fldriver, formatter.driverformat[flteam])
                 raceresult.write(tempcursor, a3col+2, fl, formatter.raceresultformat["timef"])
-                raceresult.merge_range(tempcursor, a3col+3, tempcursor, a3col+4, "fastest lap", formatter.raceresultformat["fastestlap"])
+                raceresult.merge_range(tempcursor, a3col+3, tempcursor, a3col+5, "fastest lap", formatter.raceresultformat["fastestlap"])
                 if flvld == 0:
                     raceresult.merge_range(tempcursor+1, a3col+1, tempcursor+1, a3col+4, "*points will not allocated", formatter.raceresultformat["deniedheader"])
                 
@@ -468,8 +474,10 @@ def get_raceresulttable():
             pass
         """
 
+
+
         # weekend qualiying comparision
-        raceresult.merge_range("M2:Q2", "Wholeweekend", formatter.raceresultformat["a3headerf"])
+        raceresult.merge_range("M2:R2", "Wholeweekend", formatter.raceresultformat["a3headerf"])
         raceresult.write(2, 13, "车手", formatter.raceresultformat["headerf"])
         raceresult.write(2, 14, "圈速", formatter.raceresultformat["headerf"])
         raceresult.write(2, 15, "轮胎", formatter.raceresultformat["headerf"])

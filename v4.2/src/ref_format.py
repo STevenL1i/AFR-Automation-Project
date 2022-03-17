@@ -32,7 +32,7 @@ class format:
         this.default["Reserve"] = reservef
         testingf = workbook.add_format({"font_size":11})
         testingf.set_font_name("Dengxian")
-        testingf.set_bg_color("#00CC00")
+        testingf.set_bg_color("#00B050")
         testingf.set_align("vcenter")
         this.default["Testing"] = testingf
         failtestingf = workbook.add_format({"font_size":11})
