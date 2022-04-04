@@ -22,9 +22,6 @@ def upload_race():
             # get the race result
             record = 0
             for row in reader:
-                record += 1
-                print(f'Uploading records {record}......')
-
                 drivergroup = row.get("driverGroup")
                 gp = row.get("GP")
                 finishposition = row.get("finishPosition")
@@ -34,6 +31,11 @@ def upload_race():
                 gap = row.get("gap")
                 driverstatus = row.get("driverStatus")
                 fl = row.get("fastestLap")
+
+                if drivergroup == "" or gp == "" or finishposition == "" or drivername == "" or team == "" \
+                                     or startposition == "" or gap == "" or driverstatus == "" or fl == "":
+                    continue
+
                 if fl == '':
                     fl = None
                 
@@ -55,6 +57,9 @@ def upload_race():
                                 (driverName, team, driverGroup, totalPoints) VALUES (%s, %s, %s, %s);"
                         val = (drivername, team, "A1", 0)
                         cursor.execute(query, val)
+
+                record += 1
+                print(f'Uploading records {record}......')
 
                 # record the result
                 query = "INSERT INTO raceResult VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s);"

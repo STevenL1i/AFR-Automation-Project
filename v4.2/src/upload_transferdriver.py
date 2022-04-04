@@ -19,9 +19,6 @@ def transferdriver():
 
             record = 0
             for row in reader:
-                record += 1
-                print(f'Uploading records {record}......')
-
                 drivername = row.get("driverName")
                 team1 = row.get("team1")
                 team2 = row.get("team2")
@@ -33,7 +30,13 @@ def transferdriver():
                 if transfertime == '':
                     transfertime = datetime.datetime.today().strftime('%Y-%m-%d')
                 tokenused = row.get("tokenUsed")
+
+                if drivername == "" or team1 == "" or team2 == "" or drivergroup1 == "" or drivergroup2 == "" \
+                                    or status == "" or description == "" or transfertime == "" or tokenused == "":
+                    continue
                 
+                record += 1
+                print(f'Uploading records {record}......')
 
                 query = "INSERT INTO driverTransfer VALUES (%s, %s, %s, %s, %s, %s, %s, %s);"
                 val = (drivername, team1, drivergroup1, team2, drivergroup2,

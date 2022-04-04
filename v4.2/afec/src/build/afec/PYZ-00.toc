@@ -1,5 +1,5 @@
 ('F:\\Document\\Programming\\AFR Automation '
- 'Project\\v4.1\\afec\\src\\build\\afec\\PYZ-00.pyz',
+ 'Project\\v4.2\\afec\\src\\build\\afec\\PYZ-00.pyz',
  [('os',
    'c:\\users\\steven '
    'li\\appdata\\local\\programs\\python\\python39\\lib\\os.py',
@@ -918,15 +918,15 @@
    'PYMODULE'),
   ('RaceResultTable',
    'F:\\Document\\Programming\\AFR Automation '
-   'Project\\v4.1\\afec\\src\\RaceResultTable.py',
+   'Project\\v4.2\\afec\\src\\RaceResultTable.py',
    'PYMODULE'),
   ('ref_format',
    'F:\\Document\\Programming\\AFR Automation '
-   'Project\\v4.1\\afec\\src\\ref_format.py',
+   'Project\\v4.2\\afec\\src\\ref_format.py',
    'PYMODULE'),
   ('connectserver',
    'F:\\Document\\Programming\\AFR Automation '
-   'Project\\v4.1\\afec\\src\\connectserver.py',
+   'Project\\v4.2\\afec\\src\\connectserver.py',
    'PYMODULE'),
   ('mysql.connector',
    'c:\\users\\steven '
@@ -1174,31 +1174,31 @@
    'PYMODULE'),
   ('ClassificationTable',
    'F:\\Document\\Programming\\AFR Automation '
-   'Project\\v4.1\\afec\\src\\ClassificationTable.py',
+   'Project\\v4.2\\afec\\src\\ClassificationTable.py',
    'PYMODULE'),
   ('ref_dict',
    'F:\\Document\\Programming\\AFR Automation '
-   'Project\\v4.1\\afec\\src\\ref_dict.py',
+   'Project\\v4.2\\afec\\src\\ref_dict.py',
    'PYMODULE'),
   ('update_raceresult',
    'F:\\Document\\Programming\\AFR Automation '
-   'Project\\v4.1\\afec\\src\\update_raceresult.py',
+   'Project\\v4.2\\afec\\src\\update_raceresult.py',
    'PYMODULE'),
   ('update_qualiresult',
    'F:\\Document\\Programming\\AFR Automation '
-   'Project\\v4.1\\afec\\src\\update_qualiresult.py',
+   'Project\\v4.2\\afec\\src\\update_qualiresult.py',
    'PYMODULE'),
   ('checkracestatus',
    'F:\\Document\\Programming\\AFR Automation '
-   'Project\\v4.1\\afec\\src\\checkracestatus.py',
+   'Project\\v4.2\\afec\\src\\checkracestatus.py',
    'PYMODULE'),
   ('pointsrecalibration',
    'F:\\Document\\Programming\\AFR Automation '
-   'Project\\v4.1\\afec\\src\\pointsrecalibration.py',
+   'Project\\v4.2\\afec\\src\\pointsrecalibration.py',
    'PYMODULE'),
   ('upload_racedirector',
    'F:\\Document\\Programming\\AFR Automation '
-   'Project\\v4.1\\afec\\src\\upload_racedirector.py',
+   'Project\\v4.2\\afec\\src\\upload_racedirector.py',
    'PYMODULE'),
   ('tkinter.filedialog',
    'c:\\users\\steven '
@@ -1230,21 +1230,21 @@
    'PYMODULE'),
   ('upload_raceresult',
    'F:\\Document\\Programming\\AFR Automation '
-   'Project\\v4.1\\afec\\src\\upload_raceresult.py',
+   'Project\\v4.2\\afec\\src\\upload_raceresult.py',
    'PYMODULE'),
   ('upload_qualiresult',
    'F:\\Document\\Programming\\AFR Automation '
-   'Project\\v4.1\\afec\\src\\upload_qualiresult.py',
+   'Project\\v4.2\\afec\\src\\upload_qualiresult.py',
    'PYMODULE'),
   ('upload_transferdriver',
    'F:\\Document\\Programming\\AFR Automation '
-   'Project\\v4.1\\afec\\src\\upload_transferdriver.py',
+   'Project\\v4.2\\afec\\src\\upload_transferdriver.py',
    'PYMODULE'),
   ('upload_newteam',
    'F:\\Document\\Programming\\AFR Automation '
-   'Project\\v4.1\\afec\\src\\upload_newteam.py',
+   'Project\\v4.2\\afec\\src\\upload_newteam.py',
    'PYMODULE'),
   ('upload_newdriver',
    'F:\\Document\\Programming\\AFR Automation '
-   'Project\\v4.1\\afec\\src\\upload_newdriver.py',
+   'Project\\v4.2\\afec\\src\\upload_newdriver.py',
    'PYMODULE')])

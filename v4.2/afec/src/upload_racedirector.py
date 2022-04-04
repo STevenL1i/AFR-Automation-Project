@@ -21,9 +21,6 @@ def upload_racedirector():
 
             record = 0
             for row in reader:
-                record += 1
-                print(f'Uploading records {record}......')
-
                 query = "SELECT caseNumber FROM raceDirector \
                         ORDER BY caseNumber DESC LIMIT 1;"
                 cursor.execute(query)
@@ -52,6 +49,13 @@ def upload_racedirector():
                 if raceban == None or raceban == '':
                     raceban = 0
                 description = row.get("PenaltyDescription")
+
+                if date == "" or drivername == "" or drivergroup == "" or gp == "" or penalty == "" or penaltyLP == "" \
+                              or penaltywarning == "" or qualiban == "" or raceban == "" or description == "":
+                    continue
+
+                record += 1
+                print(f'Uploading records {record}......')
                 
                 query = "INSERT INTO raceDirector VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);"
                 val = (casenum, date, drivername, drivergroup, gp, penalty, penaltyLP, penaltywarning, qualiban, raceban, description)

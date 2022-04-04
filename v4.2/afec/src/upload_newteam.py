@@ -18,13 +18,16 @@ def welcome_newteam():
 
             record = 0
             for row in reader:
-                record += 1
-                print(f'Uploading records {record}......')
-
                 teamname = row.get("teamName")
                 teamcolor = row.get("teamColor")
                 teamabbr = row.get("teamNameAbbr")
                 transferToken = row.get("transferToken")
+
+                if teamname == "" or teamcolor == "" or teamabbr == "" or transferToken == "":
+                    continue
+
+                record += 1
+                print(f'Uploading records {record}......')
 
                 query = "INSERT INTO teamList \
                         (teamName, teamColor, teamNameAbbr, transferToken) VALUES (%s, %s, %s, %s);"

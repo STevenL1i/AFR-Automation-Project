@@ -5,7 +5,7 @@ block_cipher = None
 
 
 a = Analysis(['afec.py'],
-             pathex=['F:\\Document\\Programming\\AFR Automation Project\\v4.1\\afec\\src'],
+             pathex=['F:\\Document\\Programming\\AFR Automation Project\\v4.2\\afec\\src'],
              binaries=[],
              datas=[],
              hiddenimports=[],

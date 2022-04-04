@@ -20,9 +20,6 @@ def welcome_newdriver():
 
             record = 0
             for row in reader:
-                record += 1
-                print(f'Uploading records {record}......')
-
                 drivername = row.get("driverName")
                 team = row.get("team")
                 group = row.get("driverGroup")
@@ -30,6 +27,9 @@ def welcome_newdriver():
                 jointime = row.get("joinTime")
                 raceban = row.get("raceBan")
                 qualiban = row.get("qualiBan")
+
+                if drivername == "" or team == "" or group == "" or status == "" or jointime == "" or raceban == "" or qualiban == "":
+                    continue
 
                 if jointime == '':
                     jointime = datetime.datetime.today().strftime('%Y-%m-%d')
@@ -43,6 +43,9 @@ def welcome_newdriver():
                     raceban = 0
                 else:
                     raceban = int(raceban)
+
+                record += 1
+                print(f'Uploading records {record}......')
                 
                 # update the driverlist
                 query = "INSERT INTO driverList VALUES \

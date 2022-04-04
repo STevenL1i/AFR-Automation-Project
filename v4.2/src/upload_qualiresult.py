@@ -19,21 +19,25 @@ def upload_quali():
 
             record = 0
             for row in reader:
-                record += 1
-                print(f'Uploading records {record}......')
-
                 drivergroup = row.get("driverGroup")
                 gp = row.get("GP")
                 position = row.get("position")
                 drivername = row.get("driverName")
                 team = row.get("team")
                 fl = row.get("fastestLap")
+
+                if drivergroup == "" or gp == "" or position == "" or drivername == "" or team == "" or fl == "":
+                    continue
+
                 if fl == '':
                     fl = None
                 tyre = row.get("tyre")
                 if tyre == '':
                     tyre = None
                 status = row.get("driverStatus")
+
+                record += 1
+                print(f'Uploading records {record}......')
 
                 # record the result
                 query = "INSERT INTO qualiResult VALUES (%s, %s, %s, %s, %s, %s, %s, %s);"
