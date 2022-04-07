@@ -33,7 +33,7 @@ def upload_race():
                 fl = row.get("fastestLap")
 
                 if drivergroup == "" or gp == "" or finishposition == "" or drivername == "" or team == "" \
-                                     or startposition == "" or gap == "" or driverstatus == "" or fl == "":
+                                     or startposition == "" or driverstatus == "" or fl == "":
                     continue
 
                 if fl == '':

@@ -904,13 +904,13 @@
    'c:\\users\\steven '
    'li\\appdata\\local\\programs\\python\\python39\\lib\\stat.py',
    'PYMODULE'),
-  ('_py_abc',
-   'c:\\users\\steven '
-   'li\\appdata\\local\\programs\\python\\python39\\lib\\_py_abc.py',
-   'PYMODULE'),
   ('stringprep',
    'c:\\users\\steven '
    'li\\appdata\\local\\programs\\python\\python39\\lib\\stringprep.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\_py_abc.py',
    'PYMODULE'),
   ('tracemalloc',
    'c:\\users\\steven '

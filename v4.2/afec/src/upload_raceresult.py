@@ -32,7 +32,7 @@ def upload_race():
                 driverstatus = row.get("driverStatus")
 
                 if drivergroup == "" or gp == "" or finishposition == "" or drivername == "" or team == "" \
-                                     or startposition == "" or gap == "" or driverstatus == "":
+                                     or startposition == "" or driverstatus == "":
                     continue
 
                 record += 1
