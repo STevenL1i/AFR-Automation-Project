@@ -83,7 +83,7 @@ def get_raceresulttable():
         raceresult.merge_range("A1:F1", "Qualifying", formatter.raceresultformat["headerf"])      # the big header
         raceresult.merge_range("G1:L1", "Qualifying", formatter.raceresultformat["headerf"])
         raceresult.merge_range("M1:R1", "Qualifying", formatter.raceresultformat["headerf"])
-        #raceresult.merge_range("S1:W1", "Qualifying", formatter.raceresultformat["headerf"])
+        raceresult.merge_range("S1:W1", "Qualifying", formatter.raceresultformat["headerf"])
         maxdrivercount = 0
 
         # A1 group
@@ -188,7 +188,7 @@ def get_raceresulttable():
             maxdrivercount = drivercount
 
 
-        """
+        #"""
         # A3 group
         raceresult.merge_range("M2:R2", "A3", formatter.raceresultformat["a3headerf"])
         raceresult.write(2, 13, "车手", formatter.raceresultformat["headerf"])
@@ -236,7 +236,7 @@ def get_raceresulttable():
 
         if drivercount > maxdrivercount:
             maxdrivercount = drivercount
-        """
+        #"""
 
 
 
@@ -247,7 +247,7 @@ def get_raceresulttable():
         # data = maxdrivercount + 7
         raceresult.merge_range(maxdrivercount+4, 0, maxdrivercount+4, 5, "Race", formatter.raceresultformat["headerf"])
         raceresult.merge_range(maxdrivercount+4, 6, maxdrivercount+4, 11, "Race", formatter.raceresultformat["headerf"])
-        #raceresult.merge_range(maxdrivercount+4, 12, maxdrivercount+4, 17, "Race", formatter.raceresultformat["headerf"])
+        raceresult.merge_range(maxdrivercount+4, 12, maxdrivercount+4, 17, "Race", formatter.raceresultformat["headerf"])
 
         # A1 group
         a1row = maxdrivercount +5
@@ -401,15 +401,16 @@ def get_raceresulttable():
             pass
 
 
-        """
+        #"""
         # A3 group
         a3row = maxdrivercount + 5
         a3col = 12
         raceresult.merge_range(a3row, a3col, a3row, a3col+5, "A3", formatter.raceresultformat["a3headerf"])
         a3row += 1
         raceresult.write(a3row, a3col+1, "车手", formatter.raceresultformat["headerf"])
-        raceresult.write(a3row, a3col+2, "起跑", formatter.raceresultformat["headerf"])
-        raceresult.write(a3row, a3col+3, "P.C.", formatter.raceresultformat["headerf"])
+        raceresult.write(a3row, a3col+2, "差距", formatter.raceresultformat["headerf"])
+        raceresult.write(a3row, a3col+3, "起跑", formatter.raceresultformat["headerf"])
+        raceresult.write(a3row, a3col+4, "P.C.", formatter.raceresultformat["headerf"])
         a3row += 1
 
         query = f'SELECT * FROM raceResult WHERE GP = "{therace}" and driverGroup = "A3";'
@@ -472,17 +473,17 @@ def get_raceresulttable():
                 
         except ValueError:
             pass
-        """
+        #"""
 
 
 
         # weekend qualiying comparision
-        raceresult.merge_range("M2:R2", "Wholeweekend", formatter.raceresultformat["a3headerf"])
+        raceresult.merge_range("S2:W2", "Wholeweekend", formatter.raceresultformat["a3headerf"])
         raceresult.write(2, 13, "车手", formatter.raceresultformat["headerf"])
         raceresult.write(2, 14, "圈速", formatter.raceresultformat["headerf"])
         raceresult.write(2, 15, "轮胎", formatter.raceresultformat["headerf"])
         srow = 3
-        scol = 12
+        scol = 18
 
         query = f'SELECT * FROM qualiResult \
                 WHERE GP = "{therace}" \

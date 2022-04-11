@@ -48,6 +48,8 @@ a1leaderboard_full = workbook.add_worksheet("A1总积分榜")
 a2leaderboard = workbook.add_worksheet("A2积分榜")
 a2leaderboard_cons = workbook.add_worksheet("A2车队积分榜")
 a2leaderboard_full = workbook.add_worksheet("A2总积分榜")
+a3leaderboard = workbook.add_worksheet("A3积分榜")
+a3leaderboard_full = workbook.add_worksheet("A3总积分榜")
 licensepoint = workbook.add_worksheet("车手安全分")
 lanusernamelist = workbook.add_worksheet("LAN name")
 seasonstats = workbook.add_worksheet("数据统计")
@@ -292,8 +294,8 @@ def get_racecalendar():
 
 # leaderboard (short)
 def get_leaderboard_short():
-    leaderboard_list = [a1leaderboard, a2leaderboard]
-    group_list = ["A1", "A2"]
+    leaderboard_list = [a1leaderboard, a2leaderboard, a3leaderboard]
+    group_list = ["A1", "A2", "A3"]
     for i in range(0, len(group_list)):
         leaderboard = leaderboard_list[i]
         group = group_list[i]
@@ -521,8 +523,8 @@ def get_leaderboard_constructors():
 
 # full leaderboard
 def get_leaderboard_full():
-    leaderboard_list = [a1leaderboard_full, a2leaderboard_full]
-    group_list = ["A1", "A2"]
+    leaderboard_list = [a1leaderboard_full, a2leaderboard_full, a3leaderboard_full]
+    group_list = ["A1", "A2", "A3"]
     for i in range(0, len(group_list)):
         leaderboard = leaderboard_list[i]
         group = group_list[i]

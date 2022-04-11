@@ -32,8 +32,8 @@ def upload_race():
                 driverstatus = row.get("driverStatus")
                 fl = row.get("fastestLap")
 
-                if drivergroup == "" or gp == "" or finishposition == "" or drivername == "" or team == "" \
-                                     or startposition == "" or driverstatus == "" or fl == "":
+                if drivergroup == "" or gp == "" or finishposition == "" or drivername == "" \
+                                     or team == "" or startposition == "" or driverstatus == "":
                     continue
 
                 if fl == '':
@@ -56,6 +56,25 @@ def upload_race():
                         query = "INSERT INTO driverLeaderBoard \
                                 (driverName, team, driverGroup, totalPoints) VALUES (%s, %s, %s, %s);"
                         val = (drivername, team, "A1", 0)
+                        cursor.execute(query, val)
+
+                # special case: for A3 driver in A2
+                # if driver not record in the driverlist, it will be automatically created
+                if team == "Team AFR3" and drivergroup == "A2":
+                    query = f'SELECT * FROM driverList \
+                            WHERE driverName = "{drivername}" and team = "TEAM AFR3";'
+                    cursor.execute(query)
+                    result = cursor.fetchall()
+                    if len(result) == 0:
+                        # update the driverlist
+                        query = "INSERT INTO driverList VALUES \
+                                (%s, %s, %s, %s, %s, %s);"
+                        val = (drivername, team, "A2", "A3 driver", today, 1)
+                        cursor.execute(query, val)
+                        # update the driverLeaderBoard
+                        query = "INSERT INTO driverLeaderBoard \
+                                (driverName, team, driverGroup, totalPoints) VALUES (%s, %s, %s, %s);"
+                        val = (drivername, team, "A2", 0)
                         cursor.execute(query, val)
 
                 record += 1

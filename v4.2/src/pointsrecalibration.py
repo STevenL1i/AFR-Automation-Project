@@ -7,6 +7,7 @@ def menu():
     resettable()
     recalibreation("A1")
     recalibreation("A2")
+    recalibreation("A3")
 
 
 def resettable():
