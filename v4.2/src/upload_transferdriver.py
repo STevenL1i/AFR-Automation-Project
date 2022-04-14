@@ -31,8 +31,8 @@ def transferdriver():
                     transfertime = datetime.datetime.today().strftime('%Y-%m-%d')
                 tokenused = row.get("tokenUsed")
 
-                if drivername == "" or team1 == "" or team2 == "" or drivergroup1 == "" or drivergroup2 == "" \
-                                    or status == "" or description == "" or transfertime == "" or tokenused == "":
+                if drivername == "" and team1 == "" and team2 == "" and drivergroup1 == "" and drivergroup2 == "" \
+                                    and status == "" and description == "" and transfertime == "" and tokenused == "":
                     continue
                 
                 record += 1

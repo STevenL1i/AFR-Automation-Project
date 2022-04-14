@@ -23,7 +23,7 @@ def welcome_newteam():
                 teamabbr = row.get("teamNameAbbr")
                 transferToken = row.get("transferToken")
 
-                if teamname == "" or teamcolor == "" or teamabbr == "" or transferToken == "":
+                if teamname == "" and teamcolor == "" and teamabbr == "" and transferToken == "":
                     continue
 
                 record += 1

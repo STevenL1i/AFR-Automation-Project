@@ -46,8 +46,8 @@ def upload_racedirector():
                 raceban = row.get("raceBan")
                 description = row.get("PenaltyDescription")
 
-                if date == "" or drivername == "" or drivergroup == "" or gp == "" or penalty == "" or penaltyLP == "" \
-                              or penaltywarning == "" or qualiban == "" or raceban == "" or description == "":
+                if date == "" and drivername == "" and drivergroup == "" and gp == "" and penalty == "" and penaltyLP == "" \
+                              and penaltywarning == "" and qualiban == "" and raceban == "" and description == "":
                     continue
 
                 if qualiban == None or qualiban == '':

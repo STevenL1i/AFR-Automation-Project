@@ -32,8 +32,8 @@ def upload_quali():
                     tyre = None
                 status = row.get("driverStatus")
 
-                if drivergroup == "" or gp == "" or position == "" or drivername == "" or team == "" \
-                                     or fl == "" or tyre == "" or status == "":
+                if drivergroup == "" and gp == "" and position == "" and drivername == "" and team == "" \
+                                     and fl == "" and tyre == "" and status == "":
                     continue
 
                 record += 1

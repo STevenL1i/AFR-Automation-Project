@@ -32,8 +32,8 @@ def transferdriver():
                 tokenused = row.get("tokenUsed")
                 teamtokenused = row.get("teamtokenUsed")
 
-                if drivername == "" or team1 == "" or team2 == "" or drivergroup1 == "" or drivergroup2 == "" or status == "" \
-                                    or description == "" or transfertime == "" or tokenused == "" or teamtokenused == "":
+                if drivername == "" and team1 == "" and team2 == "" and drivergroup1 == "" and drivergroup2 == "" and status == "" \
+                                    and description == "" and transfertime == "" and tokenused == "" and teamtokenused == "":
                     continue
                 
                 record += 1

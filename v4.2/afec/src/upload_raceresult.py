@@ -31,8 +31,8 @@ def upload_race():
                 gap = row.get("gap")
                 driverstatus = row.get("driverStatus")
 
-                if drivergroup == "" or gp == "" or finishposition == "" or drivername == "" or team == "" \
-                                     or startposition == "" or driverstatus == "":
+                if drivergroup == "" and gp == "" and finishposition == "" and drivername == "" and team == "" \
+                                     and startposition == "" and driverstatus == "":
                     continue
 
                 record += 1
