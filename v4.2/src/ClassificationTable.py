@@ -575,7 +575,8 @@ def get_leaderboard_full():
 
 
         # retirve driver leaderboard from database and write into the table
-        query = f'SELECT COUNT(DISTINCT(GP)) FROM raceResult WHERE driverGroup = "{group}";'
+        query = f'SELECT COUNT(DISTINCT(GP_ENG)) FROM raceCalendar WHERE driverGroup = "{group}" \
+                    AND raceStatus != "TO BE GO" AND Round is not null;;'
         cursor.execute(query)
         result = cursor.fetchall()
         result = list(result[0])

@@ -195,11 +195,15 @@ def get_raceresulttable():
         raceresult.write(2, 14, "圈速", formatter.raceresultformat["headerf"])
         raceresult.write(2, 15, "轮胎", formatter.raceresultformat["headerf"])
 
+        """
         query = f'SELECT qualiResult.position, qualiResult.driverName, qualiResult.team, qualiResult.fastestLap, \
                 qualiResult.tyre, qualiResult.driverStatus, driverList.driverGroup \
                 FROM qualiResult JOIN driverList ON driverList.driverName = qualiResult.driverName \
                 WHERE GP = "{therace}" AND qualiResult.driverGroup = "A3" \
                 AND driverList.team != "Team AFR2" AND driverList.team != "Team AFR3";'
+        """
+        query = f'SELECT position, driverName, team, fastestLap, tyre, driverStatus \
+                FROM qualiResult WHERE GP = "{therace}" and driverGroup = "A3";'
         cursor.execute(query)
         result = cursor.fetchall()
 
@@ -427,9 +431,9 @@ def get_raceresulttable():
                 if p[-1] == "FINISHED":
                     raceresult.write(tempcursor, a3col, p[2], formatter.raceresultformat["headerf"])
                 elif p[-1] == "RETIRED":
-                    raceresult.write(tempcursor, a3col, "RET", formatter.raceresultformat[p[7]])
+                    raceresult.write(tempcursor, a3col, "RET", formatter.raceresultformat[p[-1]])
                 elif p[-1] == "DNF":
-                    raceresult.write(tempcursor, a3col, p[7], formatter.raceresultformat[p[7]])
+                    raceresult.write(tempcursor, a3col, p[-1], formatter.raceresultformat[p[-1]])
 
                 raceresult.write(tempcursor, a3col+1, p[3], formatter.driverformat[p[4]])
                 raceresult.write(tempcursor, a3col+2, p[7], formatter.raceresultformat["positionhold"])
