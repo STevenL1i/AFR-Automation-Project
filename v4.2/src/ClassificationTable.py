@@ -192,7 +192,7 @@ def get_driverlist():
     a3row = 1
     a3col = 12
     query = f'SELECT driverName, team, driverGroup FROM driverList \
-            WHERE driverGroup = "A3" and team = "Team AFR3" and driverName != "Race Director" \
+            WHERE driverGroup = "A3" and team = "Reserve" and driverName != "Race Director" \
             ORDER BY joinTime ASC;'
     cursor.execute(query)
     result = cursor.fetchall()
@@ -775,10 +775,8 @@ def get_licensepoint():
 def get_lanusername():
     # setting row width
     cursor.execute("SELECT COUNT(*) FROM LANusername;")
-    result = cursor.fetchall()
+    result = cursor.fetchone()
     drivercount = result[0]
-    drivercount = list(drivercount)
-    drivercount = drivercount[0]
     for pos in range(1,drivercount+1):
         lanusernamelist.set_row(pos, 15)
 
@@ -789,20 +787,20 @@ def get_lanusername():
     lanusernamelist.write(0,0, "游戏id", formatter.lanusernameformat["ACTIVE"])
     lanusernamelist.write(0,1, "LAN用户名", formatter.lanusernameformat["ACTIVE"])
     lanusernamelist.write(0,2, "密码", formatter.lanusernameformat["ACTIVE"])
-
+    
     # retirve driverlist from database and write into the table
     query = "SELECT * FROM LANusername ORDER BY username ASC;"
     cursor.execute(query)
     result = cursor.fetchall()
-
+    
     row = 1
     col = 0
     for account in result:
-        account = list(account)
         status = account[-1]
         for i in range(0,3):
             lanusernamelist.write(row, col+i, account[i], formatter.lanusernameformat[status])
         row += 1
+    
 
 
 # Season stats

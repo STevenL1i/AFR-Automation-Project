@@ -32,8 +32,9 @@ def upload_race():
                 driverstatus = row.get("driverStatus")
                 fl = row.get("fastestLap")
 
-                if drivergroup == "" and gp == "" and finishposition == "" and drivername == "" \
-                                     and team == "" and startposition == "" and driverstatus == "":
+                if drivergroup.replace(" ","") == "" and gp.replace(" ","") == "" and finishposition.replace(" ","") == "" \
+                    and drivername.replace(" ","") == ""  and team.replace(" ","") == "" \
+                    and startposition.replace(" ","") == "" and driverstatus.replace(" ","") == "":
                     continue
 
                 if fl == '':

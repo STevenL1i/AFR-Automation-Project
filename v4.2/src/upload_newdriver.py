@@ -27,7 +27,9 @@ def welcome_newdriver():
                 jointime = row.get("joinTime")
                 raceban = row.get("raceBan")
                 qualiban = row.get("qualiBan")
-                if drivername == "" and team == "" and group == "" and status == "" and jointime == "" and raceban == "" and qualiban == "":
+                if drivername.replace(" ","") == "" and team.replace(" ","") == "" \
+                    and group.replace(" ","") == "" and status.replace(" ","") == "" \
+                    and jointime.replace(" ","") == "" and raceban.replace(" ","") == "" and qualiban.replace(" ","") == "":
                     continue
 
                 if jointime == '':

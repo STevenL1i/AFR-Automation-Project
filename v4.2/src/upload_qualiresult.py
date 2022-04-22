@@ -26,7 +26,9 @@ def upload_quali():
                 team = row.get("team")
                 fl = row.get("fastestLap")
 
-                if drivergroup == "" and gp == "" and position == "" and drivername == "" and team == "" and fl == "":
+                if drivergroup.replace(" ","") == "" and gp.replace(" ","") == "" \
+                    and position.replace(" ","") == "" and drivername.replace(" ","") == "" \
+                    and team.replace(" ","") == "" and fl.replace(" ","") == "":
                     continue
 
                 if fl == '':
