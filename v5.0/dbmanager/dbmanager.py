@@ -2,7 +2,7 @@ import traceback
 import connectserver
 import dbload as dbl
 
-db = connectserver.connectserver()
+db = connectserver.connectserver("afr")
 cursor = db.cursor()
 
 def dbcreate():

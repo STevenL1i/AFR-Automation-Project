@@ -3,7 +3,7 @@ import xlsxwriter
 import connectserver
 import ref_format
 
-db = connectserver.connectserver()
+db = connectserver.connectserver("afec")
 cursor = db.cursor()
 
 today = datetime.today().strftime('%Y-%m-%d')

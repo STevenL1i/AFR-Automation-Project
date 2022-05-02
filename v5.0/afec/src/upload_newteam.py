@@ -5,7 +5,7 @@ from tkinter import filedialog
 import connectserver
 
 def welcome_newteam():
-    db = connectserver.connectserver()
+    db = connectserver.connectserver("afec")
     cursor = db.cursor()
 
     try:

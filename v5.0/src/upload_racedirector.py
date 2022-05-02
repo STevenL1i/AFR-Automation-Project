@@ -7,7 +7,7 @@ import connectserver
 
 # upload race director result
 def upload_racedirector():
-    db = connectserver.connectserver()
+    db = connectserver.connectserver("afr")
     cursor = db.cursor()
 
     try:

@@ -11,7 +11,8 @@
             //"program": "${workspaceFolder}/v5.0/dbmanager/dbmanager.py",
             //"cwd": "${workspaceFolder}/v5.0/dbmanager",
             "program": "${workspaceFolder}/v5.0/src/afr.py",
-            "cwd": "${workspaceFolder}/v5.0/src/",
+            //"program": "${file}",
+            "cwd": "${workspaceFolder}/v5.0/src",
 
             //"program": "${workspaceFolder}/v5.0/afec/dbmanager/dbmanager.py",
             //"cwd": "${workspaceFolder}/v5.0/afec/dbmanager",

@@ -1,7 +1,7 @@
 import json
 import mysql.connector
 
-def connectserver():
+def connectserver(database:str):
     server_connector = {}
 
     # old way: using cfg file
@@ -38,5 +38,5 @@ def connectserver():
     port = server_connector["port"],
     user = server_connector["user"],
     password = server_connector["password"],
-    database = server_connector["database"])
+    database = server_connector[database])
     return db

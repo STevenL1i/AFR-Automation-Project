@@ -7,7 +7,7 @@ import connectserver
 
 # upload the new driver profile
 def welcome_newdriver():
-    db = connectserver.connectserver()
+    db = connectserver.connectserver("afec")
     cursor = db.cursor()
 
     try:

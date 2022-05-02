@@ -8,7 +8,7 @@ today = datetime.datetime.today().strftime("%Y-%m-%d")
 
 # upload race result
 def upload_race():
-    db = connectserver.connectserver()
+    db = connectserver.connectserver("afr")
     cursor = db.cursor()
 
     try:

@@ -4,7 +4,7 @@ import connectserver
 import ref_dict
 import ref_format
 
-db = connectserver.connectserver()
+db = connectserver.connectserver("afec")
 cursor = db.cursor()
 
 today = datetime.today().strftime('%Y-%m-%d')
@@ -291,7 +291,7 @@ def get_leaderboard_short():
 def get_leaderboard_constructors():
     # setting row width
     leaderboard_cons.set_row(0, 31)
-    for i in range(1,11):
+    for i in range(1,20):
         leaderboard_cons.set_row(i, 23)
     
     # setting column width

@@ -4,7 +4,7 @@ import connectserver
 import ref_dict
 import ref_format
 
-db = connectserver.connectserver()
+db = connectserver.connectserver("afr")
 cursor = db.cursor()
 
 today = datetime.today().strftime('%Y-%m-%d')

@@ -6,7 +6,7 @@ import connectserver
 
 # upload qualiying results
 def upload_quali():
-    db = connectserver.connectserver()
+    db = connectserver.connectserver("afec")
     cursor = db.cursor()
 
     try:

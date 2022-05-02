@@ -7,7 +7,7 @@ import connectserver
 import ref_dict
 
 
-db = connectserver.connectserver()
+db = connectserver.connectserver("afr")
 cursor = db.cursor()
 
 

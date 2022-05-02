@@ -10,7 +10,7 @@ def menu():
 
 
 def resettable():
-    db = connectserver.connectserver()
+    db = connectserver.connectserver("afec")
     cursor = db.cursor()
 
     query = "SELECT Round, GP_CHN, GP_ENG FROM raceCalendar WHERE Round is not null;"
@@ -84,7 +84,7 @@ def resettable():
 
 
 def recalibreation():
-    db = connectserver.connectserver()
+    db = connectserver.connectserver("afec")
     cursor = db.cursor()
 
     racelist = []

@@ -6,7 +6,7 @@ import connectserver
 
 
 def transferdriver():
-    db = connectserver.connectserver()
+    db = connectserver.connectserver("afec")
     cursor = db.cursor()
 
     try:

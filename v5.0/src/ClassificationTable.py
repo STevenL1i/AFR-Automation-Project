@@ -4,7 +4,7 @@ import connectserver
 import ref_dict
 import ref_format
 
-db = connectserver.connectserver()
+db = connectserver.connectserver("afr")
 cursor = db.cursor()
 
 today = datetime.today().strftime('%Y-%m-%d')
@@ -931,7 +931,7 @@ def get_seasonstats():
 
 
         # driver name and driver group
-        if driverteam == "Reserve":
+        if driverteam == "Reserve" and drivergroup != "A3":
             seasonstats.write(row, col, drivername, formatter.default["Reserve"])
         elif driverteam == "Testing":
             seasonstats.write(row, col, drivername, formatter.default["Testing"])
@@ -939,6 +939,8 @@ def get_seasonstats():
             seasonstats.write(row, col, drivername, formatter.default["Failed"])
         elif driverteam == "Retired":
             seasonstats.write(row, col, drivername, formatter.default["Retired"])
+        elif drivergroup == "A3" and driverteam == "Reserve":
+            seasonstats.write(row, col, drivername, formatter.driverformat["Team AFR3"])
         else:
             seasonstats.write(row, col, drivername, formatter.driverformat[driverteam])
         col += 1
@@ -1205,6 +1207,7 @@ def get_racedirector():
 
 
 def main():
+    '''
     get_driverlist()
     get_racecalendar()
     get_leaderboard_short()
@@ -1212,8 +1215,9 @@ def main():
     get_leaderboard_full()
     get_licensepoint()
     get_lanusername()
+    '''
     get_seasonstats()
-    get_racedirector()
+    #get_racedirector()
     workbook.close()
 
 main()

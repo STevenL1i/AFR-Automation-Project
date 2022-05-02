@@ -2,7 +2,7 @@ import connectserver
 
 
 def checkracestatus():
-    db = connectserver.connectserver()
+    db = connectserver.connectserver("afec")
     cursor = db.cursor()
 
     while True:

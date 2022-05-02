@@ -1,8 +1,4 @@
-from datetime import datetime
-import connectserver
 
-db = connectserver.connectserver()
-cursor = db.cursor()
 
 class format:
     default = {}

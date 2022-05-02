@@ -11,7 +11,7 @@ def menu():
 
 
 def resettable():
-    db = connectserver.connectserver()
+    db = connectserver.connectserver("afr")
     cursor = db.cursor()
 
     query = "SELECT DISTINCT(Round), GP_CHN, GP_ENG FROM raceCalendar WHERE Round is not null;"
@@ -84,7 +84,7 @@ def resettable():
     del db
 
 def recalibreation(drivergroup:str):
-    db = connectserver.connectserver()
+    db = connectserver.connectserver("afr")
     cursor = db.cursor()
 
     racelist = []

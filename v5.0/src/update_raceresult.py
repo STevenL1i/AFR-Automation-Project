@@ -3,7 +3,7 @@ import upload_raceresult
 
 
 def update_raceresult():
-    db = connectserver.connectserver()
+    db = connectserver.connectserver("afr")
     cursor = db.cursor()
 
     # first search and delete the original result
