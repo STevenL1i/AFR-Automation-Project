@@ -10,14 +10,14 @@
             "request": "launch",
             //"program": "${workspaceFolder}/v5.0/dbmanager/dbmanager.py",
             //"cwd": "${workspaceFolder}/v5.0/dbmanager",
-            //"program": "${workspaceFolder}/v5.0/src/afr.py",
+            "program": "${workspaceFolder}/v5.0/src/afr.py",
             //"program": "${file}",
-            //"cwd": "${workspaceFolder}/v5.0/src",
+            "cwd": "${workspaceFolder}/v5.0/src",
 
             //"program": "${workspaceFolder}/v5.0/afec/dbmanager/dbmanager.py",
             //"cwd": "${workspaceFolder}/v5.0/afec/dbmanager",
-            "program": "${workspaceFolder}/v5.0/afec/src/afec.py",
-            "cwd": "${workspaceFolder}/v5.0/afec/src/",
+            //"program": "${workspaceFolder}/v5.0/afec/src/afec.py",
+            //"cwd": "${workspaceFolder}/v5.0/afec/src/",
             "console": "integratedTerminal"
         }
     ]

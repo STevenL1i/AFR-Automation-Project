@@ -1,751 +1,1249 @@
-('D:\\Documents\\Programming\\AFR Automation '
- 'Project\\v4.2\\src\\build\\afr\\PYZ-00.pyz',
- [('os', 'd:\\application\\python\\lib\\os.py', 'PYMODULE'),
-  ('subprocess', 'd:\\application\\python\\lib\\subprocess.py', 'PYMODULE'),
-  ('selectors', 'd:\\application\\python\\lib\\selectors.py', 'PYMODULE'),
-  ('contextlib', 'd:\\application\\python\\lib\\contextlib.py', 'PYMODULE'),
-  ('threading', 'd:\\application\\python\\lib\\threading.py', 'PYMODULE'),
-  ('_threading_local',
-   'd:\\application\\python\\lib\\_threading_local.py',
+('F:\\Document\\Programming\\AFR Automation '
+ 'Project\\v5.0\\src\\build\\afr\\PYZ-00.pyz',
+ [('os',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\os.py',
    'PYMODULE'),
-  ('signal', 'd:\\application\\python\\lib\\signal.py', 'PYMODULE'),
-  ('_strptime', 'd:\\application\\python\\lib\\_strptime.py', 'PYMODULE'),
-  ('datetime', 'd:\\application\\python\\lib\\datetime.py', 'PYMODULE'),
-  ('calendar', 'd:\\application\\python\\lib\\calendar.py', 'PYMODULE'),
-  ('argparse', 'd:\\application\\python\\lib\\argparse.py', 'PYMODULE'),
-  ('textwrap', 'd:\\application\\python\\lib\\textwrap.py', 'PYMODULE'),
-  ('shutil', 'd:\\application\\python\\lib\\shutil.py', 'PYMODULE'),
-  ('zipfile', 'd:\\application\\python\\lib\\zipfile.py', 'PYMODULE'),
-  ('py_compile', 'd:\\application\\python\\lib\\py_compile.py', 'PYMODULE'),
+  ('subprocess',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\subprocess.py',
+   'PYMODULE'),
+  ('selectors',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\selectors.py',
+   'PYMODULE'),
+  ('contextlib',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\contextlib.py',
+   'PYMODULE'),
+  ('threading',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\threading.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\_threading_local.py',
+   'PYMODULE'),
+  ('signal',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\signal.py',
+   'PYMODULE'),
+  ('_strptime',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\_strptime.py',
+   'PYMODULE'),
+  ('datetime',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\datetime.py',
+   'PYMODULE'),
+  ('calendar',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\calendar.py',
+   'PYMODULE'),
+  ('argparse',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\argparse.py',
+   'PYMODULE'),
+  ('textwrap',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\textwrap.py',
+   'PYMODULE'),
+  ('shutil',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\shutil.py',
+   'PYMODULE'),
+  ('zipfile',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\zipfile.py',
+   'PYMODULE'),
+  ('py_compile',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\py_compile.py',
+   'PYMODULE'),
   ('importlib.machinery',
-   'd:\\application\\python\\lib\\importlib\\machinery.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\machinery.py',
    'PYMODULE'),
   ('importlib',
-   'd:\\application\\python\\lib\\importlib\\__init__.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\__init__.py',
    'PYMODULE'),
   ('importlib.abc',
-   'd:\\application\\python\\lib\\importlib\\abc.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\abc.py',
    'PYMODULE'),
-  ('typing', 'd:\\application\\python\\lib\\typing.py', 'PYMODULE'),
+  ('typing',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\typing.py',
+   'PYMODULE'),
   ('importlib._bootstrap',
-   'd:\\application\\python\\lib\\importlib\\_bootstrap.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\_bootstrap.py',
    'PYMODULE'),
   ('importlib._bootstrap_external',
-   'd:\\application\\python\\lib\\importlib\\_bootstrap_external.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\_bootstrap_external.py',
    'PYMODULE'),
   ('importlib.metadata',
-   'd:\\application\\python\\lib\\importlib\\metadata.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\metadata.py',
    'PYMODULE'),
-  ('configparser', 'd:\\application\\python\\lib\\configparser.py', 'PYMODULE'),
-  ('pathlib', 'd:\\application\\python\\lib\\pathlib.py', 'PYMODULE'),
+  ('configparser',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\configparser.py',
+   'PYMODULE'),
+  ('pathlib',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\pathlib.py',
+   'PYMODULE'),
   ('urllib.parse',
-   'd:\\application\\python\\lib\\urllib\\parse.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\urllib\\parse.py',
    'PYMODULE'),
-  ('urllib', 'd:\\application\\python\\lib\\urllib\\__init__.py', 'PYMODULE'),
-  ('email', 'd:\\application\\python\\lib\\email\\__init__.py', 'PYMODULE'),
+  ('urllib',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('email',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\email\\__init__.py',
+   'PYMODULE'),
   ('email.parser',
-   'd:\\application\\python\\lib\\email\\parser.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\email\\parser.py',
    'PYMODULE'),
   ('email._policybase',
-   'd:\\application\\python\\lib\\email\\_policybase.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\email\\_policybase.py',
    'PYMODULE'),
-  ('email.utils', 'd:\\application\\python\\lib\\email\\utils.py', 'PYMODULE'),
+  ('email.utils',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\email\\utils.py',
+   'PYMODULE'),
   ('email._parseaddr',
-   'd:\\application\\python\\lib\\email\\_parseaddr.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\email\\_parseaddr.py',
    'PYMODULE'),
-  ('socket', 'd:\\application\\python\\lib\\socket.py', 'PYMODULE'),
-  ('random', 'd:\\application\\python\\lib\\random.py', 'PYMODULE'),
-  ('statistics', 'd:\\application\\python\\lib\\statistics.py', 'PYMODULE'),
-  ('decimal', 'd:\\application\\python\\lib\\decimal.py', 'PYMODULE'),
-  ('_pydecimal', 'd:\\application\\python\\lib\\_pydecimal.py', 'PYMODULE'),
-  ('contextvars', 'd:\\application\\python\\lib\\contextvars.py', 'PYMODULE'),
-  ('fractions', 'd:\\application\\python\\lib\\fractions.py', 'PYMODULE'),
-  ('numbers', 'd:\\application\\python\\lib\\numbers.py', 'PYMODULE'),
-  ('hashlib', 'd:\\application\\python\\lib\\hashlib.py', 'PYMODULE'),
-  ('logging', 'd:\\application\\python\\lib\\logging\\__init__.py', 'PYMODULE'),
-  ('pickle', 'd:\\application\\python\\lib\\pickle.py', 'PYMODULE'),
-  ('pprint', 'd:\\application\\python\\lib\\pprint.py', 'PYMODULE'),
-  ('doctest', 'd:\\application\\python\\lib\\doctest.py', 'PYMODULE'),
+  ('socket',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\socket.py',
+   'PYMODULE'),
+  ('random',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\random.py',
+   'PYMODULE'),
+  ('statistics',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\statistics.py',
+   'PYMODULE'),
+  ('decimal',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\decimal.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('contextvars',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\contextvars.py',
+   'PYMODULE'),
+  ('fractions',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\fractions.py',
+   'PYMODULE'),
+  ('numbers',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\numbers.py',
+   'PYMODULE'),
+  ('hashlib',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\hashlib.py',
+   'PYMODULE'),
+  ('logging',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('pickle',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\pickle.py',
+   'PYMODULE'),
+  ('pprint',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\pprint.py',
+   'PYMODULE'),
+  ('doctest',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\doctest.py',
+   'PYMODULE'),
   ('unittest',
-   'd:\\application\\python\\lib\\unittest\\__init__.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\unittest\\__init__.py',
    'PYMODULE'),
   ('unittest.async_case',
-   'd:\\application\\python\\lib\\unittest\\async_case.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\unittest\\async_case.py',
    'PYMODULE'),
-  ('asyncio', 'd:\\application\\python\\lib\\asyncio\\__init__.py', 'PYMODULE'),
+  ('asyncio',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\__init__.py',
+   'PYMODULE'),
   ('asyncio.unix_events',
-   'd:\\application\\python\\lib\\asyncio\\unix_events.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\unix_events.py',
    'PYMODULE'),
-  ('asyncio.log', 'd:\\application\\python\\lib\\asyncio\\log.py', 'PYMODULE'),
+  ('asyncio.log',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\log.py',
+   'PYMODULE'),
   ('asyncio.windows_events',
-   'd:\\application\\python\\lib\\asyncio\\windows_events.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\windows_events.py',
    'PYMODULE'),
   ('asyncio.windows_utils',
-   'd:\\application\\python\\lib\\asyncio\\windows_utils.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\windows_utils.py',
    'PYMODULE'),
-  ('tempfile', 'd:\\application\\python\\lib\\tempfile.py', 'PYMODULE'),
+  ('tempfile',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\tempfile.py',
+   'PYMODULE'),
   ('asyncio.selector_events',
-   'd:\\application\\python\\lib\\asyncio\\selector_events.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\selector_events.py',
    'PYMODULE'),
-  ('ssl', 'd:\\application\\python\\lib\\ssl.py', 'PYMODULE'),
-  ('base64', 'd:\\application\\python\\lib\\base64.py', 'PYMODULE'),
-  ('getopt', 'd:\\application\\python\\lib\\getopt.py', 'PYMODULE'),
+  ('ssl',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\ssl.py',
+   'PYMODULE'),
+  ('base64',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\base64.py',
+   'PYMODULE'),
+  ('getopt',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\getopt.py',
+   'PYMODULE'),
   ('asyncio.proactor_events',
-   'd:\\application\\python\\lib\\asyncio\\proactor_events.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\proactor_events.py',
    'PYMODULE'),
   ('asyncio.base_subprocess',
-   'd:\\application\\python\\lib\\asyncio\\base_subprocess.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\base_subprocess.py',
    'PYMODULE'),
   ('asyncio.threads',
-   'd:\\application\\python\\lib\\asyncio\\threads.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\threads.py',
    'PYMODULE'),
   ('asyncio.subprocess',
-   'd:\\application\\python\\lib\\asyncio\\subprocess.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\subprocess.py',
    'PYMODULE'),
   ('asyncio.streams',
-   'd:\\application\\python\\lib\\asyncio\\streams.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\streams.py',
    'PYMODULE'),
   ('asyncio.queues',
-   'd:\\application\\python\\lib\\asyncio\\queues.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\queues.py',
    'PYMODULE'),
   ('asyncio.runners',
-   'd:\\application\\python\\lib\\asyncio\\runners.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\runners.py',
    'PYMODULE'),
   ('asyncio.events',
-   'd:\\application\\python\\lib\\asyncio\\events.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\events.py',
    'PYMODULE'),
   ('asyncio.base_events',
-   'd:\\application\\python\\lib\\asyncio\\base_events.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\base_events.py',
    'PYMODULE'),
   ('concurrent.futures',
-   'd:\\application\\python\\lib\\concurrent\\futures\\__init__.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\concurrent\\futures\\__init__.py',
    'PYMODULE'),
   ('concurrent.futures.thread',
-   'd:\\application\\python\\lib\\concurrent\\futures\\thread.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\concurrent\\futures\\thread.py',
    'PYMODULE'),
-  ('queue', 'd:\\application\\python\\lib\\queue.py', 'PYMODULE'),
+  ('queue',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\queue.py',
+   'PYMODULE'),
   ('concurrent.futures.process',
-   'd:\\application\\python\\lib\\concurrent\\futures\\process.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\concurrent\\futures\\process.py',
    'PYMODULE'),
   ('multiprocessing.queues',
-   'd:\\application\\python\\lib\\multiprocessing\\queues.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\queues.py',
    'PYMODULE'),
   ('multiprocessing.synchronize',
-   'd:\\application\\python\\lib\\multiprocessing\\synchronize.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\synchronize.py',
    'PYMODULE'),
   ('multiprocessing.heap',
-   'd:\\application\\python\\lib\\multiprocessing\\heap.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\heap.py',
    'PYMODULE'),
   ('multiprocessing.resource_tracker',
-   'd:\\application\\python\\lib\\multiprocessing\\resource_tracker.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\resource_tracker.py',
    'PYMODULE'),
   ('multiprocessing.spawn',
-   'd:\\application\\python\\lib\\multiprocessing\\spawn.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\spawn.py',
    'PYMODULE'),
-  ('runpy', 'd:\\application\\python\\lib\\runpy.py', 'PYMODULE'),
-  ('pkgutil', 'd:\\application\\python\\lib\\pkgutil.py', 'PYMODULE'),
-  ('zipimport', 'd:\\application\\python\\lib\\zipimport.py', 'PYMODULE'),
+  ('runpy',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\runpy.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\pkgutil.py',
+   'PYMODULE'),
+  ('zipimport',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\zipimport.py',
+   'PYMODULE'),
   ('multiprocessing.process',
-   'd:\\application\\python\\lib\\multiprocessing\\process.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\process.py',
    'PYMODULE'),
   ('multiprocessing.util',
-   'd:\\application\\python\\lib\\multiprocessing\\util.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\util.py',
    'PYMODULE'),
   ('multiprocessing.forkserver',
-   'd:\\application\\python\\lib\\multiprocessing\\forkserver.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\forkserver.py',
    'PYMODULE'),
   ('multiprocessing.context',
-   'd:\\application\\python\\lib\\multiprocessing\\context.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\context.py',
    'PYMODULE'),
   ('multiprocessing.popen_spawn_win32',
-   'd:\\application\\python\\lib\\multiprocessing\\popen_spawn_win32.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\popen_spawn_win32.py',
    'PYMODULE'),
   ('multiprocessing.popen_forkserver',
-   'd:\\application\\python\\lib\\multiprocessing\\popen_forkserver.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\popen_forkserver.py',
    'PYMODULE'),
   ('multiprocessing.popen_spawn_posix',
-   'd:\\application\\python\\lib\\multiprocessing\\popen_spawn_posix.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\popen_spawn_posix.py',
    'PYMODULE'),
   ('multiprocessing.popen_fork',
-   'd:\\application\\python\\lib\\multiprocessing\\popen_fork.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\popen_fork.py',
    'PYMODULE'),
   ('multiprocessing.sharedctypes',
-   'd:\\application\\python\\lib\\multiprocessing\\sharedctypes.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\sharedctypes.py',
    'PYMODULE'),
-  ('ctypes', 'd:\\application\\python\\lib\\ctypes\\__init__.py', 'PYMODULE'),
+  ('ctypes',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\ctypes\\__init__.py',
+   'PYMODULE'),
   ('ctypes._endian',
-   'd:\\application\\python\\lib\\ctypes\\_endian.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\ctypes\\_endian.py',
    'PYMODULE'),
   ('multiprocessing.pool',
-   'd:\\application\\python\\lib\\multiprocessing\\pool.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\pool.py',
    'PYMODULE'),
   ('multiprocessing.dummy',
-   'd:\\application\\python\\lib\\multiprocessing\\dummy\\__init__.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\dummy\\__init__.py',
    'PYMODULE'),
   ('multiprocessing.dummy.connection',
-   'd:\\application\\python\\lib\\multiprocessing\\dummy\\connection.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\dummy\\connection.py',
    'PYMODULE'),
   ('multiprocessing.managers',
-   'd:\\application\\python\\lib\\multiprocessing\\managers.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\managers.py',
    'PYMODULE'),
   ('multiprocessing.shared_memory',
-   'd:\\application\\python\\lib\\multiprocessing\\shared_memory.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\shared_memory.py',
    'PYMODULE'),
-  ('secrets', 'd:\\application\\python\\lib\\secrets.py', 'PYMODULE'),
-  ('hmac', 'd:\\application\\python\\lib\\hmac.py', 'PYMODULE'),
+  ('secrets',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\secrets.py',
+   'PYMODULE'),
+  ('hmac',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\hmac.py',
+   'PYMODULE'),
   ('multiprocessing.reduction',
-   'd:\\application\\python\\lib\\multiprocessing\\reduction.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\reduction.py',
    'PYMODULE'),
   ('multiprocessing.resource_sharer',
-   'd:\\application\\python\\lib\\multiprocessing\\resource_sharer.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\resource_sharer.py',
    'PYMODULE'),
   ('multiprocessing.connection',
-   'd:\\application\\python\\lib\\multiprocessing\\connection.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\connection.py',
    'PYMODULE'),
   ('xmlrpc.client',
-   'd:\\application\\python\\lib\\xmlrpc\\client.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\xmlrpc\\client.py',
    'PYMODULE'),
-  ('xmlrpc', 'd:\\application\\python\\lib\\xmlrpc\\__init__.py', 'PYMODULE'),
-  ('gzip', 'd:\\application\\python\\lib\\gzip.py', 'PYMODULE'),
-  ('_compression', 'd:\\application\\python\\lib\\_compression.py', 'PYMODULE'),
+  ('xmlrpc',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\xmlrpc\\__init__.py',
+   'PYMODULE'),
+  ('gzip',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\gzip.py',
+   'PYMODULE'),
+  ('_compression',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\_compression.py',
+   'PYMODULE'),
   ('xml.parsers.expat',
-   'd:\\application\\python\\lib\\xml\\parsers\\expat.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\xml\\parsers\\expat.py',
    'PYMODULE'),
   ('xml.parsers',
-   'd:\\application\\python\\lib\\xml\\parsers\\__init__.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\xml\\parsers\\__init__.py',
    'PYMODULE'),
-  ('xml', 'd:\\application\\python\\lib\\xml\\__init__.py', 'PYMODULE'),
+  ('xml',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\xml\\__init__.py',
+   'PYMODULE'),
   ('xml.sax.expatreader',
-   'd:\\application\\python\\lib\\xml\\sax\\expatreader.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\xml\\sax\\expatreader.py',
    'PYMODULE'),
   ('xml.sax.saxutils',
-   'd:\\application\\python\\lib\\xml\\sax\\saxutils.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\xml\\sax\\saxutils.py',
    'PYMODULE'),
   ('urllib.request',
-   'd:\\application\\python\\lib\\urllib\\request.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\urllib\\request.py',
    'PYMODULE'),
-  ('getpass', 'd:\\application\\python\\lib\\getpass.py', 'PYMODULE'),
-  ('nturl2path', 'd:\\application\\python\\lib\\nturl2path.py', 'PYMODULE'),
-  ('ftplib', 'd:\\application\\python\\lib\\ftplib.py', 'PYMODULE'),
-  ('netrc', 'd:\\application\\python\\lib\\netrc.py', 'PYMODULE'),
-  ('shlex', 'd:\\application\\python\\lib\\shlex.py', 'PYMODULE'),
-  ('mimetypes', 'd:\\application\\python\\lib\\mimetypes.py', 'PYMODULE'),
+  ('getpass',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\getpass.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\nturl2path.py',
+   'PYMODULE'),
+  ('ftplib',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\ftplib.py',
+   'PYMODULE'),
+  ('netrc',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\netrc.py',
+   'PYMODULE'),
+  ('shlex',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\shlex.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\mimetypes.py',
+   'PYMODULE'),
   ('http.cookiejar',
-   'd:\\application\\python\\lib\\http\\cookiejar.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\http\\cookiejar.py',
    'PYMODULE'),
-  ('http', 'd:\\application\\python\\lib\\http\\__init__.py', 'PYMODULE'),
+  ('http',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\http\\__init__.py',
+   'PYMODULE'),
   ('urllib.response',
-   'd:\\application\\python\\lib\\urllib\\response.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\urllib\\response.py',
    'PYMODULE'),
   ('urllib.error',
-   'd:\\application\\python\\lib\\urllib\\error.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\urllib\\error.py',
    'PYMODULE'),
   ('xml.sax',
-   'd:\\application\\python\\lib\\xml\\sax\\__init__.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\xml\\sax\\__init__.py',
    'PYMODULE'),
   ('xml.sax.handler',
-   'd:\\application\\python\\lib\\xml\\sax\\handler.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\xml\\sax\\handler.py',
    'PYMODULE'),
   ('xml.sax._exceptions',
-   'd:\\application\\python\\lib\\xml\\sax\\_exceptions.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\xml\\sax\\_exceptions.py',
    'PYMODULE'),
   ('xml.sax.xmlreader',
-   'd:\\application\\python\\lib\\xml\\sax\\xmlreader.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\xml\\sax\\xmlreader.py',
    'PYMODULE'),
-  ('http.client', 'd:\\application\\python\\lib\\http\\client.py', 'PYMODULE'),
+  ('http.client',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\http\\client.py',
+   'PYMODULE'),
   ('email.message',
-   'd:\\application\\python\\lib\\email\\message.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\email\\message.py',
    'PYMODULE'),
   ('email.policy',
-   'd:\\application\\python\\lib\\email\\policy.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\email\\policy.py',
    'PYMODULE'),
   ('email.contentmanager',
-   'd:\\application\\python\\lib\\email\\contentmanager.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\email\\contentmanager.py',
    'PYMODULE'),
   ('email.quoprimime',
-   'd:\\application\\python\\lib\\email\\quoprimime.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\email\\quoprimime.py',
    'PYMODULE'),
   ('email.headerregistry',
-   'd:\\application\\python\\lib\\email\\headerregistry.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\email\\headerregistry.py',
    'PYMODULE'),
   ('email.iterators',
-   'd:\\application\\python\\lib\\email\\iterators.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\email\\iterators.py',
    'PYMODULE'),
   ('email.generator',
-   'd:\\application\\python\\lib\\email\\generator.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\email\\generator.py',
    'PYMODULE'),
   ('email._encoded_words',
-   'd:\\application\\python\\lib\\email\\_encoded_words.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\email\\_encoded_words.py',
    'PYMODULE'),
-  ('quopri', 'd:\\application\\python\\lib\\quopri.py', 'PYMODULE'),
-  ('uu', 'd:\\application\\python\\lib\\uu.py', 'PYMODULE'),
-  ('optparse', 'd:\\application\\python\\lib\\optparse.py', 'PYMODULE'),
+  ('quopri',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\quopri.py',
+   'PYMODULE'),
+  ('uu',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\uu.py',
+   'PYMODULE'),
+  ('optparse',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\optparse.py',
+   'PYMODULE'),
   ('multiprocessing',
-   'd:\\application\\python\\lib\\multiprocessing\\__init__.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\__init__.py',
    'PYMODULE'),
   ('concurrent.futures._base',
-   'd:\\application\\python\\lib\\concurrent\\futures\\_base.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\concurrent\\futures\\_base.py',
    'PYMODULE'),
   ('concurrent',
-   'd:\\application\\python\\lib\\concurrent\\__init__.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\concurrent\\__init__.py',
    'PYMODULE'),
   ('asyncio.trsock',
-   'd:\\application\\python\\lib\\asyncio\\trsock.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\trsock.py',
    'PYMODULE'),
   ('asyncio.staggered',
-   'd:\\application\\python\\lib\\asyncio\\staggered.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\staggered.py',
    'PYMODULE'),
   ('asyncio.tasks',
-   'd:\\application\\python\\lib\\asyncio\\tasks.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\tasks.py',
    'PYMODULE'),
   ('asyncio.base_tasks',
-   'd:\\application\\python\\lib\\asyncio\\base_tasks.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\base_tasks.py',
    'PYMODULE'),
   ('asyncio.locks',
-   'd:\\application\\python\\lib\\asyncio\\locks.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\locks.py',
    'PYMODULE'),
   ('asyncio.sslproto',
-   'd:\\application\\python\\lib\\asyncio\\sslproto.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\sslproto.py',
    'PYMODULE'),
   ('asyncio.transports',
-   'd:\\application\\python\\lib\\asyncio\\transports.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\transports.py',
    'PYMODULE'),
   ('asyncio.protocols',
-   'd:\\application\\python\\lib\\asyncio\\protocols.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\protocols.py',
    'PYMODULE'),
   ('asyncio.futures',
-   'd:\\application\\python\\lib\\asyncio\\futures.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\futures.py',
    'PYMODULE'),
   ('asyncio.exceptions',
-   'd:\\application\\python\\lib\\asyncio\\exceptions.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\exceptions.py',
    'PYMODULE'),
   ('asyncio.coroutines',
-   'd:\\application\\python\\lib\\asyncio\\coroutines.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\coroutines.py',
    'PYMODULE'),
   ('asyncio.base_futures',
-   'd:\\application\\python\\lib\\asyncio\\base_futures.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\base_futures.py',
    'PYMODULE'),
   ('asyncio.format_helpers',
-   'd:\\application\\python\\lib\\asyncio\\format_helpers.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\format_helpers.py',
    'PYMODULE'),
   ('asyncio.constants',
-   'd:\\application\\python\\lib\\asyncio\\constants.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\constants.py',
    'PYMODULE'),
   ('unittest.signals',
-   'd:\\application\\python\\lib\\unittest\\signals.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\unittest\\signals.py',
    'PYMODULE'),
   ('unittest.main',
-   'd:\\application\\python\\lib\\unittest\\main.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\unittest\\main.py',
    'PYMODULE'),
   ('unittest.runner',
-   'd:\\application\\python\\lib\\unittest\\runner.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\unittest\\runner.py',
    'PYMODULE'),
   ('unittest.loader',
-   'd:\\application\\python\\lib\\unittest\\loader.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\unittest\\loader.py',
    'PYMODULE'),
   ('unittest.suite',
-   'd:\\application\\python\\lib\\unittest\\suite.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\unittest\\suite.py',
    'PYMODULE'),
   ('unittest.case',
-   'd:\\application\\python\\lib\\unittest\\case.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\unittest\\case.py',
    'PYMODULE'),
   ('unittest._log',
-   'd:\\application\\python\\lib\\unittest\\_log.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\unittest\\_log.py',
    'PYMODULE'),
   ('unittest.result',
-   'd:\\application\\python\\lib\\unittest\\result.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\unittest\\result.py',
    'PYMODULE'),
   ('unittest.util',
-   'd:\\application\\python\\lib\\unittest\\util.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\unittest\\util.py',
    'PYMODULE'),
-  ('pdb', 'd:\\application\\python\\lib\\pdb.py', 'PYMODULE'),
-  ('pydoc', 'd:\\application\\python\\lib\\pydoc.py', 'PYMODULE'),
-  ('webbrowser', 'd:\\application\\python\\lib\\webbrowser.py', 'PYMODULE'),
-  ('http.server', 'd:\\application\\python\\lib\\http\\server.py', 'PYMODULE'),
-  ('socketserver', 'd:\\application\\python\\lib\\socketserver.py', 'PYMODULE'),
-  ('html', 'd:\\application\\python\\lib\\html\\__init__.py', 'PYMODULE'),
+  ('pdb',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\pdb.py',
+   'PYMODULE'),
+  ('pydoc',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\pydoc.py',
+   'PYMODULE'),
+  ('webbrowser',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\webbrowser.py',
+   'PYMODULE'),
+  ('http.server',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\http\\server.py',
+   'PYMODULE'),
+  ('socketserver',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\socketserver.py',
+   'PYMODULE'),
+  ('html',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\html\\__init__.py',
+   'PYMODULE'),
   ('html.entities',
-   'd:\\application\\python\\lib\\html\\entities.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\html\\entities.py',
    'PYMODULE'),
   ('pydoc_data.topics',
-   'd:\\application\\python\\lib\\pydoc_data\\topics.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\pydoc_data\\topics.py',
    'PYMODULE'),
   ('pydoc_data',
-   'd:\\application\\python\\lib\\pydoc_data\\__init__.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\pydoc_data\\__init__.py',
    'PYMODULE'),
-  ('tty', 'd:\\application\\python\\lib\\tty.py', 'PYMODULE'),
-  ('sysconfig', 'd:\\application\\python\\lib\\sysconfig.py', 'PYMODULE'),
-  ('_aix_support', 'd:\\application\\python\\lib\\_aix_support.py', 'PYMODULE'),
+  ('tty',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\tty.py',
+   'PYMODULE'),
+  ('sysconfig',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\sysconfig.py',
+   'PYMODULE'),
+  ('_aix_support',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\_aix_support.py',
+   'PYMODULE'),
   ('_bootsubprocess',
-   'd:\\application\\python\\lib\\_bootsubprocess.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\_bootsubprocess.py',
    'PYMODULE'),
-  ('_osx_support', 'd:\\application\\python\\lib\\_osx_support.py', 'PYMODULE'),
+  ('_osx_support',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\_osx_support.py',
+   'PYMODULE'),
   ('distutils.log',
-   'd:\\application\\python\\lib\\distutils\\log.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\log.py',
    'PYMODULE'),
   ('distutils',
-   'd:\\application\\python\\lib\\distutils\\__init__.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\__init__.py',
    'PYMODULE'),
   ('distutils.ccompiler',
-   'd:\\application\\python\\lib\\distutils\\ccompiler.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\ccompiler.py',
    'PYMODULE'),
   ('distutils.fancy_getopt',
-   'd:\\application\\python\\lib\\distutils\\fancy_getopt.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\fancy_getopt.py',
    'PYMODULE'),
   ('distutils.debug',
-   'd:\\application\\python\\lib\\distutils\\debug.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\debug.py',
    'PYMODULE'),
   ('distutils.util',
-   'd:\\application\\python\\lib\\distutils\\util.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\util.py',
    'PYMODULE'),
   ('distutils.filelist',
-   'd:\\application\\python\\lib\\distutils\\filelist.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\filelist.py',
    'PYMODULE'),
   ('distutils.dep_util',
-   'd:\\application\\python\\lib\\distutils\\dep_util.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\dep_util.py',
    'PYMODULE'),
   ('distutils.dir_util',
-   'd:\\application\\python\\lib\\distutils\\dir_util.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\dir_util.py',
    'PYMODULE'),
   ('distutils.file_util',
-   'd:\\application\\python\\lib\\distutils\\file_util.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\file_util.py',
    'PYMODULE'),
   ('distutils.spawn',
-   'd:\\application\\python\\lib\\distutils\\spawn.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\spawn.py',
    'PYMODULE'),
   ('distutils.errors',
-   'd:\\application\\python\\lib\\distutils\\errors.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\errors.py',
    'PYMODULE'),
   ('distutils.sysconfig',
-   'd:\\application\\python\\lib\\distutils\\sysconfig.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\sysconfig.py',
    'PYMODULE'),
   ('distutils.text_file',
-   'd:\\application\\python\\lib\\distutils\\text_file.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\text_file.py',
    'PYMODULE'),
-  ('platform', 'd:\\application\\python\\lib\\platform.py', 'PYMODULE'),
-  ('plistlib', 'd:\\application\\python\\lib\\plistlib.py', 'PYMODULE'),
-  ('glob', 'd:\\application\\python\\lib\\glob.py', 'PYMODULE'),
-  ('code', 'd:\\application\\python\\lib\\code.py', 'PYMODULE'),
-  ('codeop', 'd:\\application\\python\\lib\\codeop.py', 'PYMODULE'),
-  ('dis', 'd:\\application\\python\\lib\\dis.py', 'PYMODULE'),
-  ('opcode', 'd:\\application\\python\\lib\\opcode.py', 'PYMODULE'),
-  ('bdb', 'd:\\application\\python\\lib\\bdb.py', 'PYMODULE'),
-  ('cmd', 'd:\\application\\python\\lib\\cmd.py', 'PYMODULE'),
-  ('inspect', 'd:\\application\\python\\lib\\inspect.py', 'PYMODULE'),
-  ('token', 'd:\\application\\python\\lib\\token.py', 'PYMODULE'),
-  ('ast', 'd:\\application\\python\\lib\\ast.py', 'PYMODULE'),
-  ('difflib', 'd:\\application\\python\\lib\\difflib.py', 'PYMODULE'),
-  ('__future__', 'd:\\application\\python\\lib\\__future__.py', 'PYMODULE'),
+  ('platform',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\platform.py',
+   'PYMODULE'),
+  ('plistlib',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\plistlib.py',
+   'PYMODULE'),
+  ('glob',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\glob.py',
+   'PYMODULE'),
+  ('code',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\code.py',
+   'PYMODULE'),
+  ('codeop',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\codeop.py',
+   'PYMODULE'),
+  ('dis',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\dis.py',
+   'PYMODULE'),
+  ('opcode',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\opcode.py',
+   'PYMODULE'),
+  ('bdb',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\bdb.py',
+   'PYMODULE'),
+  ('cmd',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\cmd.py',
+   'PYMODULE'),
+  ('inspect',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\inspect.py',
+   'PYMODULE'),
+  ('token',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\token.py',
+   'PYMODULE'),
+  ('ast',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\ast.py',
+   'PYMODULE'),
+  ('difflib',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\difflib.py',
+   'PYMODULE'),
+  ('__future__',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\__future__.py',
+   'PYMODULE'),
   ('_compat_pickle',
-   'd:\\application\\python\\lib\\_compat_pickle.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\_compat_pickle.py',
    'PYMODULE'),
-  ('string', 'd:\\application\\python\\lib\\string.py', 'PYMODULE'),
-  ('bisect', 'd:\\application\\python\\lib\\bisect.py', 'PYMODULE'),
+  ('string',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\string.py',
+   'PYMODULE'),
+  ('bisect',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\bisect.py',
+   'PYMODULE'),
   ('email.feedparser',
-   'd:\\application\\python\\lib\\email\\feedparser.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\email\\feedparser.py',
    'PYMODULE'),
   ('email._header_value_parser',
-   'd:\\application\\python\\lib\\email\\_header_value_parser.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\email\\_header_value_parser.py',
    'PYMODULE'),
   ('email.header',
-   'd:\\application\\python\\lib\\email\\header.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\email\\header.py',
    'PYMODULE'),
   ('email.base64mime',
-   'd:\\application\\python\\lib\\email\\base64mime.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\email\\base64mime.py',
    'PYMODULE'),
   ('email.charset',
-   'd:\\application\\python\\lib\\email\\charset.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\email\\charset.py',
    'PYMODULE'),
   ('email.encoders',
-   'd:\\application\\python\\lib\\email\\encoders.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\email\\encoders.py',
    'PYMODULE'),
   ('email.errors',
-   'd:\\application\\python\\lib\\email\\errors.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\email\\errors.py',
    'PYMODULE'),
-  ('csv', 'd:\\application\\python\\lib\\csv.py', 'PYMODULE'),
-  ('struct', 'd:\\application\\python\\lib\\struct.py', 'PYMODULE'),
+  ('csv',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\csv.py',
+   'PYMODULE'),
+  ('tokenize',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\tokenize.py',
+   'PYMODULE'),
+  ('struct',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\struct.py',
+   'PYMODULE'),
   ('importlib.util',
-   'd:\\application\\python\\lib\\importlib\\util.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\util.py',
    'PYMODULE'),
-  ('tarfile', 'd:\\application\\python\\lib\\tarfile.py', 'PYMODULE'),
-  ('lzma', 'd:\\application\\python\\lib\\lzma.py', 'PYMODULE'),
-  ('bz2', 'd:\\application\\python\\lib\\bz2.py', 'PYMODULE'),
-  ('fnmatch', 'd:\\application\\python\\lib\\fnmatch.py', 'PYMODULE'),
-  ('copy', 'd:\\application\\python\\lib\\copy.py', 'PYMODULE'),
-  ('gettext', 'd:\\application\\python\\lib\\gettext.py', 'PYMODULE'),
-  ('ntpath', 'd:\\application\\python\\lib\\ntpath.py', 'PYMODULE'),
-  ('genericpath', 'd:\\application\\python\\lib\\genericpath.py', 'PYMODULE'),
-  ('posixpath', 'd:\\application\\python\\lib\\posixpath.py', 'PYMODULE'),
-  ('stat', 'd:\\application\\python\\lib\\stat.py', 'PYMODULE'),
-  ('tracemalloc', 'd:\\application\\python\\lib\\tracemalloc.py', 'PYMODULE'),
-  ('_py_abc', 'd:\\application\\python\\lib\\_py_abc.py', 'PYMODULE'),
-  ('stringprep', 'd:\\application\\python\\lib\\stringprep.py', 'PYMODULE'),
+  ('tarfile',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\tarfile.py',
+   'PYMODULE'),
+  ('lzma',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\lzma.py',
+   'PYMODULE'),
+  ('bz2',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\bz2.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\fnmatch.py',
+   'PYMODULE'),
+  ('copy',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\copy.py',
+   'PYMODULE'),
+  ('gettext',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\gettext.py',
+   'PYMODULE'),
+  ('ntpath',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\ntpath.py',
+   'PYMODULE'),
+  ('genericpath',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\genericpath.py',
+   'PYMODULE'),
+  ('posixpath',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\posixpath.py',
+   'PYMODULE'),
+  ('stat',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\stat.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\_py_abc.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('stringprep',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\stringprep.py',
+   'PYMODULE'),
   ('RaceResultTable',
-   'D:\\Documents\\Programming\\AFR Automation '
-   'Project\\v4.2\\src\\RaceResultTable.py',
+   'F:\\Document\\Programming\\AFR Automation '
+   'Project\\v5.0\\src\\RaceResultTable.py',
    'PYMODULE'),
   ('ref_format',
-   'D:\\Documents\\Programming\\AFR Automation '
-   'Project\\v4.2\\src\\ref_format.py',
+   'F:\\Document\\Programming\\AFR Automation '
+   'Project\\v5.0\\src\\ref_format.py',
    'PYMODULE'),
   ('ref_dict',
-   'D:\\Documents\\Programming\\AFR Automation Project\\v4.2\\src\\ref_dict.py',
+   'F:\\Document\\Programming\\AFR Automation Project\\v5.0\\src\\ref_dict.py',
    'PYMODULE'),
   ('connectserver',
-   'D:\\Documents\\Programming\\AFR Automation '
-   'Project\\v4.2\\src\\connectserver.py',
+   'F:\\Document\\Programming\\AFR Automation '
+   'Project\\v5.0\\src\\connectserver.py',
    'PYMODULE'),
   ('mysql.connector',
-   'd:\\application\\python\\lib\\site-packages\\mysql\\connector\\__init__.py',
-   'PYMODULE'),
-  ('mysql.connector.fabric',
-   'd:\\application\\python\\lib\\site-packages\\mysql\\connector\\fabric\\__init__.py',
-   'PYMODULE'),
-  ('mysql.connector.fabric.connection',
-   'd:\\application\\python\\lib\\site-packages\\mysql\\connector\\fabric\\connection.py',
-   'PYMODULE'),
-  ('mysql.connector.catch23',
-   'd:\\application\\python\\lib\\site-packages\\mysql\\connector\\catch23.py',
-   'PYMODULE'),
-  ('mysql.connector.custom_types',
-   'd:\\application\\python\\lib\\site-packages\\mysql\\connector\\custom_types.py',
-   'PYMODULE'),
-  ('mysql.connector.fabric.balancing',
-   'd:\\application\\python\\lib\\site-packages\\mysql\\connector\\fabric\\balancing.py',
-   'PYMODULE'),
-  ('mysql.connector.fabric.caching',
-   'd:\\application\\python\\lib\\site-packages\\mysql\\connector\\fabric\\caching.py',
-   'PYMODULE'),
-  ('mysql.connector.cursor',
-   'd:\\application\\python\\lib\\site-packages\\mysql\\connector\\cursor.py',
-   'PYMODULE'),
-  ('mysql.connector.abstracts',
-   'd:\\application\\python\\lib\\site-packages\\mysql\\connector\\abstracts.py',
-   'PYMODULE'),
-  ('mysql.connector.conversion',
-   'd:\\application\\python\\lib\\site-packages\\mysql\\connector\\conversion.py',
-   'PYMODULE'),
-  ('uuid', 'd:\\application\\python\\lib\\uuid.py', 'PYMODULE'),
-  ('mysql',
-   'd:\\application\\python\\lib\\site-packages\\mysql\\__init__.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\mysql\\connector\\__init__.py',
    'PYMODULE'),
   ('mysql.connector.pooling',
-   'd:\\application\\python\\lib\\site-packages\\mysql\\connector\\pooling.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\mysql\\connector\\pooling.py',
+   'PYMODULE'),
+  ('uuid',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\uuid.py',
+   'PYMODULE'),
+  ('mysql',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\mysql\\__init__.py',
    'PYMODULE'),
   ('mysql.connector.optionfiles',
-   'd:\\application\\python\\lib\\site-packages\\mysql\\connector\\optionfiles.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\mysql\\connector\\optionfiles.py',
    'PYMODULE'),
   ('mysql.connector.dbapi',
-   'd:\\application\\python\\lib\\site-packages\\mysql\\connector\\dbapi.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\mysql\\connector\\dbapi.py',
    'PYMODULE'),
   ('mysql.connector.constants',
-   'd:\\application\\python\\lib\\site-packages\\mysql\\connector\\constants.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\mysql\\connector\\constants.py',
    'PYMODULE'),
   ('mysql.connector.charsets',
-   'd:\\application\\python\\lib\\site-packages\\mysql\\connector\\charsets.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\mysql\\connector\\charsets.py',
    'PYMODULE'),
   ('mysql.connector.connection',
-   'd:\\application\\python\\lib\\site-packages\\mysql\\connector\\connection.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\mysql\\connector\\connection.py',
+   'PYMODULE'),
+  ('mysql.connector.abstracts',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\mysql\\connector\\abstracts.py',
    'PYMODULE'),
   ('mysql.connector.protocol',
-   'd:\\application\\python\\lib\\site-packages\\mysql\\connector\\protocol.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\mysql\\connector\\protocol.py',
    'PYMODULE'),
   ('mysql.connector.network',
-   'd:\\application\\python\\lib\\site-packages\\mysql\\connector\\network.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\mysql\\connector\\network.py',
+   'PYMODULE'),
+  ('mysql.connector.cursor',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\mysql\\connector\\cursor.py',
+   'PYMODULE'),
+  ('mysql.connector.conversion',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\mysql\\connector\\conversion.py',
+   'PYMODULE'),
+  ('mysql.connector.custom_types',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\mysql\\connector\\custom_types.py',
    'PYMODULE'),
   ('mysql.connector.authentication',
-   'd:\\application\\python\\lib\\site-packages\\mysql\\connector\\authentication.py',
-   'PYMODULE'),
-  ('mysql.connector.version',
-   'd:\\application\\python\\lib\\site-packages\\mysql\\connector\\version.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\mysql\\connector\\authentication.py',
    'PYMODULE'),
   ('mysql.connector.connection_cext',
-   'd:\\application\\python\\lib\\site-packages\\mysql\\connector\\connection_cext.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\mysql\\connector\\connection_cext.py',
    'PYMODULE'),
   ('mysql.connector.cursor_cext',
-   'd:\\application\\python\\lib\\site-packages\\mysql\\connector\\cursor_cext.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\mysql\\connector\\cursor_cext.py',
+   'PYMODULE'),
+  ('mysql.connector.version',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\mysql\\connector\\version.py',
    'PYMODULE'),
   ('mysql.connector.errors',
-   'd:\\application\\python\\lib\\site-packages\\mysql\\connector\\errors.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\mysql\\connector\\errors.py',
    'PYMODULE'),
   ('mysql.connector.locales',
-   'd:\\application\\python\\lib\\site-packages\\mysql\\connector\\locales\\__init__.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\mysql\\connector\\locales\\__init__.py',
    'PYMODULE'),
   ('mysql.connector.errorcode',
-   'd:\\application\\python\\lib\\site-packages\\mysql\\connector\\errorcode.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\mysql\\connector\\errorcode.py',
    'PYMODULE'),
   ('mysql.connector.utils',
-   'd:\\application\\python\\lib\\site-packages\\mysql\\connector\\utils.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\mysql\\connector\\utils.py',
    'PYMODULE'),
-  ('json', 'd:\\application\\python\\lib\\json\\__init__.py', 'PYMODULE'),
+  ('json',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\json\\__init__.py',
+   'PYMODULE'),
   ('json.encoder',
-   'd:\\application\\python\\lib\\json\\encoder.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\json\\encoder.py',
    'PYMODULE'),
   ('json.decoder',
-   'd:\\application\\python\\lib\\json\\decoder.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\json\\decoder.py',
    'PYMODULE'),
   ('json.scanner',
-   'd:\\application\\python\\lib\\json\\scanner.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\json\\scanner.py',
    'PYMODULE'),
   ('xlsxwriter',
-   'd:\\application\\python\\lib\\site-packages\\xlsxwriter\\__init__.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\__init__.py',
    'PYMODULE'),
   ('xlsxwriter.workbook',
-   'd:\\application\\python\\lib\\site-packages\\xlsxwriter\\workbook.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\workbook.py',
    'PYMODULE'),
   ('xlsxwriter.exceptions',
-   'd:\\application\\python\\lib\\site-packages\\xlsxwriter\\exceptions.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\exceptions.py',
    'PYMODULE'),
   ('xlsxwriter.chart_stock',
-   'd:\\application\\python\\lib\\site-packages\\xlsxwriter\\chart_stock.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\chart_stock.py',
    'PYMODULE'),
   ('xlsxwriter.chart_scatter',
-   'd:\\application\\python\\lib\\site-packages\\xlsxwriter\\chart_scatter.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\chart_scatter.py',
    'PYMODULE'),
   ('xlsxwriter.chart_radar',
-   'd:\\application\\python\\lib\\site-packages\\xlsxwriter\\chart_radar.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\chart_radar.py',
    'PYMODULE'),
   ('xlsxwriter.chart_line',
-   'd:\\application\\python\\lib\\site-packages\\xlsxwriter\\chart_line.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\chart_line.py',
    'PYMODULE'),
   ('xlsxwriter.chart_doughnut',
-   'd:\\application\\python\\lib\\site-packages\\xlsxwriter\\chart_doughnut.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\chart_doughnut.py',
    'PYMODULE'),
   ('xlsxwriter.chart_column',
-   'd:\\application\\python\\lib\\site-packages\\xlsxwriter\\chart_column.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\chart_column.py',
    'PYMODULE'),
   ('xlsxwriter.chart_bar',
-   'd:\\application\\python\\lib\\site-packages\\xlsxwriter\\chart_bar.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\chart_bar.py',
    'PYMODULE'),
   ('xlsxwriter.chart_area',
-   'd:\\application\\python\\lib\\site-packages\\xlsxwriter\\chart_area.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\chart_area.py',
    'PYMODULE'),
   ('xlsxwriter.utility',
-   'd:\\application\\python\\lib\\site-packages\\xlsxwriter\\utility.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\utility.py',
    'PYMODULE'),
   ('xlsxwriter.packager',
-   'd:\\application\\python\\lib\\site-packages\\xlsxwriter\\packager.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\packager.py',
    'PYMODULE'),
   ('xlsxwriter.comments',
-   'd:\\application\\python\\lib\\site-packages\\xlsxwriter\\comments.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\comments.py',
    'PYMODULE'),
   ('xlsxwriter.table',
-   'd:\\application\\python\\lib\\site-packages\\xlsxwriter\\table.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\table.py',
    'PYMODULE'),
   ('xlsxwriter.vml',
-   'd:\\application\\python\\lib\\site-packages\\xlsxwriter\\vml.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\vml.py',
    'PYMODULE'),
   ('xlsxwriter.theme',
-   'd:\\application\\python\\lib\\site-packages\\xlsxwriter\\theme.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\theme.py',
    'PYMODULE'),
   ('xlsxwriter.styles',
-   'd:\\application\\python\\lib\\site-packages\\xlsxwriter\\styles.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\styles.py',
    'PYMODULE'),
   ('xlsxwriter.relationships',
-   'd:\\application\\python\\lib\\site-packages\\xlsxwriter\\relationships.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\relationships.py',
    'PYMODULE'),
   ('xlsxwriter.metadata',
-   'd:\\application\\python\\lib\\site-packages\\xlsxwriter\\metadata.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\metadata.py',
    'PYMODULE'),
   ('xlsxwriter.custom',
-   'd:\\application\\python\\lib\\site-packages\\xlsxwriter\\custom.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\custom.py',
    'PYMODULE'),
   ('xlsxwriter.core',
-   'd:\\application\\python\\lib\\site-packages\\xlsxwriter\\core.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\core.py',
    'PYMODULE'),
   ('xlsxwriter.contenttypes',
-   'd:\\application\\python\\lib\\site-packages\\xlsxwriter\\contenttypes.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\contenttypes.py',
    'PYMODULE'),
   ('xlsxwriter.app',
-   'd:\\application\\python\\lib\\site-packages\\xlsxwriter\\app.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\app.py',
    'PYMODULE'),
   ('xlsxwriter.format',
-   'd:\\application\\python\\lib\\site-packages\\xlsxwriter\\format.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\format.py',
    'PYMODULE'),
   ('xlsxwriter.sharedstrings',
-   'd:\\application\\python\\lib\\site-packages\\xlsxwriter\\sharedstrings.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\sharedstrings.py',
    'PYMODULE'),
   ('xlsxwriter.chartsheet',
-   'd:\\application\\python\\lib\\site-packages\\xlsxwriter\\chartsheet.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\chartsheet.py',
    'PYMODULE'),
   ('xlsxwriter.drawing',
-   'd:\\application\\python\\lib\\site-packages\\xlsxwriter\\drawing.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\drawing.py',
    'PYMODULE'),
   ('xlsxwriter.shape',
-   'd:\\application\\python\\lib\\site-packages\\xlsxwriter\\shape.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\shape.py',
    'PYMODULE'),
   ('xlsxwriter.worksheet',
-   'd:\\application\\python\\lib\\site-packages\\xlsxwriter\\worksheet.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\worksheet.py',
+   'PYMODULE'),
+  ('xlsxwriter.compatibility',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\compatibility.py',
    'PYMODULE'),
   ('xlsxwriter.chart_pie',
-   'd:\\application\\python\\lib\\site-packages\\xlsxwriter\\chart_pie.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\chart_pie.py',
    'PYMODULE'),
   ('xlsxwriter.chart',
-   'd:\\application\\python\\lib\\site-packages\\xlsxwriter\\chart.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\chart.py',
    'PYMODULE'),
   ('xlsxwriter.xmlwriter',
-   'd:\\application\\python\\lib\\site-packages\\xlsxwriter\\xmlwriter.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\xmlwriter.py',
    'PYMODULE'),
   ('ClassificationTable',
-   'D:\\Documents\\Programming\\AFR Automation '
-   'Project\\v4.2\\src\\ClassificationTable.py',
+   'F:\\Document\\Programming\\AFR Automation '
+   'Project\\v5.0\\src\\ClassificationTable.py',
    'PYMODULE'),
   ('update_raceresult',
-   'D:\\Documents\\Programming\\AFR Automation '
-   'Project\\v4.2\\src\\update_raceresult.py',
+   'F:\\Document\\Programming\\AFR Automation '
+   'Project\\v5.0\\src\\update_raceresult.py',
    'PYMODULE'),
   ('update_qualiresult',
-   'D:\\Documents\\Programming\\AFR Automation '
-   'Project\\v4.2\\src\\update_qualiresult.py',
+   'F:\\Document\\Programming\\AFR Automation '
+   'Project\\v5.0\\src\\update_qualiresult.py',
    'PYMODULE'),
   ('checkracestatus',
-   'D:\\Documents\\Programming\\AFR Automation '
-   'Project\\v4.2\\src\\checkracestatus.py',
+   'F:\\Document\\Programming\\AFR Automation '
+   'Project\\v5.0\\src\\checkracestatus.py',
    'PYMODULE'),
   ('pointsrecalibration',
-   'D:\\Documents\\Programming\\AFR Automation '
-   'Project\\v4.2\\src\\pointsrecalibration.py',
+   'F:\\Document\\Programming\\AFR Automation '
+   'Project\\v5.0\\src\\pointsrecalibration.py',
    'PYMODULE'),
   ('flvalidator',
-   'D:\\Documents\\Programming\\AFR Automation '
-   'Project\\v4.2\\src\\flvalidator.py',
+   'F:\\Document\\Programming\\AFR Automation '
+   'Project\\v5.0\\src\\flvalidator.py',
    'PYMODULE'),
   ('upload_racedirector',
-   'D:\\Documents\\Programming\\AFR Automation '
-   'Project\\v4.2\\src\\upload_racedirector.py',
+   'F:\\Document\\Programming\\AFR Automation '
+   'Project\\v5.0\\src\\upload_racedirector.py',
    'PYMODULE'),
   ('tkinter.filedialog',
-   'd:\\application\\python\\lib\\tkinter\\filedialog.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\tkinter\\filedialog.py',
    'PYMODULE'),
   ('tkinter.simpledialog',
-   'd:\\application\\python\\lib\\tkinter\\simpledialog.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\tkinter\\simpledialog.py',
    'PYMODULE'),
   ('tkinter.messagebox',
-   'd:\\application\\python\\lib\\tkinter\\messagebox.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\tkinter\\messagebox.py',
    'PYMODULE'),
   ('tkinter.commondialog',
-   'd:\\application\\python\\lib\\tkinter\\commondialog.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\tkinter\\commondialog.py',
    'PYMODULE'),
   ('tkinter.dialog',
-   'd:\\application\\python\\lib\\tkinter\\dialog.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\tkinter\\dialog.py',
    'PYMODULE'),
-  ('tkinter', 'd:\\application\\python\\lib\\tkinter\\__init__.py', 'PYMODULE'),
+  ('tkinter',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\tkinter\\__init__.py',
+   'PYMODULE'),
   ('tkinter.constants',
-   'd:\\application\\python\\lib\\tkinter\\constants.py',
+   'c:\\users\\steven '
+   'li\\appdata\\local\\programs\\python\\python39\\lib\\tkinter\\constants.py',
    'PYMODULE'),
   ('upload_raceresult',
-   'D:\\Documents\\Programming\\AFR Automation '
-   'Project\\v4.2\\src\\upload_raceresult.py',
+   'F:\\Document\\Programming\\AFR Automation '
+   'Project\\v5.0\\src\\upload_raceresult.py',
    'PYMODULE'),
   ('upload_qualiresult',
-   'D:\\Documents\\Programming\\AFR Automation '
-   'Project\\v4.2\\src\\upload_qualiresult.py',
+   'F:\\Document\\Programming\\AFR Automation '
+   'Project\\v5.0\\src\\upload_qualiresult.py',
    'PYMODULE'),
   ('upload_transferdriver',
-   'D:\\Documents\\Programming\\AFR Automation '
-   'Project\\v4.2\\src\\upload_transferdriver.py',
+   'F:\\Document\\Programming\\AFR Automation '
+   'Project\\v5.0\\src\\upload_transferdriver.py',
    'PYMODULE'),
   ('upload_newdriver',
-   'D:\\Documents\\Programming\\AFR Automation '
-   'Project\\v4.2\\src\\upload_newdriver.py',
+   'F:\\Document\\Programming\\AFR Automation '
+   'Project\\v5.0\\src\\upload_newdriver.py',
    'PYMODULE')])

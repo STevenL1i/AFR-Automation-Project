@@ -24,8 +24,11 @@ def flvalidator(resultlist:list):
         gp = driver[3]
         finishposition = driver[5]
         status = driver[7]
+        driverfl = driver[6]
+        if driverfl == None:
+            driverfl = "9:59.999"
 
-        if driver[6] < fl: # driver[6] = thefl
+        if driverfl < fl: # driver[6] = thefl
             fl = driver[6]
             fldriver = driver[0]
             flteam = driver[1]
