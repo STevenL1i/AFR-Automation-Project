@@ -141,7 +141,8 @@ def recalibreation():
                         WHERE team = "{team}";'
                 cursor.execute(query)
 
-            gpkey = gpkey[:-2]
+                gpkey = gpkey[:-2]
+                
             # marking the license point board
             query = f'SELECT {gpkey} FROM licensePoint WHERE driverName = "{drivername}";'
             cursor.execute(query)

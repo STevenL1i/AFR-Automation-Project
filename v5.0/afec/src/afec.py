@@ -12,7 +12,7 @@ import update_raceresult
 # import RaceResultTable
 
 while True:
-    print("欢迎来到AFR联赛积分管理系统(AFEC verision) (v4.2)")
+    print("欢迎来到AFR联赛积分管理系统(AFEC verision) (v5.0)")
     print()
     print("1.上传排位赛成绩")   # checked
     print("2.上传正赛成绩")   # checked
