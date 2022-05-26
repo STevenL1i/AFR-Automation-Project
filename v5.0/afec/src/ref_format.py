@@ -169,6 +169,13 @@ class format:
         ooffff.set_align("vcenter")
         this.driverformat["#00FFFF"] = ooffff
 
+        c191970f = workbook.add_format({"font_size":11})
+        c191970f.set_bg_color("#191970")
+        c191970f.set_font_color("#FFFFFF")
+        c191970f.set_font_name("Dengxian")
+        c191970f.set_align("vcenter")
+        this.driverformat["191970"] = c191970f
+
 
 
         reservef = workbook.add_format({"font_size":11})
@@ -257,6 +264,13 @@ class format:
         ooffff.set_font_name("Dengxian")
         ooffff.set_align("vcenter")
         this.teamformat["#00FFFF"] = ooffff
+
+        c191970f = workbook.add_format({"font_size":11})
+        c191970f.set_bg_color("#191970")
+        c191970f.set_font_color("#FFFFFF")
+        c191970f.set_font_name("Dengxian")
+        c191970f.set_align("vcenter")
+        this.teamformat["191970"] = c191970f
         
 
         reservef = workbook.add_format({"font_size":11})
