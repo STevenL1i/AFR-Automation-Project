@@ -1,0 +1,735 @@
+driverGroup,GP,finishPosition,driverName,team,startPosition,fastestLap,gap,driverStatus
+A1,Bahrain,1,zbk,Ferrari,3,1:29.902,+1.330,FINISHED
+A1,Bahrain,2,banana,Reserve,2,1:29.918,+3.208,FINISHED
+A1,Bahrain,3,Irene,Alpine,7,1:29.527,+8.485,FINISHED
+A1,Bahrain,4,Kimi810,Haas,12,1:28.691,+10.262,FINISHED
+A1,Bahrain,5,Quick Nick,McLaren,10,1:30.016,+13.086,FINISHED
+A1,Bahrain,6,Alick,McLaren,6,1:30.049,+13.553,FINISHED
+A1,Bahrain,7,Head brother,Red Bull Racing,9,1:30.039,+14.177,FINISHED
+A1,Bahrain,8,Siesta,Alpha Tauri,13,1:28.183,+18.681,FINISHED
+A1,Bahrain,9,mushimu,Alpine,16,1:28.067,+19.465,FINISHED
+A1,Bahrain,10,Wang.BC,Reserve,15,1:29.903,+28.012,FINISHED
+A1,Bahrain,11,Livistar,Alfa Romeo,11,1:29.138,+35.921,FINISHED
+A1,Bahrain,12,Meat_Lu,Alfa Romeo,5,1:29.986,+45.659,FINISHED
+A1,Bahrain,13,Jakewislet,Reserve,8,1:28.393,+2 Laps,FINISHED
+A1,Bahrain,14,smallsmallBKB,Mercedes AMG,17,1:29.517,DNF,RETIRED
+A1,Bahrain,15,Jer.KK,Mercedes AMG,4,1:29.324,DNF,RETIRED
+A1,Bahrain,16,015 GW,Red Bull Racing,14,1:31.220,DNF,RETIRED
+A1,Bahrain,17,LHAM66,Reserve,18,1:30.919,DNF,RETIRED
+A1,Bahrain,18,shotsbaldwin,Alpha Tauri,19,1:30.490,DNF,RETIRED
+A1,Bahrain,19,whiteGX5,Aston Martin,20,1:54.903,DNF,RETIRED
+A1,Bahrain,20,Maldonado,Ferrari,1,1:29.362,,DSQ
+A2,Bahrain,1,guagua,Alpha Tauri,2,1:29.975,,FINISHED
+A2,Bahrain,2,XD_SKYrim,Reserve,3,1:29.808,+3.249,FINISHED
+A2,Bahrain,3,Seb V5,Reserve,4,1:30.514,+11.613,FINISHED
+A2,Bahrain,4,Syhb,McLaren,5,1:30.178,+12.507,FINISHED
+A2,Bahrain,5,LugoBox,Williams,9,1:30.195,+20.831,FINISHED
+A2,Bahrain,6,m4,Reserve,8,1:30.086,+28.515,FINISHED
+A2,Bahrain,7,LINGJ,Alpine,13,1:28.949,+31.284,FINISHED
+A2,Bahrain,8,Blue,Reserve,1,1:30.579,+34.172,FINISHED
+A2,Bahrain,9,SouLCause,Reserve,6,1:30.675,+56.620,FINISHED
+A2,Bahrain,10,reggiesun,Reserve,15,1:31.331,+76.097,FINISHED
+A2,Bahrain,11,BiuAninA,Reserve,7,1:29.272,+93.212,FINISHED
+A2,Bahrain,12,ARTIST,Reserve,10,1:30.742,+1 Lap,FINISHED
+A2,Bahrain,13,CaiHong,Red Bull Racing,16,1:30.457,+1 Lap,FINISHED
+A2,Bahrain,14,JamesMay,Red Bull Racing,19,1:31.549,+1 Lap,FINISHED
+A2,Bahrain,15,Zeno,Reserve,20,1:30.882,+1 Lap,FINISHED
+A2,Bahrain,16,Zhouzhou,Ferrari,18,1:31.609,+2 Laps,FINISHED
+A2,Bahrain,17,mikko,Alpine,17,1:30.213,+3 Laps,FINISHED
+A2,Bahrain,18,MarkDudek,Williams,12,1:29.395,DNF,RETIRED
+A2,Bahrain,19,iu272,McLaren,14,1:30.357,DNF,RETIRED
+A2,Bahrain,20,STeven L2i,Alpha Tauri,11,1:30.571,DNF,RETIRED
+A1,Saudi Arabia,1,LHAM66,Reserve,2,1:30.132,,FINISHED
+A1,Saudi Arabia,2,banana,Reserve,1,1:30.657,+0.136,FINISHED
+A1,Saudi Arabia,3,015 GW,Red Bull Racing,3,1:29.956,+15.443,FINISHED
+A1,Saudi Arabia,4,wofa,Reserve,13,1:29.487,+26.470,FINISHED
+A1,Saudi Arabia,5,Mysery:D,Williams,19,1:30.248,+30.738,FINISHED
+A1,Saudi Arabia,6,whiteGX5,Aston Martin,18,1:29.475,+33.774,FINISHED
+A1,Saudi Arabia,7,mushimu,Alpine,10,1:31.008,+45.292,FINISHED
+A1,Saudi Arabia,8,ZghosT,McLaren,20,1:31.298,+53.323,FINISHED
+A1,Saudi Arabia,9,Irene,Alpine,7,1:31.307,+54.075,FINISHED
+A1,Saudi Arabia,10,zbk,Ferrari,4,1:28.777,+66.580,FINISHED
+A1,Saudi Arabia,11,Meat_Lu,Alfa Romeo,12,1:31.625,+68.423,FINISHED
+A1,Saudi Arabia,12,Jakewislet,Williams,6,1:29.384,+89.960,FINISHED
+A1,Saudi Arabia,13,lucylsy,Haas,15,1:29.348,+3 Laps,RETIRED
+A1,Saudi Arabia,14,Head brother,Red Bull Racing,11,1:30.559,DNF,RETIRED
+A1,Saudi Arabia,15,yueye,Aston Martin,14,1:31.029,DNF,RETIRED
+A1,Saudi Arabia,16,Alick,McLaren,5,1:31.298,DNF,RETIRED
+A1,Saudi Arabia,17,shotsbaldwin,Alpha Tauri,17,1:31.601,DNF,RETIRED
+A1,Saudi Arabia,18,Siesta,Alpha Tauri,9,1:30.706,DNF,RETIRED
+A1,Saudi Arabia,19,Livistar,Alfa Romeo,16,1:37.709,DNF,RETIRED
+A1,Saudi Arabia,20,Maldonado,Ferrari,8,1:30.832,DSQ,DSQ
+A2,Saudi Arabia,1,STeven L2i,Alpha Tauri,1,1:31.259,,FINISHED
+A2,Saudi Arabia,2,Kvwowv,Reserve,6,1:31.439,+9.651,FINISHED
+A2,Saudi Arabia,3,BlackStar11,Ferrari,4,1:31.159,+23.028,FINISHED
+A2,Saudi Arabia,4,Syhb,McLaren,7,1:31.697,+25.052,FINISHED
+A2,Saudi Arabia,5,SouLCause,Reserve,5,1:29.983,+41.481,FINISHED
+A2,Saudi Arabia,6,Seb V5,Haas,2,1:31.535,+1 Lap,FINISHED
+A2,Saudi Arabia,7,CaiHong,Red Bull Racing,9,1:31.262,+1 Lap,FINISHED
+A2,Saudi Arabia,8,User Jarvis,Haas,10,1:31.140,+1 Lap,FINISHED
+A2,Saudi Arabia,9,m4,Alpha Tauri,12,1:30.491,DNF,RETIRED
+A2,Saudi Arabia,10,LINGJ,Alpine,8,1:33.249,DNF,RETIRED
+A2,Saudi Arabia,11,mikko,Alpine,11,1:32.841,DNF,RETIRED
+A2,Saudi Arabia,12,Jixiaoxiang,Reserve,3,1:34.113,DNF,RETIRED
+A2,Saudi Arabia,13,iu272,McLaren,13,1:43.088,DNF,RETIRED
+A1,San Marino,1,Quick Nick,McLaren,6,1:17.078,,FINISHED
+A1,San Marino,2,Head brother,Red Bull Racing,3,1:17.636,+4.867,FINISHED
+A1,San Marino,3,zbk,Ferrari,7,1:17.054,+9.890,FINISHED
+A1,San Marino,4,Alick,McLaren,8,1:17.398,+13.057,FINISHED
+A1,San Marino,5,mushimu,Alpine,9,1:17.445,+15.709,FINISHED
+A1,San Marino,6,Kimi810,Haas,14,1:17.420,+16.239,FINISHED
+A1,San Marino,7,lucylsy,Haas,5,1:16.796,+20.462,FINISHED
+A1,San Marino,8,LHAM66,Reserve,15,1:16.383,+25.524,FINISHED
+A1,San Marino,9,015 GW,Red Bull Racing,13,1:15.878,+39.101,FINISHED
+A1,San Marino,10,Jakewislet,Williams,19,1:18.262,+58.039,FINISHED
+A1,San Marino,11,Irene,Alpine,18,1:17.837,+63.006,FINISHED
+A1,San Marino,12,Wu.YC,Reserve,11,1:17.574,+63.877,FINISHED
+A1,San Marino,13,Meat_Lu,Alfa Romeo,12,1:17.431,+1 Lap,FINISHED
+A1,San Marino,14,DJH,Reserve,16,1:15.693,+2 Laps,FINISHED
+A1,San Marino,15,BBLLAY,Reserve,17,1:16.037,DNF,RETIRED
+A1,San Marino,16,Wang.BC,Reserve,1,1:16.956,DNF,RETIRED
+A1,San Marino,17,Mysery:D,Williams,2,1:17.675,DNF,RETIRED
+A1,San Marino,18,whiteGX5,Aston Martin,10,1:18.268,DNF,RETIRED
+A1,San Marino,19,wofa,Ferrari,4,1:18.316,DNF,RETIRED
+A2,San Marino,1,Legal,Ferrari,1,1:17.193,,FINISHED
+A2,San Marino,2,STeven L2i,Alpha Tauri,4,1:17.974,+22.962,FINISHED
+A2,San Marino,3,BlackStar11,Ferrari,5,1:17.403,+40.485,FINISHED
+A2,San Marino,4,guagua,Alpha Tauri,3,1:18.100,+43.056,FINISHED
+A2,San Marino,5,Kvwowv,Reserve,6,1:18.353,+46.007,FINISHED
+A2,San Marino,6,MarkDudek,Williams,16,1:18.110,+69.676,FINISHED
+A2,San Marino,7,LugoBox,Williams,18,1:19.609,+1 Lap,FINISHED
+A2,San Marino,8,ARTIST,Reserve,12,1:19.422,+1 Lap,FINISHED
+A2,San Marino,9,CaiHong,Red Bull Racing,9,1:18.644,+1 Lap,FINISHED
+A2,San Marino,10,Joji-,Mercedes AMG,7,1:17.128,+1 Lap,FINISHED
+A2,San Marino,11,otaku-chicken,Mercedes AMG,15,1:18.319,+1 Lap,FINISHED
+A2,San Marino,12,User Jarvis,Haas,13,1:18.278,+1 Lap,FINISHED
+A2,San Marino,13,perstappen,Alpine,17,1:16.895,+2 Laps,FINISHED
+A2,San Marino,14,JamesMay,Red Bull Racing,10,1:16.436,+2 Laps,FINISHED
+A2,San Marino,15,LINGJ,Alpine,14,1:17.584,+3 Laps,DNF
+A2,San Marino,16,Seb V5,Haas,2,1:17.290,DNF,RETIRED
+A2,San Marino,17,magpie,Reserve,19,1:19.498,DNF,RETIRED
+A2,San Marino,18,m4,Reserve,11,1:19.215,DNF,RETIRED
+A2,San Marino,19,SouLCause,Reserve,8,1:18.384,DSQ,DSQ
+A2,San Marino,20,lambo_leung,Reserve,20,1:19.499,DSQ,DSQ
+A1,Portugal,1,whiteGX5,Aston Martin,17,1:18.063,,FINISHED
+A1,Portugal,2,Head brother,Red Bull Racing,2,1:18.744,+4.321,FINISHED
+A1,Portugal,3,mushimu,Alpine,4,1:18.715,+7.463,FINISHED
+A1,Portugal,4,zbk,Ferrari,3,1:18.684,+10.996,FINISHED
+A1,Portugal,5,Quick Nick,McLaren,7,1:18.631,+16.999,FINISHED
+A1,Portugal,6,Kimi810,Haas,19,1:18.190,+18.452,FINISHED
+A1,Portugal,7,Irene,Alpine,1,1:18.914,+21.230,FINISHED
+A1,Portugal,8,Livistar,Alfa Romeo,11,1:18.789,+26.546,FINISHED
+A1,Portugal,9,Jer.KK,Mercedes AMG,6,1:18.849,+33.529,FINISHED
+A1,Portugal,10,Mysery:D,Williams,9,1:19.271,+35.309,FINISHED
+A1,Portugal,11,lucylsy,Haas,5,1:19.173,+41.342,FINISHED
+A1,Portugal,12,Owen Li,Reserve,16,1:19.828,+68.850,FINISHED
+A1,Portugal,13,smallsmallBKB,Mercedes AMG,10,1:18.678,+69.689,FINISHED
+A1,Portugal,14,BBLLAY,Reserve,14,1:20.406,+1 Lap,FINISHED
+A1,Portugal,15,wofa,Ferrari,15,1:17.586,+1 Lap,FINISHED
+A1,Portugal,16,Meat_Lu,Alfa Romeo,13,1:19.173,DNF,RETIRED
+A1,Portugal,17,Jakewislet,Williams,12,,DNF,RETIRED
+A1,Portugal,18,Wu.YC,Reserve,18,1:19.682,DNF,DSQ
+A1,Portugal,19,Wang.BC,Reserve,8,1:18.981,DNF,DSQ
+A2,Portugal,1,BlackStar11,Ferrari,8,1:18.001,,FINISHED
+A2,Portugal,2,Legal,Ferrari,2,1:18.738,+4.045,FINISHED
+A2,Portugal,3,STeven L2i,Alpha Tauri,16,1:18.707,+13.329,FINISHED
+A2,Portugal,4,otaku-chicken,Mercedes AMG,1,1:19.298,+17.063,FINISHED
+A2,Portugal,5,m4,Alpha Tauri,7,1:19.307,+20.681,FINISHED
+A2,Portugal,6,MarkDudek,Williams,9,1:19.312,+26.450,FINISHED
+A2,Portugal,7,XD_SKYrim,Reserve,12,1:18.283,+50.139,FINISHED
+A2,Portugal,8,Syhb,McLaren,14,1:19.347,+53.147,FINISHED
+A2,Portugal,9,LugoBox,Williams,15,1:20.335,+61.089,FINISHED
+A2,Portugal,10,CaiHong,Red Bull Racing,11,1:19.797,+83.932,FINISHED
+A2,Portugal,11,Joji-,Mercedes AMG,13,1:19.738,+90.597,FINISHED
+A2,Portugal,12,lambo_leung,Reserve,18,1:20.111,+92.592,FINISHED
+A2,Portugal,13,LINGJ,Alpine,10,1:19.203,+3 Laps,DNF
+A2,Portugal,14,SouLCause,Reserve,5,1:19.140,+6 Laps,DNF
+A2,Portugal,15,ARTIST,Reserve,17,1:19.557,DNF,RETIRED
+A2,Portugal,16,iu272,McLaren,20,1:21.115,DNF,RETIRED
+A2,Portugal,17,Seb V5,Haas,3,1:19.505,DNF,RETIRED
+A2,Portugal,18,JamesMay,Red Bull Racing,6,1:19.964,DNF,RETIRED
+A2,Portugal,19,perstappen,Alpine,4,1:22.932,DNF,RETIRED
+A2,Portugal,20,User Jarvis,Haas,19,1:20.163,DNF,DSQ
+A1,Azerbaijan,1,Legal,Alfa Romeo R1,3,1:42.037,,FINISHED
+A1,Azerbaijan,2,mushimu,Alpine,19,1:42.156,+20.632,FINISHED
+A1,Azerbaijan,3,guagua,Alpha Tauri,7,1:41.665,+20.900,FINISHED
+A1,Azerbaijan,4,Head brother,Red Bull Racing,10,1:40.273,+21.407,FINISHED
+A1,Azerbaijan,5,Jer.KK,Mercedes AMG,4,1:40.291,+43.792,FINISHED
+A1,Azerbaijan,6,32,Reserve,9,1:42.377,+65.226,FINISHED
+A1,Azerbaijan,7,wofa,Ferrari,16,1:42.731,+66.489,FINISHED
+A1,Azerbaijan,8,BlackStar11,Alfa Romeo R1,8,1:42.440,+94.111,FINISHED
+A1,Azerbaijan,9,Mysery:D,Williams,6,1:43.217,+1 Lap,FINISHED
+A1,Azerbaijan,10,Jakewislet,Williams,18,1:42.968,+1 Lap,FINISHED
+A1,Azerbaijan,11,Irene,Alpine,2,1:53.249,+3 Laps,DNF
+A1,Azerbaijan,12,BBLLAY,Reserve,17,1:46.171,DNF,RETIRED
+A1,Azerbaijan,13,Kimi810,Haas,14,1:54.054,DNF,RETIRED
+A1,Azerbaijan,14,lucylsy,Haas,5,2:01.580,DNF,RETIRED
+A1,Azerbaijan,15,Siesta,Alpha Tauri,11,1:53.382,DNF,RETIRED
+A1,Azerbaijan,16,015 GW,Red Bull Racing,13,1:54.941,DNF,RETIRED
+A1,Azerbaijan,17,yueye,Aston Martin,12,1:57.316,DNF,RETIRED
+A1,Azerbaijan,18,whiteGX5,Aston Martin,20,1:57.676,DNF,RETIRED
+A1,Azerbaijan,19,Wang.BC,Reserve,15,2:10.815,DNF,RETIRED
+A1,Azerbaijan,20,zbk,Ferrari,1,1:59.476,DNF,RETIRED
+A2,Azerbaijan,1,STeven L2i,Alpha Tauri,4,1:41.144,,FINISHED
+A2,Azerbaijan,2,m4,Alpha Tauri,9,1:41.050,+11.364,FINISHED
+A2,Azerbaijan,3,XD_SKYrim,Reserve,17,1:42.725,+31.799,FINISHED
+A2,Azerbaijan,4,JamesMay,Red Bull Racing,11,1:41.746,+35.222,FINISHED
+A2,Azerbaijan,5,Seb V5,Haas,1,1:42.428,+54.695,FINISHED
+A2,Azerbaijan,6,SouLCause,Reserve,2,1:42.816,+60.230,FINISHED
+A2,Azerbaijan,7,perstappen,Alpine,5,1:40.889,+63.007,FINISHED
+A2,Azerbaijan,8,CaiHong,Red Bull Racing,16,1:42.226,+64.068,FINISHED
+A2,Azerbaijan,9,Syhb,McLaren,6,1:43.071,+100.082,FINISHED
+A2,Azerbaijan,10,lambo_leung,Alfa Romeo,13,1:44.056,+1 Lap,FINISHED
+A2,Azerbaijan,11,mikko,Alpine,15,1:43.753,+2 Laps,FINISHED
+A2,Azerbaijan,12,iu272,McLaren,12,1:43.991,DNF,RETIRED
+A2,Azerbaijan,13,MarkDudek,Williams,7,1:42.423,DNF,RETIRED
+A2,Azerbaijan,14,Joji-,Mercedes AMG,3,1:42.183,DNF,RETIRED
+A2,Azerbaijan,15,Meat_Lu,Ferrari R1,8,1:43.451,DNF,RETIRED
+A2,Azerbaijan,16,MemoryFrom16,Reserve,18,1:43.858,DNF,RETIRED
+A2,Azerbaijan,17,ARTIST,Reserve,10,1:46.414,DNF,RETIRED
+A2,Azerbaijan,18,legendary_aqi_didi,Alfa Romeo,14,1:59.481,DNF,RETIRED
+A2,Azerbaijan,19,Nick,Reserve,19,1:45.181,+1 Lap,DSQ
+A1,Canada,1,h0,Reserve,1,1:09.710,,FINISHED
+A1,Canada,2,Siesta,Alpha Tauri,4,1:11.250,+11.858,FINISHED
+A1,Canada,3,Kimi810,Haas,2,1:11.291,+13.910,FINISHED
+A1,Canada,4,Jer.KK,Mercedes AMG,7,1:11.396,+26.288,FINISHED
+A1,Canada,5,015 GW,Red Bull Racing,8,1:10.634,+28.026,FINISHED
+A1,Canada,6,Head brother,Red Bull Racing,9,1:11.125,+28.639,FINISHED
+A1,Canada,7,wofa,Ferrari,3,1:11.088,+30.099,FINISHED
+A1,Canada,8,zbk,Ferrari,5,1:11.400,+32.384,FINISHED
+A1,Canada,9,Asuka,Reserve,10,1:11.217,+35.452,FINISHED
+A1,Canada,10,guagua,Alpha Tauri,12,1:10.977,+46.248,FINISHED
+A1,Canada,11,yueye,Aston Martin,17,1:10.875,+56.967,FINISHED
+A1,Canada,12,Legal,Alfa Romeo R1,6,1:11.089,+27.048,FINISHED
+A1,Canada,13,lucylsy,Haas,16,1:11.233,+62.591,FINISHED
+A1,Canada,14,mushimu,Alpine,14,1:09.968,+3 Laps,DNF
+A1,Canada,15,32,Reserve,15,1:12.270,DNF,RETIRED
+A1,Canada,16,Seb V5,Team AFR2,11,1:13.457,DNF,RETIRED
+A1,Canada,17,BBLLAY,Reserve,13,1:22.189,DNF,RETIRED
+A2,Canada,1,m4,Alpha Tauri,15,1:11.177,,FINISHED
+A2,Canada,2,Meat_Lu,Ferrari R1,3,1:11.128,+10.262,FINISHED
+A2,Canada,3,Livistar,Ferrari R1,2,1:12.189,+10.897,FINISHED
+A2,Canada,4,Seb V5,Haas,1,1:11.080,+14.949,FINISHED
+A2,Canada,5,SouLCause,Reserve,10,1:12.569,+22.612,FINISHED
+A2,Canada,6,JamesMay,Red Bull Racing,6,1:11.950,+29.597,FINISHED
+A2,Canada,7,otaku-chicken,Mercedes AMG,8,1:12.181,+31.489,FINISHED
+A2,Canada,8,Joji-,Mercedes AMG,4,1:12.579,+35.498,FINISHED
+A2,Canada,9,mikko,Alpine,16,1:13.055,+48.359,FINISHED
+A2,Canada,10,perstappen,Alpine,11,1:13.054,+50.575,FINISHED
+A2,Canada,11,reggiesun,Reserve,13,1:14.148,+1 Lap,FINISHED
+A2,Canada,12,wasd,Reserve,14,1:12.432,+1 Lap,FINISHED
+A2,Canada,13,CaiHong,Red Bull Racing,9,1:12.808,+1 Lap,FINISHED
+A2,Canada,14,legendary_aqi_didi,Alfa Romeo,7,1:12.347,+1 Lap,FINISHED
+A2,Canada,15,User Jarvis,Haas,19,1:13.073,+1 Lap,FINISHED
+A2,Canada,16,lambo_leung,Alfa Romeo,18,1:12.883,+3 Laps,DNF
+A2,Canada,17,LugoBox,Williams,5,1:12.194,DNF,RETIRED
+A2,Canada,18,STeven L2i,Alpha Tauri,17,1:11.902,DNF,RETIRED
+A2,Canada,19,iu272,McLaren,20,1:12.994,DNF,RETIRED
+A2,Canada,20,Ayanami,Reserve,12,1:13.028,DNF,RETIRED
+A1,France,1,zbk,Ferrari,1,1:32.199,,FINISHED
+A1,France,2,LHAM66,Reserve,10,1:32.866,+0.062,FINISHED
+A1,France,3,guagua,Alpha Tauri,3,1:32.816,+2.738,FINISHED
+A1,France,4,Jer.KK,Mercedes AMG,4,1:32.867,+3.660,FINISHED
+A1,France,5,wofa,Ferrari,14,1:32.438,+13.949,FINISHED
+A1,France,6,Kimi810,Haas,2,1:33.131,+14.075,FINISHED
+A1,France,7,yueye,Aston Martin,7,1:33.137,+18.857,FINISHED
+A1,France,8,BBLLAY,Reserve,13,1:33.379,+27.141,FINISHED
+A1,France,9,Irene,Alpine,8,1:33.409,+31.138,FINISHED
+A1,France,10,Baltteri Vottas,Reserve,5,1:31.598,+32.601,FINISHED
+A1,France,11,Wang.BC,Reserve,16,1:32.394,+40.376,FINISHED
+A1,France,12,Quick Nick,McLaren,19,1:32.629,+42.360,FINISHED
+A1,France,13,Legal,Alfa Romeo R1,18,1:32.346,+49.405,FINISHED
+A1,France,14,smallsmallBKB,Mercedes AMG,17,1:32.177,+51.654,FINISHED
+A1,France,15,Mysery:D,Williams,6,1:30.530,+74.449,FINISHED
+A1,France,16,Head brother,Red Bull Racing,11,1:31.968,+3 Laps,RETIRED
+A1,France,17,32,Reserve,9,1:32.645,DNF,RETIRED
+A1,France,18,lucylsy,Haas,12,,DNF,RETIRED
+A1,France,19,h0,Reserve,15,,DNF,RETIRED
+A2,France,1,Seb V5,Haas,3,1:33.116,+3.161,FINISHED
+A2,France,2,Meat_Lu,Ferrari R1,1,1:33.330,+10.000,FINISHED
+A2,France,3,Yuyuko,Aston Martin,11,1:31.989,+10.827,FINISHED
+A2,France,4,Livistar,Ferrari R1,6,1:33.518,+14.868,FINISHED
+A2,France,5,Syhb,McLaren,8,1:33.889,+17.602,FINISHED
+A2,France,6,otaku-chicken,Mercedes AMG,12,1:33.153,+30.047,FINISHED
+A2,France,7,m4,Alpha Tauri,19,1:33.122,+44.004,FINISHED
+A2,France,8,CaiHong,Red Bull Racing,17,1:32.686,+48.912,FINISHED
+A2,France,9,SouLCause,Reserve,5,1:31.913,+55.142,FINISHED
+A2,France,10,Joji-,Mercedes AMG,16,1:33.306,+61.444,FINISHED
+A2,France,11,MarkDudek,Williams,4,1:34.233,+78.245,FINISHED
+A2,France,12,LugoBox,Williams,9,1:33.057,+86.829,FINISHED
+A2,France,13,perstappen,Alpine,7,1:33.614,+100.473,FINISHED
+A2,France,14,lambo_leung,Alfa Romeo,13,1:34.570,+1 Lap,FINISHED
+A2,France,15,legendary_aqi_didi,Alfa Romeo,18,1:34.139,+2 Laps,FINISHED
+A2,France,16,STeven L2i,Alpha Tauri,2,1:33.530,+2 Laps,FINISHED
+A2,France,17,mikko,Alpine,20,1:33.127,+3 Laps,DNF
+A2,France,18,iu272,McLaren,10,1:34.002,DNF,RETIRED
+A2,France,19,ARTIST,Reserve,15,1:35.250,DNF,RETIRED
+A2,France,20,JamesMay,Red Bull Racing,14,1:34.583,DNF,RETIRED
+A1,Austria,1,h0,Mercedes AMG,1,1:06.130,,FINISHED
+A1,Austria,2,Quick Nick,McLaren,6,1:06.757,+11.665,FINISHED
+A1,Austria,3,mushimu,Alpine,13,1:07.120,+13.223,FINISHED
+A1,Austria,4,Head brother,Red Bull Racing,2,1:06.200,+25.411,FINISHED
+A1,Austria,5,BlackStar11,Alfa Romeo R1,9,1:06.822,+45.421,FINISHED
+A1,Austria,6,Alick,McLaren,14,1:07.146,+45.938,FINISHED
+A1,Austria,7,zbk,Ferrari,3,1:06.775,+46.273,FINISHED
+A1,Austria,8,Legal,Alfa Romeo R1,12,1:07.435,+55.313,FINISHED
+A1,Austria,9,Irene,Alpine,19,1:07.609,+60.734,FINISHED
+A1,Austria,10,Asuka,Reserve,20,1:07.474,+71.794,FINISHED
+A1,Austria,11,lucylsy,Haas,11,1:07.786,+73.241,FINISHED
+A1,Austria,12,Jer.KK,Mercedes AMG,16,1:07.427,+78.190,FINISHED
+A1,Austria,13,Mysery:D,Williams,17,1:06.536,+1 Lap,FINISHED
+A1,Austria,14,whiteGX5,Aston Martin,15,1:06.702,+1 Lap,FINISHED
+A1,Austria,15,yueye,Aston Martin,5,1:06.375,+2 Laps,FINISHED
+A1,Austria,16,guagua,Alpha Tauri,8,1:07.411,DNF,RETIRED
+A1,Austria,17,Jakewislet,Williams,10,1:06.860,DNF,RETIRED
+A1,Austria,18,wofa,Ferrari,4,1:06.772,DNF,RETIRED
+A1,Austria,19,LHAM66,Reserve,7,1:07.229,DNF,RETIRED
+A1,Austria,20,32,Reserve,18,1:20.349,DNF,RETIRED
+A2,Austria,1,Seb V5,Haas,2,1:06.176,,FINISHED
+A2,Austria,2,m4,Alpha Tauri,5,1:06.100,+6.276,FINISHED
+A2,Austria,3,Blue,Reserve,10,1:05.941,+22.723,FINISHED
+A2,Austria,4,Even,Reserve,8,1:06.332,+26.138,FINISHED
+A2,Austria,5,MarkDudek,Williams,11,1:06.367,+29.684,FINISHED
+A2,Austria,6,Joji-,Mercedes AMG,4,1:06.493,+32.924,FINISHED
+A2,Austria,7,LugoBox,Williams,12,1:06.793,+57.220,FINISHED
+A2,Austria,8,ARTIST,Reserve,13,1:07.066,+57.568,FINISHED
+A2,Austria,9,Syhb,McLaren,1,1:05.508,+64.720,FINISHED
+A2,Austria,10,Yuyuko,Aston Martin,20,1:06.930,+67.366,FINISHED
+A2,Austria,11,legendary_aqi_didi,Alfa Romeo,16,1:07.312,+68.379,FINISHED
+A2,Austria,12,Livistar,Ferrari R1,19,1:06.119,+70.746,FINISHED
+A2,Austria,13,otaku-chicken,Mercedes AMG,7,1:05.258,+1 Lap,FINISHED
+A2,Austria,14,iu272,McLaren,6,1:07.379,+1 Lap,FINISHED
+A2,Austria,15,CaiHong,Red Bull Racing,15,1:06.155,+1 Lap,FINISHED
+A2,Austria,16,LINGJ,Alpine,14,1:06.553,DNF,RETIRED
+A2,Austria,17,lambo_leung,Alfa Romeo,18,1:06.411,DNF,RETIRED
+A2,Austria,18,Ayanami,Aston Martin,17,1:07.097,DNF,RETIRED
+A2,Austria,19,STeven L2i,Alpha Tauri,3,1:06.914,DNF,RETIRED
+A2,Austria,20,Meat_Lu,Ferrari R1,9,1:06.577,DNF,RETIRED
+A3,Austria,1,XD_SKYrim,Team AFR3,1,1:05.586,,FINISHED
+A3,Austria,2,SBSDAVET,Team AFR3,6,1:06.633,+4.653,FINISHED
+A3,Austria,3,wasd,Team AFR3,2,1:06.104,+9.687,FINISHED
+A3,Austria,4,MemoryFrom16,Team AFR3,10,1:06.436,+15.096,FINISHED
+A3,Austria,5,Nick,Team AFR3,7,1:06.325,+19.043,FINISHED
+A3,Austria,6,Mike.XYL,Team AFR3,8,1:06.840,+23.752,FINISHED
+A3,Austria,7,User Jarvis,Team AFR3,9,1:06.120,+29.002,FINISHED
+A3,Austria,8,Wack.Y,Team AFR3,5,1:07.030,+30.555,FINISHED
+A3,Austria,9,mikko,Team AFR3,3,1:06.130,+30.869,FINISHED
+A3,Austria,10,magpie,Team AFR3,4,1:06.614,DNF,RETIRED
+A1,Britain,1,h0,Reserve,1,1:28.103,,FINISHED
+A1,Britain,2,LHAM66,Reserve,3,1:28.573,+3.457,FINISHED
+A1,Britain,3,Legal,Alfa Romeo R1,11,1:28.604,+4.747,FINISHED
+A1,Britain,4,mushimu,Alpine,4,1:28.885,+5.946,FINISHED
+A1,Britain,5,Jer.KK,Mercedes AMG,8,1:28.582,+6.936,FINISHED
+A1,Britain,6,Zdr2K,Reserve,5,1:28.797,+9.541,FINISHED
+A1,Britain,7,Kimi810,Haas,7,1:28.895,+9.687,FINISHED
+A1,Britain,8,zbk,Ferrari,2,1:28.446,+9.867,FINISHED
+A1,Britain,9,Head brother,Red Bull Racing,10,1:28.953,+16.938,FINISHED
+A1,Britain,10,guagua,Alpha Tauri,6,1:29.121,+19.236,FINISHED
+A1,Britain,11,Quick Nick,McLaren,13,1:28.653,+21.125,FINISHED
+A1,Britain,12,Asuka,Reserve,17,1:28.461,+23.123,FINISHED
+A1,Britain,13,smallsmallBKB,Mercedes AMG,16,1:28.963,+23.459,FINISHED
+A1,Britain,14,Alick,McLaren,9,1:28.644,+24.063,FINISHED
+A1,Britain,15,Wang.BC,Reserve,12,1:28.869,+24.708,FINISHED
+A1,Britain,16,Seb V5,Team AFR2,14,1:28.460,+25.565,FINISHED
+A1,Britain,17,BBLLAY,Aston Martin,18,1:29.129,+25.806,FINISHED
+A1,Britain,18,lucylsy,Haas,15,1:28.948,+26.636,FINISHED
+A1,Britain,19,Wilson Leclerc,Reserve,19,,,DNS
+A2,Britain,1,Livistar,Ferrari R1,9,1:29.263,+5.963,FINISHED
+A2,Britain,2,Meat_Lu,Ferrari R1,5,1:29.419,+9.397,FINISHED
+A2,Britain,3,Blue,Reserve,2,1:29.453,+11.605,FINISHED
+A2,Britain,4,XD_SKYrim,Team AFR3,12,1:28.889,+12.345,FINISHED
+A2,Britain,5,Yuyuko,Aston Martin,4,1:29.187,+15.036,FINISHED
+A2,Britain,6,STeven L2i,Alpha Tauri,6,1:29.382,+18.011,FINISHED
+A2,Britain,7,Seb V5,Haas,1,1:28.614,+35.000,FINISHED
+A2,Britain,8,MarkDudek,Williams,18,1:29.558,+54.580,FINISHED
+A2,Britain,9,iu272,McLaren,11,1:29.860,+71.365,FINISHED
+A2,Britain,10,ARTIST,Reserve,14,1:29.957,+77.505,FINISHED
+A2,Britain,11,CaiHong,Red Bull Racing,13,1:30.036,+1 Lap,FINISHED
+A2,Britain,12,lambo_leung,Team AFR3,17,1:32.725,DNF,RETIRED
+A2,Britain,13,Even,Reserve,3,1:28.631,DNF,RETIRED
+A2,Britain,14,perstappen,Alpine,10,1:29.905,DNF,RETIRED
+A2,Britain,15,SouLCause,Reserve,7,1:29.924,DNF,RETIRED
+A2,Britain,16,m4,Alpha Tauri,8,1:29.837,DNF,RETIRED
+A2,Britain,17,LugoBox,Williams,16,,DNF,RETIRED
+A2,Britain,18,Syhb,McLaren,19,,DNF,RETIRED
+A2,Britain,19,Joji-,Mercedes AMG,15,1:29.440,+28.840,DSQ
+A3,Britain,1,XD_SKYrim,Team AFR3,1,1:28.881,,FINISHED
+A3,Britain,2,LINGJ,Team AFR3,2,1:29.550,+0.764,FINISHED
+A3,Britain,3,magpie,Team AFR3,11,1:29.128,+10.731,FINISHED
+A3,Britain,4,Nick,Team AFR3,4,1:30.142,+13.175,FINISHED
+A3,Britain,5,MemoryFrom16,Team AFR3,10,1:29.511,+15.020,FINISHED
+A3,Britain,6,User Jarvis,Team AFR3,4,1:29.935,+19.971,FINISHED
+A3,Britain,7,Mike.XYL,Team AFR3,5,1:30.083,+24.737,FINISHED
+A3,Britain,8,wasd,Team AFR3,8,1:28.712,+30.219,FINISHED
+A3,Britain,9,Wack.Y,Team AFR3,12,1:29.012,+65.402,FINISHED
+A3,Britain,10,lambo_leung,Team AFR3,10,1:34.156,+1 Lap,FINISHED
+A3,Britain,11,chendasu,Team AFR3,9,1:30.110,,RETIRED
+A3,Britain,12,mikko,Team AFR3,7,1:30.157,,DSQ
+A1,Hungary,1,Jer.KK,Mercedes AMG,2,1:18.523,,FINISHED
+A1,Hungary,2,Quick Nick,McLaren,3,1:18.376,+2.092,FINISHED
+A1,Hungary,3,Kimi810,Haas,7,1:18.513,+6.481,FINISHED
+A1,Hungary,4,Alick,McLaren,5,1:18.817,+12.275,FINISHED
+A1,Hungary,5,mushimu,Alpine,8,1:18.693,+12.870,FINISHED
+A1,Hungary,6,Mysery:D,Williams,12,1:17.227,+13.924,FINISHED
+A1,Hungary,7,Zdr2K,Reserve,9,1:18.641,+14.405,FINISHED
+A1,Hungary,8,Head brother,Red Bull Racing,18,1:16.875,+14.468,FINISHED
+A1,Hungary,9,SHMJimmy,Reserve,1,1:17.659,+17.714,FINISHED
+A1,Hungary,10,Asuka,Reserve,4,1:18.609,+23.500,FINISHED
+A1,Hungary,11,yueye,Aston Martin,17,1:18.698,+28.442,FINISHED
+A1,Hungary,12,guagua,Alpha Tauri,15,1:18.033,+40.360,FINISHED
+A1,Hungary,13,Legal,Alfa Romeo,10,1:16.239,+1 Lap,FINISHED
+A1,Hungary,14,Seb V5,Reserve,13,1:16.089,+1 Lap,FINISHED
+A1,Hungary,15,32,Reserve,11,1:18.516,DNF,RETIRED
+A1,Hungary,16,Wang.BC,Reserve,16,1:19.852,DNF,RETIRED
+A1,Hungary,17,zbk,Ferrari,6,1:18.433,DNF,RETIRED
+A1,Hungary,18,Wilson Leclerc,Reserve,14,1:48.755,DNF,RETIRED
+A2,Hungary,1,Yuyuko,Aston Martin,1,1:18.562,,FINISHED
+A2,Hungary,2,Blue,Reserve,11,1:17.439,+2.407,FINISHED
+A2,Hungary,3,m4,Alpha Tauri,5,1:18.749,+2.887,FINISHED
+A2,Hungary,4,Meat_Lu,Ferrari R1,4,1:18.725,+7.111,FINISHED
+A2,Hungary,5,otaku-chicken,Mercedes AMG,7,1:18.705,+25.812,FINISHED
+A2,Hungary,6,Even,Reserve,18,1:18.734,+26.711,FINISHED
+A2,Hungary,7,Syhb,McLaren,9,1:19.513,+31.136,FINISHED
+A2,Hungary,8,Livistar,Ferrari R1,17,1:17.593,+35.192,FINISHED
+A2,Hungary,9,sbinnnia,Reserve,3,1:19.609,+42.334,FINISHED
+A2,Hungary,10,Joji-,Mercedes AMG,13,1:17.802,+45.262,FINISHED
+A2,Hungary,11,Ayanami,Aston Martin,6,1:16.841,+59.134,FINISHED
+A2,Hungary,12,LugoBox,Williams,10,1:19.088,+69.194,FINISHED
+A2,Hungary,13,iu272,McLaren,8,1:19.756,DNF,RETIRED
+A2,Hungary,14,STeven L2i,Alpha Tauri,2,1:19.259,DNF,RETIRED
+A2,Hungary,15,XD_SKYrim,Team AFR3,12,1:20.458,DNF,RETIRED
+A2,Hungary,16,CaiHong,Red Bull Racing,14,1:21.310,DNF,RETIRED
+A2,Hungary,17,MarkDudek,Williams,15,1:20.009,DNF,DSQ
+A2,Hungary,18,SouLCause,Reserve,16,1:16.858,+73.683,DSQ
+A3,Hungary,1,XD_SKYrim,Team AFR3,7,1:17.639,,FINISHED
+A3,Hungary,2,magpie,Team AFR3,1,1:18.772,+2.036,FINISHED
+A3,Hungary,3,Wack.Y,Team AFR3,4,1:18.656,+7.491,FINISHED
+A3,Hungary,4,MemoryFrom16,Team AFR3,5,1:18.434,+9.095,FINISHED
+A3,Hungary,5,SBSDAVET,Team AFR3,11,1:18.172,+16.564,FINISHED
+A3,Hungary,6,reggiesun,Team AFR3,6,1:19.608,+22.879,FINISHED
+A3,Hungary,7,chendasu,Team AFR3,12,1:19.414,+30.503,FINISHED
+A3,Hungary,8,User Jarvis,Team AFR3,10,1:18.693,+1 Lap,FINISHED
+A3,Hungary,9,lambo_leung,Team AFR3,9,1:19.315,,RETIRED
+A3,Hungary,10,Nick,Team AFR3,3,1:18.875,,RETIRED
+A3,Hungary,11,mikko,Team AFR3,8,1:35.802,,RETIRED
+A3,Hungary,12,legendary_aqi_didi,Team AFR3,2,1:19.856,,RETIRED
+A1,Belgium,1,h0,Mercedes AMG,1,1:44.945,,FINISHED
+A1,Belgium,2,zbk,Ferrari,2,1:45.693,+1.735,FINISHED
+A1,Belgium,3,Zdr2K,Reserve,9,1:45.229,+9.276,FINISHED
+A1,Belgium,4,Mysery:D,Williams,6,1:45.621,+10.764,FINISHED
+A1,Belgium,5,mushimu,Alpine,8,1:45.321,+10.856,FINISHED
+A1,Belgium,6,Alick,McLaren,16,1:44.929,+15.540,FINISHED
+A1,Belgium,7,Legal,Alfa Romeo R1,13,1:44.473,+16.048,FINISHED
+A1,Belgium,8,SHMJimmy,Williams,3,1:44.844,+22.881,FINISHED
+A1,Belgium,9,Head brother,Red Bull Racing,5,1:45.522,+46.277,FINISHED
+A1,Belgium,10,BlackStar11,Alfa Romeo R1,14,1:43.734,+88.215,FINISHED
+A1,Belgium,11,Seb V5,Reserve,17,1:45.343,+103.362,FINISHED
+A1,Belgium,12,BBLLAY,Team AFR2,19,1:43.074,+125.534,FINISHED
+A1,Belgium,13,Quick Nick,McLaren,18,1:46.658,DNF,RETIRED
+A1,Belgium,14,Siesta,Alpha Tauri,15,1:45.448,DNF,RETIRED
+A1,Belgium,15,Jer.KK,Mercedes AMG,7,1:46.629,DNF,RETIRED
+A1,Belgium,16,guagua,Alpha Tauri,4,1:45.644,DNF,RETIRED
+A1,Belgium,17,wofa,Ferrari,11,2:01.198,DNF,RETIRED
+A1,Belgium,18,Kimi810,Haas,10,,DNF,RETIRED
+A1,Belgium,19,LHAM66,Reserve,12,,DNF,RETIRED
+A1,Belgium,20,Wang.BC,Reserve,20,1:43.920,+38.093,DSQ
+A2,Belgium,1,Meat_Lu,Ferrari R1,3,1:46.016,,FINISHED
+A2,Belgium,2,m4,Alpha Tauri,2,1:45.801,+0.519,FINISHED
+A2,Belgium,3,Livistar,Ferrari R1,1,1:45.758,+10.813,FINISHED
+A2,Belgium,4,Even,Reserve,9,1:46.017,+16.825,FINISHED
+A2,Belgium,5,XD_SKYrim,Team AFR3,15,1:45.514,+18.892,FINISHED
+A2,Belgium,6,otaku-chicken,Mercedes AMG,7,1:46.395,+21.310,FINISHED
+A2,Belgium,7,Syhb,McLaren,10,1:46.512,+26.000,FINISHED
+A2,Belgium,8,LugoBox,Williams,8,1:47.250,+28.880,FINISHED
+A2,Belgium,9,Ayanami,Alfa Romeo R1,11,1:47.100,+46.151,FINISHED
+A2,Belgium,10,ARTIST,Reserve,17,1:47.394,+46.392,FINISHED
+A2,Belgium,11,Blue,Reserve,16,1:44.073,+63.523,FINISHED
+A2,Belgium,12,JamesMay,Red Bull Racing,12,1:45.780,+78.336,FINISHED
+A2,Belgium,13,MarkDudek,Williams,13,1:45.069,+116.152,FINISHED
+A2,Belgium,14,Yuyuko,Alfa Romeo R1,4,1:46.287,DNF,RETIRED
+A2,Belgium,15,Joji-,Mercedes AMG,6,1:47.195,DNF,RETIRED
+A2,Belgium,16,CaiHong,Red Bull Racing,14,1:55.855,DNF,RETIRED
+A2,Belgium,17,STeven L2i,Alpha Tauri,5,,DNF,RETIRED
+A3,Belgium,1,SBSDAVET,Team AFR3,4,1:45.683,,FINISHED
+A3,Belgium,2,legendary_aqi_didi,Team AFR3,1,1:45.702,+1.235,FINISHED
+A3,Belgium,3,MemoryFrom16,Team AFR3,2,1:47.324,+10.876,FINISHED
+A3,Belgium,4,mikko,Team AFR3,7,1:47.866,+21.128,FINISHED
+A3,Belgium,5,geiwo4750,Team AFR3,8,1:56.195,+23.710,FINISHED
+A3,Belgium,6,chendasu,Team AFR3,9,1:47.658,+41.131,FINISHED
+A3,Belgium,7,Nick,Team AFR3,3,1:56.704,+2 Lap,FINISHED
+A3,Belgium,8,lambo_leung,Team AFR3,10,1:57.221,,RETIRED
+A3,Belgium,9,User Jarvis,Team AFR3,13,1:56.361,,RETIRED
+A3,Belgium,10,magpie,Team AFR3,5,,,RETIRED
+A3,Belgium,11,Wack.Y,Team AFR3,6,,,RETIRED
+A3,Belgium,12,XD_SKYrim,Team AFR3,11,,,RETIRED
+A3,Belgium,13,LINGJ,Team AFR3,12,,,RETIRED
+A1,Netherlands,1,Jer.KK,Mercedes AMG,2,1:11.978,,FINISHED
+A1,Netherlands,2,SHMJimmy,Williams,5,1:12.626,+14.066,FINISHED
+A1,Netherlands,3,Legal,Alfa Romeo,10,1:12.332,+15.722,FINISHED
+A1,Netherlands,4,Seb V5,Reserve,9,1:12.580,+16.613,FINISHED
+A1,Netherlands,5,zbk,Ferrari,1,1:11.732,+26.054,FINISHED
+A1,Netherlands,6,mushimu,Alpine,3,1:12.523,+29.561,FINISHED
+A1,Netherlands,7,Zdr2K,Reserve,7,1:13.040,+32.432,FINISHED
+A1,Netherlands,8,Head brother,Red Bull Racing,6,1:11.920,+1 Lap,FINISHED
+A1,Netherlands,9,yueye,Aston Martin,11,1:12.855,+1 Lap,FINISHED
+A1,Netherlands,10,32,Reserve,4,1:13.351,DNF,RETIRED
+A1,Netherlands,11,Siesta,Alpha Tauri,8,1:13.400,DNF,RETIRED
+A1,Netherlands,12,whiteGX5,Aston Martin,12,1:13.025,DNF,DSQ
+A2,Netherlands,1,Livistar,Ferrari R1,3,1:12.970,,FINISHED
+A2,Netherlands,2,SouLCause,Reserve,9,1:12.241,+7.499,FINISHED
+A2,Netherlands,3,LugoBox,Williams,8,1:13.714,+17.774,FINISHED
+A2,Netherlands,4,ARTIST,Reserve,10,1:13.332,+21.366,FINISHED
+A2,Netherlands,5,CM401ASM,Reserve,4,1:13.257,+24.076,FINISHED
+A2,Netherlands,6,Ayanami,Alfa Romeo,5,1:11.758,+44.631,FINISHED
+A2,Netherlands,7,MarkDudek,Williams,7,1:12.221,+48.389,FINISHED
+A2,Netherlands,8,STeven L2i,Alpha Tauri,1,1:12.448,+1 Lap,FINISHED
+A2,Netherlands,9,CaiHong,Red Bull Racing,11,1:13.226,+2 Laps,FINISHED
+A2,Netherlands,10,XD_SKYrim,Team AFR3,12,1:13.434,+2 Laps,FINISHED
+A2,Netherlands,11,Even,Reserve,6,1:13.044,DNF,RETIRED
+A2,Netherlands,12,JamesMay,Red Bull Racing,14,1:14.392,DNF,RETIRED
+A2,Netherlands,13,m4,Alpha Tauri,2,1:17.283,DNF,RETIRED
+A2,Netherlands,14,Maiziwen,Reserve,13,,DNF,RETIRED
+A3,Netherlands,1,LINGJ,Team AFR3,1,1:12.440,,FINISHED
+A3,Netherlands,2,magpie,Team AFR3,2,1:12.817,+5.315,FINISHED
+A3,Netherlands,3,legendary_aqi_didi,Team AFR3,6,1:13.155,+20.964,FINISHED
+A3,Netherlands,4,ICE,Team AFR3,7,1:13.468,+24.625,FINISHED
+A3,Netherlands,5,mikko,Team AFR3,5,1:12.937,+26.736,FINISHED
+A3,Netherlands,6,Nick,Team AFR3,3,1:12.937,+30.510,FINISHED
+A3,Netherlands,7,geiwo4750,Team AFR3,8,1:13.369,+39.485,FINISHED
+A3,Netherlands,8,SBSDAVET,Team AFR3,9,1:13.084,+41.667,FINISHED
+A3,Netherlands,9,chendasu,Team AFR3,4,1:13.703,+56.875,FINISHED
+A3,Netherlands,10,User Jarvis,Team AFR3,10,1:13.564,+131.197,FINISHED
+A3,Netherlands,11,Wack.Y,Team AFR3,13,1:13.562,+1 LAP,FINISHED
+A3,Netherlands,12,Jack,Team AFR3,11,1:13.058,+1 LAP,FINISHED
+A3,Netherlands,13,MemoryFrom16,Team AFR3,12,1:13.331,,RETIRED
+A1,Italy,1,h0,Mercedes AMG,1,1:28.099,,FINISHED
+A1,Italy,2,mushimu,Alpine,8,1:28.912,+11.334,FINISHED
+A1,Italy,3,zbk,Ferrari,2,1:30.000,+15.792,FINISHED
+A1,Italy,4,Jer.KK,Mercedes AMG,3,1:28.682,+19.219,FINISHED
+A1,Italy,5,Quick Nick,McLaren,7,1:28.867,+23.975,FINISHED
+A1,Italy,6,guagua,Alpha Tauri,10,1:29.311,+25.767,FINISHED
+A1,Italy,7,Zdr2K,Reserve,13,1:28.889,+42.930,FINISHED
+A1,Italy,8,Head brother,Red Bull Racing,11,1:29.405,+1 Lap,FINISHED
+A1,Italy,9,Legal,Alfa Romeo R1,6,1:28.154,+1 Lap,FINISHED
+A1,Italy,10,Alick,McLaren,9,1:29.554,+4 Laps,FINISHED
+A1,Italy,11,whiteGX5,Aston Martin,12,1:29.088,DNF,RETIRED
+A1,Italy,12,LHAM66,Reserve,14,,DNF,RETIRED
+A1,Italy,13,wofa,Ferrari,4,1:29.092,DNF,RETIRED
+A1,Italy,14,SHMJimmy,Williams,5,1:29.012,+17.305,DSQ
+A2,Italy,1,Yuyuko,Alfa Romeo R1,2,1:22.399,,FINISHED
+A2,Italy,2,m4,Alpha Tauri,3,1:22.544,+0.648,FINISHED
+A2,Italy,3,Meat_Lu,Ferrari R1,4,1:23.165,+14.753,FINISHED
+A2,Italy,4,EricWang,Reserve,7,1:23.165,+28.272,FINISHED
+A2,Italy,5,CM401ASM,Reserve,1,1:22.946,+29.086,FINISHED
+A2,Italy,6,SouLCause,Reserve,9,1:23.096,+36.774,FINISHED
+A2,Italy,7,ARTIST,Reserve,8,1:23.354,+41.381,FINISHED
+A2,Italy,8,LugoBox,Williams,10,1:23.590,+41.603,FINISHED
+A2,Italy,9,magpie,Team AFR3,14,1:22.814,+44.436,FINISHED
+A2,Italy,10,Livistar,Ferrari R1,5,1:22.954,+51.642,FINISHED
+A2,Italy,11,CaiHong,Red Bull Racing,16,1:22.749,+68.911,FINISHED
+A2,Italy,12,MarkDudek,Williams,13,1:23.453,+1 Lap,FINISHED
+A2,Italy,13,STeven L2i,Alpha Tauri,6,1:22.971,DNF,RETIRED
+A2,Italy,14,JamesMay,Red Bull Racing,15,1:24.028,DNF,RETIRED
+A2,Italy,15,Joji-,Mercedes AMG,11,1:24.675,DNF,RETIRED
+A2,Italy,16,iu272,McLaren,12,1:40.593,DNF,RETIRED
+A3,Italy,1,LINGJ,Team AFR3,1,1:22.537,,FINISHED
+A3,Italy,2,magpie,Team AFR3,8,1:22.624,+9.043,FINISHED
+A3,Italy,3,mikko,Team AFR3,5,1:23.335,+10.305,FINISHED
+A3,Italy,4,Wack.Y,Team AFR3,10,1:23.584,+15.191,FINISHED
+A3,Italy,5,SBSDAVET,Team AFR3,12,1:22.852,+18.242,FINISHED
+A3,Italy,6,legendary_aqi_didi,Team AFR3,13,1:23.610,+22.355,FINISHED
+A3,Italy,7,Jack,Team AFR3,7,1:23.967,+43.223,FINISHED
+A3,Italy,8,geiwo4750,Team AFR3,9,1:24.137,+50.559,FINISHED
+A3,Italy,9,User Jarvis,Team AFR3,11,1:23.686,+53.535,FINISHED
+A3,Italy,10,chendasu,Team AFR3,3,1:23.053,+81.556,FINISHED
+A3,Italy,11,XD_SKYrim,Team AFR3,6,1:24.147,,RETIRED
+A3,Italy,12,Nick,Team AFR3,4,1:23.770,,RETIRED
+A3,Italy,13,MemoryFrom16,Team AFR3,2,1:23.967,+43.223,DSQ
+A1,Russia,1,mushimu,Alpine,7,1:32.731,,FINISHED
+A1,Russia,2,zbk,Ferrari,3,1:32.008,+2.051,FINISHED
+A1,Russia,3,Yuyuko,Reserve,2,1:32.578,+5.525,FINISHED
+A1,Russia,4,h0,Mercedes AMG,1,1:32.543,+7.600,FINISHED
+A1,Russia,5,Legal,Alfa Romeo R1,12,1:33.394,+13.208,FINISHED
+A1,Russia,6,SHMJimmy,Williams,4,1:32.427,+44.508,FINISHED
+A1,Russia,7,Jer.KK,Mercedes AMG,5,1:32.785,+48.367,FINISHED
+A1,Russia,8,smallsmallBKB,Reserve,9,1:34.691,+84.524,FINISHED
+A1,Russia,9,yueye,Aston Martin,11,1:35.350,+1 Lap,FINISHED
+A1,Russia,10,Irene,Alpine,10,1:33.750,+1 Lap,FINISHED
+A1,Russia,11,Seb V5,Reserve,6,1:45.479,DNF,RETIRED
+A1,Russia,12,Head brother,Red Bull Racing,8,1:44.171,DNF,RETIRED
+A1,Russia,13,Syhb,Team AFR2,13,1:49.492,DNF,RETIRED
+A2,Russia,1,STeven L2i,Alpha Tauri,1,1:34.321,,FINISHED
+A2,Russia,2,SouLCause,Reserve,3,1:34.556,+1.005,FINISHED
+A2,Russia,3,m4,Alpha Tauri,7,1:34.257,+2.005,FINISHED
+A2,Russia,4,Livistar,Ferrari R1,2,1:34.354,+3.422,FINISHED
+A2,Russia,5,LugoBox,Williams,6,1:35.224,+19.215,FINISHED
+A2,Russia,6,magpie,Team AFR3,11,1:34.011,+20.235,FINISHED
+A2,Russia,7,JamesMay,Red Bull Racing,5,1:35.228,+44.150,FINISHED
+A2,Russia,8,MarkDudek,Williams,9,1:33.304,+54.879,FINISHED
+A2,Russia,9,Syhb,McLaren,8,1:32.706,+1 Lap,FINISHED
+A2,Russia,10,XD_SKYrim,Team AFR3,13,1:36.513,DNF,RETIRED
+A2,Russia,11,iu272,McLaren,4,1:35.858,DNF,RETIRED
+A2,Russia,12,CaiHong,Red Bull Racing,12,1:35.712,DNF,RETIRED
+A2,Russia,13,Ayanami,Alfa Romeo R1,10,1:35.930,DNF,RETIRED
+A3,Russia,1,LINGJ,Team AFR3,1,1:33.856,,FINISHED
+A3,Russia,2,PPJACK,Team AFR3,10,1:33.673,+2.536,FINISHED
+A3,Russia,3,Nick,Team AFR3,3,1:34.496,+10.210,FINISHED
+A3,Russia,4,User Jarvis,Team AFR3,7,1:34.551,+15.254,FINISHED
+A3,Russia,5,mikko,Team AFR3,5,1:34.950,+24.560,FINISHED
+A3,Russia,6,Jack,Team AFR3,4,1:35.316,+28.849,FINISHED
+A3,Russia,7,Frozen,Team AFR3,9,1:36.245,+2 Laps,FINISHED
+A3,Russia,8,XD_SKYrim,Team AFR3,2,1:34.302,DNF,RETIRED
+A3,Russia,9,magpie,Team AFR3,8,1:33.642,DNF,RETIRED
+A3,Russia,10,MemoryFrom16,Team AFR3,11,1:35.644,DNF,RETIRED
+A3,Russia,11,geiwo4750,Team AFR3,6,,DNF,RETIRED
+A1,Singapore,1,h0,Mercedes AMG,1,1:36.228,,FINISHED
+A1,Singapore,2,Legal,Alfa Romeo R1,8,1:40.635,+19.782,FINISHED
+A1,Singapore,3,zbk,Ferrari,2,1:37.719,+22.976,FINISHED
+A1,Singapore,4,guagua,Alpha Tauri,6,1:40.982,+31.616,FINISHED
+A1,Singapore,5,Jer.KK,Mercedes AMG,3,1:40.782,+33.205,FINISHED
+A1,Singapore,6,BlackStar11,Alfa Romeo R1,11,1:41.418,+48.071,FINISHED
+A1,Singapore,7,32,Reserve,9,1:41.268,+57.038,FINISHED
+A1,Singapore,8,wofa,Ferrari,7,1:38.027,+2 Laps,FINISHED
+A1,Singapore,9,Ayanami,Team AFR2,12,1:41.200,+2 Laps,FINISHED
+A1,Singapore,10,Yuyuko,Reserve,4,1:38.885,+2 Laps,FINISHED
+A1,Singapore,11,yueye,Aston Martin,10,1:38.872,DNF,RETIRED
+A1,Singapore,12,Head brother,Red Bull Racing,5,1:38.924,DNF,RETIRED
+A1,Singapore,13,Seb V5,Reserve,14,1:40.064,DNF,RETIRED
+A1,Singapore,14,whiteGX5,Aston Martin,13,1:50.706,DNF,RETIRED
+A2,Singapore,1,Jixiaoxiang,Reserve,1,1:40.420,,FINISHED
+A2,Singapore,2,Livistar,Ferrari R1,5,1:40.889,+6.907,FINISHED
+A2,Singapore,3,SouLCause,Reserve,3,1:39.414,+21.494,FINISHED
+A2,Singapore,4,m4,Alpha Tauri,8,1:40.625,+22.025,FINISHED
+A2,Singapore,5,MarkDudek,Williams,4,1:41.134,+52.455,FINISHED
+A2,Singapore,6,LugoBox,Williams,7,1:38.157,+87.485,FINISHED
+A2,Singapore,7,magpie,Team AFR3,6,1:41.895,+1 Lap,FINISHED
+A2,Singapore,8,JamesMay,Red Bull Racing,10,1:38.383,+1 Lap,FINISHED
+A2,Singapore,9,STeven L2i,Alpha Tauri,2,1:39.913,DNF,RETIRED
+A2,Singapore,10,iu272,McLaren,9,1:56.033,DNF,RETIRED
+A3,Singapore,1,SBSDAVET,Team AFR3,6,1:38.927,,FINISHED
+A3,Singapore,2,PPJACK,Team AFR3,1,1:39.836,+0.045,FINISHED
+A3,Singapore,3,Nick,Team AFR3,3,1:40.274,+7.071,FINISHED
+A3,Singapore,4,Frozen,Team AFR3,8,1:42.087,+75.816,FINISHED
+A3,Singapore,5,User Jarvis,Team AFR3,5,1:41.729,+79.805,FINISHED
+A3,Singapore,6,magpie,Team AFR3,4,1:40.492,+1 Lap,FINISHED
+A3,Singapore,7,Jack,Team AFR3,7,1:40.557,+1 Lap,FINISHED
+A3,Singapore,8,MemoryFrom16,Team AFR3,2,1:39.294,DNF,RETIRED
+A3,Singapore,9,mikko,Team AFR3,10,1:40.514,DNF,RETIRED
+A3,Singapore,10,LINGJ,Team AFR3,9,1:39.020,+6.959,DSQ
+A1,Japan,1,h0,Mercedes AMG,2,1:37.813,,FINISHED
+A1,Japan,2,Jer.KK,Mercedes AMG,3,1:38.564,+11.206,FINISHED
+A1,Japan,3,Yuyuko,Reserve,7,1:38.855,+22.738,FINISHED
+A1,Japan,4,Legal,Alfa Romeo R1,6,1:39.019,+27.054,FINISHED
+A1,Japan,5,zbk,Ferrari,1,1:38.732,+27.611,FINISHED
+A1,Japan,6,Head brother,Red Bull Racing,5,1:39.131,+38.011,FINISHED
+A1,Japan,7,ZghosT,McLaren,8,1:39.481,+41.707,FINISHED
+A1,Japan,8,whiteGX5,Aston Martin,10,1:38.847,DNF,RETIRED
+A1,Japan,9,mushimu,Alpine,4,1:42.852,DNF,RETIRED
+A1,Japan,10,ARTIST,Team AFR2,9,1:45.212,DNF,RETIRED
+A1,Japan,11,32,Reserve,11,1:44.562,DNF,RETIRED
+A2,Japan,1,STeven L2i,Alpha Tauri,1,1:30.815,,FINISHED
+A2,Japan,2,m4,Alpha Tauri,6,1:30.636,+0.075,FINISHED
+A2,Japan,3,Ayanami,Alfa Romeo R1,5,1:32.396,+20.823,FINISHED
+A2,Japan,4,magpie,Team AFR3,11,1:31.675,+23.937,FINISHED
+A2,Japan,5,JamesMay,Red Bull Racing,3,1:31.500,+25.768,FINISHED
+A2,Japan,6,LugoBox,Williams,7,1:32.417,+27.364,FINISHED
+A2,Japan,7,iu272,McLaren,10,1:31.412,+65.613,FINISHED
+A2,Japan,8,CaiHong,Red Bull Racing,12,1:31.992,+69.444,FINISHED
+A2,Japan,9,MarkDudek,Williams,8,1:33.619,DNF,RETIRED
+A2,Japan,10,Jixiaoxiang,Reserve,2,1:32.626,DNF,RETIRED
+A2,Japan,11,Livistar,Ferrari R1,4,1:32.756,DNF,RETIRED
+A2,Japan,12,Syhb,McLaren,9,1:45.493,DNF,RETIRED
+A3,Japan,1,magpie,Team AFR3,1,1:31.686,,FINISHED
+A3,Japan,2,MemoryFrom16,Team AFR3,4,1:30.989,+0.506,FINISHED
+A3,Japan,3,SBSDAVET,Team AFR3,6,1:32.155,+5.677,FINISHED
+A3,Japan,4,mikko,Team AFR3,7,1:31.479,+18.097,FINISHED
+A3,Japan,5,Nick,Team AFR3,2,1:31.595,+52.558,FINISHED
+A3,Japan,6,Jack,Team AFR3,5,1:31.136,+61.412,FINISHED
+A3,Japan,7,User Jarvis,Team AFR3,8,1:32.935,+109.636,FINISHED
+A3,Japan,8,lambo_leung,Team AFR3,10,1:33.910,,DNF
+A3,Japan,9,PPJACK,Team AFR3,3,1:32.510,,DNF
+A3,Japan,10,LINGJ,Team AFR3,9,,,DNF
+A1,China,1,h0,Mercedes AMG,1,1:34.537,,FINISHED
+A1,China,2,Jer.KK,Mercedes AMG,2,1:34.825,+0.710,FINISHED
+A1,China,3,Legal,Alfa Romeo R1,4,1:34.562,+1.314,FINISHED
+A1,China,4,mushimu,Alpine,9,1:33.014,+8.813,FINISHED
+A1,China,5,BlackStar11,Alfa Romeo R1,6,1:35.221,+20.054,FINISHED
+A1,China,6,Head brother,Red Bull Racing,10,1:33.464,+20.514,FINISHED
+A1,China,7,ZghosT,McLaren,7,1:35.222,+22.369,FINISHED
+A1,China,8,32,Reserve,8,1:35.319,+26.126,FINISHED
+A1,China,9,zbk,Ferrari,3,1:32.164,+72.989,FINISHED
+A1,China,10,Yuyuko,Reserve,5,1:35.597,,FINISHED
+A2,China,1,iu272,McLaren,2,1:35.065,,FINISHED
+A2,China,2,Livistar,Ferrari R1,7,1:35.350,+0.429,FINISHED
+A2,China,3,Syhb,McLaren,3,1:34.948,+7.279,FINISHED
+A2,China,4,magpie,Team AFR3,9,1:35.072,+18.776,FINISHED
+A2,China,5,MarkDudek,Williams,5,1:35.453,+20.256,FINISHED
+A2,China,6,m4,Alpha Tauri,8,1:33.831,+48.538,FINISHED
+A2,China,7,CaiHong,Red Bull Racing,4,1:36.470,+49.064,FINISHED
+A2,China,8,JamesMay,Red Bull Racing,1,1:33.610,+1 Lap,FINISHED
+A2,China,9,LugoBox,Williams,6,1:37.471,DNF,RETIRED
+A3,China,1,LINGJ,Team AFR3,1,1:45.246,,FINISHED
+A3,China,2,MemoryFrom16,Team AFR3,3,1:45.122,+2.666,FINISHED
+A3,China,3,SBSDAVET,Team AFR3,4,1:46.220,+12.894,FINISHED
+A3,China,4,Nick,Team AFR3,5,1:46.187,+28.629,FINISHED
+A3,China,5,User Jarvis,Team AFR3,8,1:46.876,+32.708,FINISHED
+A3,China,6,legendary_aqi_didi,Team AFR3,10,1:45.544,+63.840,FINISHED
+A3,China,7,Jack,Team AFR3,7,1:46.342,+98.875,FINISHED
+A3,China,8,Frozen,Team AFR3,9,1:48.574,DNF,RETIRED
+A3,China,9,mikko,Team AFR3,6,1:46.571,DNF,RETIRED
+A3,China,10,magpie,Team AFR3,2,1:50.626,DNF,RETIRED
+A1,USA,1,wofa,Ferrari,2,1:35.371,,FINISHED
+A1,USA,2,Jer.KK,Mercedes AMG,4,1:35.488,+3.347,FINISHED
+A1,USA,3,mushimu,Alpine,3,1:35.710,+8.651,FINISHED
+A1,USA,4,h0,Mercedes AMG,1,1:35.624,+9.560,FINISHED
+A1,USA,5,zbk,Ferrari,5,1:34.415,+11.882,FINISHED
+A1,USA,6,smallsmallBKB,Reserve,7,1:35.972,+60.989,FINISHED
+A1,USA,7,Yuyuko,Reserve,6,1:35.206,+69.455,FINISHED
+A1,USA,8,yueye,Aston Martin,8,1:36.738,+129.239,FINISHED
+A1,USA,9,Head brother,Red Bull Racing,9,1:37.341,DNF,RETIRED
+A2,USA,1,Syhb,McLaren,7,1:36.559,,FINISHED
+A2,USA,2,magpie,Team AFR3,9,1:37.338,+4.094,FINISHED
+A2,USA,3,Ayanami,Alfa Romeo R1,4,1:37.014,+4.798,FINISHED
+A2,USA,4,PPJACK,Team AFR3,2,1:36.904,+7.460,FINISHED
+A2,USA,5,Jixiaoxiang,Reserve,1,1:36.708,+21.095,FINISHED
+A2,USA,6,Livistar,Ferrari R1,3,1:36.534,+24.568,FINISHED
+A2,USA,7,LugoBox,Williams,8,1:37.214,+53.430,FINISHED
+A2,USA,8,JamesMay,Red Bull Racing,5,1:35.807,+1 Lap,FINISHED
+A2,USA,9,iu272,McLaren,6,1:34.435,+2 Laps,FINISHED
+A3,USA,1,magpie,Team AFR3,1,1:35.399,,FINISHED
+A3,USA,2,chendasu,Team AFR3,8,1:36.229,+14.326,FINISHED
+A3,USA,3,MemoryFrom16,Team AFR3,3,1:35.210,+14.970,FINISHED
+A3,USA,4,legendary_aqi_didi,Team AFR3,6,1:35.061,+25.899,FINISHED
+A3,USA,5,LINGJ,Team AFR3,2,1:36.112,+26.857,FINISHED
+A3,USA,6,SBSDAVET,Team AFR3,7,1:37.613,+45.164,FINISHED
+A3,USA,7,Jack,Team AFR3,4,1:39.407,DNF,RETIRED
+A3,USA,8,mikko,Team AFR3,5,1:40.063,DNF,RETIRED
+A3,USA,9,lambo_leung,Team AFR3,9,1:40.208,DNF,RETIRED
+A1,Mexico,1,zbk,Ferrari,3,1:17.263,,FINISHED
+A1,Mexico,2,h0,Mercedes AMG,1,1:17.454,+1.406,FINISHED
+A1,Mexico,3,Jer.KK,Mercedes AMG,4,1:17.134,+20.095,FINISHED
+A1,Mexico,4,Legal,Alfa Romeo R1,6,1:17.685,+23.348,FINISHED
+A1,Mexico,5,mushimu,Alpine,7,1:16.014,+73.265,FINISHED
+A1,Mexico,6,Yuyuko,Reserve,2,1:15.739,+3 Laps,FINISHED
+A1,Mexico,7,iu272,Team AFR2,8,1:20.440,DNF,RETIRED
+A1,Mexico,8,Head brother,Red Bull Racing,5,1:27.797,DNF,RETIRED
+A2,Mexico,1,Syhb,McLaren,5,1:18.283,,FINISHED
+A2,Mexico,2,m4,Alpha Tauri,9,1:17.189,+2.871,FINISHED
+A2,Mexico,3,STeven L2i,Alpha Tauri,8,1:17.425,+11.815,FINISHED
+A2,Mexico,4,Livistar,Ferrari R1,1,1:17.487,+11.829,FINISHED
+A2,Mexico,5,mikko,Team AFR3,2,1:17.991,+12.179,FINISHED
+A2,Mexico,6,MarkDudek,Williams,3,1:17.195,+15.740,FINISHED
+A2,Mexico,7,JamesMay,Red Bull Racing,7,1:17.554,+24.398,FINISHED
+A2,Mexico,8,magpie,Team AFR3,10,1:17.632,+52.028,FINISHED
+A2,Mexico,9,PPJACK,Team AFR3,11,1:18.013,+56.442,FINISHED
+A2,Mexico,10,LugoBox,Williams,12,1:18.532,+76.982,FINISHED
+A2,Mexico,11,Jixiaoxiang,Reserve,4,1:17.097,DNF,RETIRED
+A2,Mexico,12,iu272,McLaren,6,1:16.521,DNF,RETIRED
+A3,Mexico,1,mikko,Team AFR3,1,1:17.854,,FINISHED
+A3,Mexico,2,magpie,Team AFR3,3,1:17.753,+7.643,FINISHED
+A3,Mexico,3,LINGJ,Team AFR3,2,1:18.668,+18.041,FINISHED
+A3,Mexico,4,PPJACK,Team AFR3,4,1:16.279,+47.786,FINISHED
+A3,Mexico,5,Jack,Team AFR3,5,1:19.934,+60.341,FINISHED
+A3,Mexico,6,legendary_aqi_didi,Team AFR3,7,1:18.906,+1 Lap,FINISHED
+A3,Mexico,7,chendasu,Team AFR3,8,1:20.903,DNF,RETIRED
+A3,Mexico,8,User Jarvis,Team AFR3,6,1:18.756,DSQ,DSQ

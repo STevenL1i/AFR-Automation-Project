@@ -1,0 +1,131 @@
+CaseNumber,CaseDate,driverName,driverGroup,GP,penalty,penaltyLP,penaltyWarning,qualiBan,raceBan,PenaltyDescription
+C001,2022-02-11,Jakewislet,A1,Bahrain,"Time penalty, LP penalty",-2,0,0,0,Using Reset to track
+C002,2022-02-12,sbinnnia,A2,Bahrain,LP penalty,-6,0,0,3,Inherit LP penalty from previous season
+C003,2022-02-12,ARTIST,A2,Bahrain,"Time penalty, LP penalty, Warning",-5,2,0,0,"Dangerous driving, Casuing severe collisions"
+C004,2022-02-12,iu272,A2,Bahrain,"Time penalty, LP penalty, Warning",-3,1,0,0,"Dangerous driving, Unsporting behaviour"
+C005,2022-02-12,sbinnnia,A2,Bahrain,race ban,0,0,0,-1,Execution of raceban
+C006,2022-02-18,Irene,A1,Saudi Arabia,"qualiban, LP penalty",-1,0,1,0,Blocking flying lap
+C007,2022-02-18,Maldonado,A1,Saudi Arabia,"Warning, DSQ, LP penalty",-6,2,0,0,Causing severe severe severe collisions
+C008,2022-02-18,yueye,A1,Saudi Arabia,"Time penalty, LP penalty",-1,0,0,0,Causing a severe collision
+C009,2022-02-18,Meat_Lu,A1,Saudi Arabia,"Warning, Time penalty, LP penalty",-2,1,0,0,Causing a severe severe collision
+C010,2022-02-19,BlackStar11,A2,Saudi Arabia,"Warning, Time penalty",0,0.5,0,0,Causing a collision
+C011,2022-02-19,perstappen,A2,Saudi Arabia,"Warning, LP penalty",-2,1,0,0,Failed to attend the event
+C012,2022-02-19,sbinnnia,A2,Saudi Arabia,Race ban,0,0,0,-1,Execution of race ban
+C013,2022-03-04,Irene,A1,San Marino,quali ban,0,0,-1,0,Execution of qualiying ban
+C014,2022-03-04,Quick Nick,A1,San Marino,Warning,0,0.5,0,0,Forcing another driver off the track
+C015,2022-03-04,Wu.YC,A1,San Marino,Warning,-1,0.5,0,0,Causing a collision and forcing another driver off the track
+C016,2022-03-04,Mysery:D,A1,San Marino,Warning,0,0.5,0,0,Moving under breaking
+C017,2022-03-05,sbinnnia,A2,San Marino,race ban,0,0,0,-1,Execution of race ban
+C018,2022-03-05,Joji-,A2,San Marino,"Warning, Time Penalty, LP Penalty",-2,1,0,0,Causing a severe collision
+C019,2022-03-05,lambo_leung,A2,San Marino,"Time Penalty, LP Penalty",-2,0,0,0,Causing a collision and Forcing another driver off the track
+C020,2022-03-05,magpie,A2,San Marino,Warning,0,0.5,0,0,Causing a collision
+C021,2022-03-11,whiteGX5,A1,Portugal,"Warning, LP penalty",-5,2,0,0,Blocking flying lap and causing severe collision in qualiying
+C022,2022-03-11,Wang.BC,A1,Portugal,"Warning, LP penalty",-3,2,0,0,Retired on track and causing severe collision
+C023,2022-03-11,shotsbaldwin,A1,Portugal,"Warning, LP penalty",-2,1,0,0,Failed to attend the event
+C024,2022-03-12,SouLCause,A2,Portugal,LP penalty,-1,0,0,0,Causing collision under formation lap
+C025,2022-03-12,Joji-,A2,Portugal,"Warning, Time penalty, LP penalty",-1,0.5,0,0,Excess waving
+C026,2022-03-12,User Jarvis,A2,Portugal,"Warning, LP penalty, raceban",-3,2,0,1,Retired on track and causing severe collision
+C027,2022-03-18,Jakewislet,A1,Azerbaijan,None,2,0,0,0,LP regain
+C028,2022-03-19,iu272,A2,Azerbaijan,"Warning, Time penalty, LP penalty",-3,1,0,0,Causing a severe collision
+C029,2022-03-19,MemoryFrom16,A2,Azerbaijan,Warning,0,0.5,0,0,Moving under breaking
+C030,2022-03-19,Livistar,A2,Azerbaijan,"Warning, LP penalty",-1,1,0,0,Failed to attend the event
+C031,2022-03-19,ARTIST,A2,Azerbaijan,None,2,0,0,0,LP regain
+C032,2022-03-19,perstappen,A2,Azerbaijan,"Time penalty, LP penalty",-2,0,0,0,Illegelly using reset to track
+C033,2022-03-25,Asuka,A1,Canada,"Time penalty, LP penalty",-2,0,0,0,Causing a severe collision
+C034,2022-03-25,whiteGX5,A1,Canada,"Waring, LP penalty",-1,1,0,0,Failed to attend the event
+C035,2022-03-26,legendary_aqi_didi,A2,Canada,Warning,0,0.5,0,0,Causing a slight collision
+C036,2022-03-26,Ayanami,A2,Canada,"Warning, Time penalty, LP penalty",-2,1,0,0,Casuing a severe collision
+C037,2022-03-26,lambo_leung,A2,Canada,"Warning, Time penalty, LP penalty",-5,2,0,0,"Moving under braking, causing a severe collision, dangerous driver"
+C038,2022-03-26,wasd,A2,Canada,"Time penalty, LP penalty",-2,0,0,0,Casuing a collision
+C039,2022-03-26,STeven L2i,A2,Canada,"Warning, LP penalty",-2,1,0,0,Retired on track
+C040,2022-03-26,Meat_Lu,A2,Canada,None,2,0,0,0,LP regain
+C041,2022-04-08,lucylsy,A1,France,LP penalty,-1,0,0,0,Blocking flying lap
+C042,2022-04-08,wofa,A1,France,"Waring, LP penalty, Time penalty",-3,1,0,0,Change line more than once while defending
+C043,2022-04-09,otaku-chicken,A2,France,Time penalty,0,0,0,0,Moving under braking and Causing a collision
+C044,2022-04-09,Livistar,A2,France,"Warning, LP penalty, qualiban",-2,1,1,0,Blocking flying lap
+C045,2022-04-09,ARTIST,A2,France,"Warning, Time penalty, LP penalty",-2,1,0,0,Causing a severe collision
+C046,2022-04-09,Seb V5,A2,France,"Warning, Time penalty, LP penalty",-2,1,0,0,Causing a severe collision on straight
+C047,2022-04-09,Livistar,A2,France,"Time penalty, LP penalty",-1,0,0,0,Causing a severe collision on straight
+C048,2022-04-09,User Jarvis,A2,France,raceban,0,0,0,-1,Execution of raceban
+C049,2022-04-09,SouLCause,A2,France,"Time penalty, LP penalty",-2,0,0,0,Causing a severe collision
+C050,2022-04-09,Joji-,A2,France,None,2,0,0,0,LP regain
+C051,2022-04-15,Asuka,A1,Austria,"Time penalty, LP penalty",-2,0,0,0,Causing a severe collision
+C052,2022-04-15,yueye,A1,Austria,None,1,0,0,0,LP regain
+C053,2022-04-15,Irene,A1,Austria,None,1,0,0,0,LP regain
+C054,2022-04-16,LINGJ,A2,Austria,"Warning, LP penalty, quailiban",-2,1,1,0,Blocking flying lap
+C055,2022-04-16,legendary_aqi_didi,A2,Austria,"Time penalty, LP penalty",-2,0,0,0,Moving under braking and causing a severe collision
+C056,2022-04-16,Livistar,A2,Austria,qualiban,0,0,-1,0,Execution of qualiban
+C057,2022-04-16,Yuyuko,A2,Austria,"Time penalty, LP penalty",-2,0,0,0,Causing a severe collision
+C058,2022-04-17,User Jarvis,A3,Austria,Time penalty£¬LP penalty,-1,0,0,0,crossing the pit
+C059,2022-04-17,Nick,A3,Austria,Time penalty£¬LP penalty,-1,0,0,0,using reset to track
+C060,2022-04-17,mikko,A3,Austria,Time penalty£¬LP penalty,-1,0,0,0,using reset to track
+C061,2022-04-22,Siesta,A1,Britain,LP penalty,-1,0,0,0,Failed to attend the event
+C062,2022-04-23,ARTIST,A2,Britain,"Warning, LP penalty",-2,1,1,0,Blocking flying lap and causing a collision
+C063,2022-04-23,ARTIST,A2,Britain,"Warning, Time penalty, LP penalty",-3,2,0,1,Rejoin the track with unsafe manner and causing a severe collision
+C064,2022-04-23,Seb V5,A2,Britain,Warning,0,0.5,0,0,driving unnecessary slow in pit lane
+C065,2022-04-23,SouLCause,A2,Britain,"Time penalty, LP penalty",-2,0,0,0,Causing a severe collision
+C066,2022-04-23,Seb V5,A2,Britain,Time penalty,0,0,0,0,Causing a severe collision
+C067,2022-04-23,perstappen,A2,Britain,Warning,0,4,0,3,Unsporting bahaviour
+C068,2022-04-25,mikko,A3,Britain,DSQ,0,0,0,0,Disobeying the instructions of the game
+C069,2022-04-25,mikko,A3,Britain,0,-2,1,0,0,Track withdrawal
+C070,2022-05-07,Ayanami,A2,Hungary,LP penalty,-2,0,0,0,Causing a collision on formation lap
+C071,2022-05-07,sbinnnia,A2,Hungary,"Warning, Time penalty",0,0.5,0,0,Causing a collision
+C072,2022-05-07,sbinnnia,A2,Hungary,Warning,0,0.5,0,0,Moving under braking
+C073,2022-05-07,sbinnnia,A2,Hungary,Warning,0,0.5,0,0,Moving under braking
+C074,2022-05-07,sbinnnia,A2,Hungary,"Warning, LP penalty",-2,1,0,0,Multiple warning
+C075,2022-05-07,ARTIST,A2,Hungary,race ban,0,0,0,-1,Execution of race ban
+C076,2022-05-07,sbinnnia,A2,Hungary,race ban,0,0,0,1,Multiple warning
+C077,2022-05-08,mikko,A3,Hungary,Time penalty£¬LP penalty,-1,0,0,0,using reset to track
+C078,2022-05-08,lambo_leung,A3,Hungary,None,2,0,0,0,LP regain
+C079,2022-05-08,iu272,A2,Hungary,None,2,0,0,0,LP regain
+C080,2022-05-08,Wang.BC,A1,Hungary,None,2,0,0,0,LP regain
+C081,2022-05-08,STeven L2i,A2,Hungary,None,2,0,0,0,LP regain
+C082,2022-05-08,Joji-,A2,Hungary,None,1,0,0,0,LP regain
+C083,2022-05-13,Head brother,A1,Belgium,Time penalty,0,0,0,0,Causing multiple severe collision implictly
+C084,2022-05-13,Seb V5,A1,Belgium,"Warning, LP penalty, Time penalty",-3,1,0,0,Casuing a severe collsion
+C085,2022-05-13,Seb V5,A1,Belgium,"LP penalty, Time penalty",-2,0,0,0,Crossing the line on pit entry
+C086,2022-05-13,BBLLAY,A1,Belgium,"LP penalty, Time penalty",-1,0,0,0,Casuing a severe collsion
+C087,2022-05-13,SHMJimmy,A1,Belgium,LP penalty,-2,0,0,0,Incorrect starting tyres
+C088,2022-05-13,Wang.BC,A1,Belgium,"LP penalty, DSQ",-1,0,0,0,Incorrect telemetry settings
+C089,2022-05-14,MarkDudek,A2,Belgium,"Warning, Time penalty, LP penalty",-2,1,0,0,Causing a severe collision
+C090,2022-05-14,SouLCause,A2,Belgium,"Warning, LP penalty",-2,1,0,0,Failed to attend the event
+C091,2022-05-14,ARTIST,A2,Belgium,qualiban,0,0,-1,0,Execution of quali ban
+C092,2022-05-14,sbinnnia,A2,Belgium,raceban,0,0,0,-1,Execution of quali ban
+C093,2022-05-14,Livistar,A2,Belgium,None,2,0,0,0,LP regain
+C094,2022-05-21,Huracan,A2,Netherlands,LP penalty,-2,1,0,0,Failed to attend the event
+C095,2022-05-22,MemoryFrom16,A3,Netherlands,"Warning, Time penalty, LP penalty",-2,1,0,0,dangerous driving
+C096,2022-05-22,User Jarvis,A3,Netherlands,None,2,0,0,0,LP regain
+C097,2022-05-22,legendary_aqi_didi,A3,Netherlands,None,2,0,0,0,LP regain
+C098,2022-05-22,LINGJ,A3,Netherlands,None,2,0,0,0,LP regain
+C099,2022-05-22,Nick,A3,Netherlands,None,1,0,0,0,LP regain
+C100,2022-05-27,SHMJimmy,A1,Italy,DSQ,0,0,0,0,Track limit violation at qualifying
+C101,2022-05-27,SHMJimmy,A1,Italy,"Warning, LP penalty",-3,1,0,0,Unreachable at Race Director channel
+C102,2022-05-27,guagua,A1,Italy,LP penalty,-1,0,0,0,Late registration of the event
+C103,2022-05-27,Irene,A1,Italy,LP penalty,-2,0,0,0,Failed to attend the event
+C104,2022-05-28,joji-,A2,Italy,LP penalty,-2,0,0,0,Causing a collision in formation lap
+C105,2022-05-28,Livistar,A2,Italy,"Time penalty, LP penalty",-2,0,0,0,Causing a severe collision
+C106,2022-05-28,ARTIST,A2,Italy,"Time penalty, LP penalty",-1,0,0,0,Unsporting behaviour
+C107,2022-05-28,sbinnnia,A2,Italy,LP penalty,-2,0,0,0,Failed to attend the event
+C108,2022-05-30,MemoryFrom16,A3,Italy,DSQ,0,0,0,0,Disregard instructions
+C109,2022-05-30,chendasu,A3,Italy,"qualiban,LP penalty",-2,0,1,0,Cut bend
+C110,2022-05-30,geiwo4750,A3,Italy,Time penalty,0,0,0,0,rear-end collision
+C111,2022-06-10,Seb V5,A1,Russia,"Warning, LP penalty",-2,1,1,0,Blocking flying lap
+C112,2022-06-10,Irene,A1,Russia,"Warning, LP penalty",-2,0.5,0,0,Ilegal overtake under formation lap
+C113,2022-06-10,Seb V5,A1,Russia,"Warning, Time penalty, LP penalty",-2,1,0,0,"Dangerous driving, Rejoin the track with unsafe manner"
+C114,2022-06-10,smallsmallBKB,A1,Russia,"Time penalty, LP penalty",-1,0,0,0,Crossing the pit entry line
+C115,2022-06-10,Yuyuko,A1,Russia,"Time penalty, LP penalty",-1,0,0,0,Crossing the pit entry line
+C116,2022-06-11,STeven L2i,A2,Russia,Warning,0,0.5,0,0,Causing a collision
+C117,2022-06-12,Jack,A3,Russia,"Warning, LP penalty",-2,1,0,0,Illegal LAN game name
+C118,2022-06-17,Seb V5,A1,Singapore,quali ban,0,0,-1,0,Execution of qualiying ban
+C119,2022-06-17,Seb V5,A1,Singapore,"Warning, Time penalty, LP penalty",-1,1,0,0,Dangerous driving
+C120,2022-06-17,Head brother,A1,Singapore,"Warning, LP penalty",-2,1,0,0,Dangerous driving
+C121,2022-06-17,Seb V5,A1,Singapore,race ban,0,0,0,1,License revoke
+C122,2022-06-24,Seb V5,A1,Japan,raceban,0,0,0,-1,Execution of raceban
+C123,2022-06-26,lambo_leung,A3,Japan,"Time penalty, LP penalty",-3,0,0,0,Rear end front car
+C124,2022-07-02,magpie,A2,China,Time penalty,-2,0,0,0,Causing a collision
+C125,2022-06-26,LINGJ,A3,Japan,quali ban,0,0,-1,0,Execution of quali ban
+C126,2022-07-15,Yuyuko,A1,USA,Time penalty,0,0,0,0,Causing a collision
+C127,2022-07-17,chendasu,A3,USA,qualiban,0,0,-1,0,Execution of qualiban
+C128,2022-07-23,STeven L2i,A2,Mexico,"Warning, LP penalty, qualiban",-3,1,1,0,"Blocking flying lap, Causing a severe collision"
+C129,2022-07-23,Livistar,A2,Mexico,Time penalty,0,0,0,0,Focring another car off the track
+C130,2022-07-23,magpie,A2,Mexico,Time penalty,0,0,0,0,Exceed track limit and multiple warning
